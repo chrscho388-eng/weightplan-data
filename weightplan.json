@@ -1,6 +1,6 @@
 {
  "app": "weightplan",
- "updatedAt": "2026-10-27T23:00:00.000Z",
+ "updatedAt": "2026-10-27T23:27:29.747Z",
  "docs": {
   "profile": {
    "age": 35,
@@ -53,7 +53,8 @@
    "startDate": "2026-10-26",
    "startWeight": 92.9,
    "startWeightDate": "2026-10-27",
-   "updatedAt": "2026-10-27T23:00:00.000Z"
+   "syncTriggerId": "trig_011D9TaBqUzpfjfUEAQxnHoN",
+   "updatedAt": "2026-10-27T23:35:00.000Z"
   },
   "profile/days/2026-10-25": {
    "date": "2026-10-25",
