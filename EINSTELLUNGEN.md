@@ -25,6 +25,9 @@ Wird bei jedem Abgleich automatisch aus `weightplan.json` erzeugt. Ändern in de
 - Getränke: Wasser und zuckerfreier Sirup. Alkohol nur bei angekündigten Anlässen.
 - Kaffee: Cappuccino ca. 95 kcal und 5 g Eiweiß, an HO-Tagen und am Wochenende 1, an Bürotagen 3; wird automatisch eingetragen.
 
+## Kantine (Bürotage)
+- Suppe mit Einlage (z. B. Frittaten, Milchbrötchen), kleine Salatschüssel (meist Kartoffel- oder Käferbohnensalat mit etwas zusätzlichem Kernöl), Dessert: donnerstags meist eine kleine Portion Schmarren o. Ä., an den anderen Tagen eine Creme (z. B. Topfencreme, Panna cotta, Tiramisu) im kleinen 8-cl-Glas.
+
 ## Kaffee
 - Cappuccino 95 kcal / 5 g Eiweiß, automatisch eingetragen ab 2026-10-28 (HO 1, Büro 3, WE 1, Frei 1)
 

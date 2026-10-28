@@ -6,7 +6,8 @@ python3 tools/requests.py apply <antworten.json>
     Schreibt die Antworten in weightplan.json (mit updatedAt). Format:
     {"estimates": {"<tag>|<meal-id>": {"label","kcal","protein","seen","parts":[{name,grams,kcal,protein}]}},
      "recipes": {"<plan-montag>|d<tag>:<i> oder s:<i>": {"servings","minutes","ingredients":[{amount,item}],"steps":[],"tip"}},
-     "plans": {"<plan-montag>": {"note","days":[...],"swaps":[...]}}}  (Planänderung nach "wish"; Rezepte gleichnamiger Gerichte bleiben erhalten)
+     "plans": {"<plan-montag>": {"note","days":[...],"swaps":[...]}}}  (Planänderung nach "wish"; Rezepte gleichnamiger Gerichte bleiben erhalten;
+     bei "menu_file" das Kantinen-Menü im Bild für die Bürotage auswerten, Kantinen-Gewohnheiten in profile.canteenHabits)
 Danach tools/bridge.py laufen lassen, damit die claude.ai-Version die Antworten auch bekommt.
 """
 import base64, json, os, sys
@@ -36,7 +37,12 @@ def list_requests(out):
             mon = k.rsplit("/", 1)[1]
             if d.get("planChange"):
                 cur = {kk: d.get(kk) for kk in ("note", "days", "swaps") if d.get(kk) is not None}
-                res["plans"].append({"ref": mon, "wish": d["planChange"], "current": cur})
+                item = {"ref": mon, "wish": d["planChange"], "current": cur}
+                if d.get("canteenMenu", "").startswith("data:image"):  # Kantinen-Menü der Woche als Bild
+                    p = os.path.join(out, mon + "_kantine.jpg")
+                    open(p, "wb").write(base64.b64decode(d["canteenMenu"].split(",", 1)[1]))
+                    item["menu_file"] = p
+                res["plans"].append(item)
             for di, day in enumerate(d.get("days", [])):
                 for mi, m in enumerate(day.get("meals", [])):
                     if (m.get("recipeRequested") and not m.get("recipe")) or m.get("recipeChange"):

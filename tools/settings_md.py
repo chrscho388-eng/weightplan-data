@@ -19,6 +19,11 @@ def render(p, plans):
     L += [f"- {r}" for r in rules] or ["- (keine)"]
     L += ["", "## Hinweise für Schätzung und Plan (Profil)"]
     L += [f"- {r.strip()}" for r in (p.get("estimateHints") or "").splitlines() if r.strip()] or ["- (keine)"]
+    if p.get("canteenHabits"):
+        L += ["", "## Kantine (Bürotage)", f"- {p['canteenHabits']}"]
+    menus = [k for k, v in sorted(plans.items()) if v.get("canteenMenu")]
+    if menus:
+        L.append("- Menü hochgeladen für: " + ", ".join(f"Woche ab {k}" for k in menus))
     c = p.get("coffee")
     if c:
         per = ", ".join(f"{k} {v}" for k, v in (c.get("perType") or {}).items())
