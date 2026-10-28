@@ -1,7 +1,145 @@
 {
  "app": "weightplan",
- "updatedAt": "2026-10-28T17:57:15.432Z",
+ "updatedAt": "2026-10-28T19:18:15.325Z",
  "docs": {
+  "profile": {
+   "age": 35,
+   "baseKcal": 2300,
+   "estimateHints": "Kokosmilch ist immer normale Aroy-D (ca. 180 kcal pro 100 ml), nie light.\nNo-Gos: Gurken, Champignons (andere Pilze ok), rohe Zwiebeln, Rind, Blattsalat (anderer Salat ok).\nAbendessen schnell und für zwei (mit Freundin). Home Office und Wochenende: Frühstück 250 g griech. Joghurt 10 % + 60 g Whey + 100 g Beeren, kein Mittag, nachmittags Shake 30 g Whey, großes Abendessen, Nachtisch 250 g Skyr + 100 g Beeren. Bürotag: Frühstück wie oben, Kantine mittags (~800 kcal), 250 g Skyr, kleines Abendessen (ab Woche 2 oft Juit, ≥35 g Eiweiß).\nDienstags und jeden zweiten Mittwoch Abendprogramm ohne Essen: an HO-Tagen Abendessen tagsüber vorbereiten, nach Bürotagen etwas Schnelles.\nGetränke: Wasser und zuckerfreier Sirup. Alkohol nur bei angekündigten Anlässen.\nKaffee: Cappuccino ca. 95 kcal und 5 g Eiweiß, an HO-Tagen und am Wochenende 1, an Bürotagen 3; wird automatisch eingetragen.",
+   "eventKcal": 3000,
+   "flatFactor": 0.037,
+   "goalDate": "2027-03-30",
+   "goalWeight": 79.5,
+   "handrail": true,
+   "heightCm": 186,
+   "inclineFactor": 0.072,
+   "inclinePct": 9,
+   "kcalPerKg": 7000,
+   "kcalTarget": 2000,
+   "milestones": [
+    {
+     "date": "2026-10-27",
+     "kg": 92.9
+    },
+    {
+     "date": "2026-12-01",
+     "kg": 89.6
+    },
+    {
+     "date": "2026-12-22",
+     "kg": 87.5
+    },
+    {
+     "date": "2027-01-05",
+     "kg": 87.5
+    },
+    {
+     "date": "2027-02-02",
+     "kg": 84.8
+    },
+    {
+     "date": "2027-03-02",
+     "kg": 82.1
+    },
+    {
+     "date": "2027-03-30",
+     "kg": 79.5
+    }
+   ],
+   "name": "Chris",
+   "proteinTarget": 180,
+   "sex": "m",
+   "speedKmh": 3.5,
+   "startDate": "2026-10-26",
+   "startWeight": 92.9,
+   "startWeightDate": "2026-10-27",
+   "syncTriggerId": "trig_011D9TaBqUzpfjfUEAQxnHoN",
+   "updatedAt": "2026-10-28T09:43:53.000Z",
+   "planNotes": {
+    "2026-11-02": "Mo HO, Di und Mi Büro, Do und Fr HO. Di Abendprogramm ab 19 Uhr (Gespräch mit Freund). Mi Junkerverkostung in der Grazer Stadthalle. Fr Abendprogramm ab 19 Uhr. Sa Einladung bei uns, wahrscheinlich Grillen."
+   },
+   "coffee": {
+    "since": "2026-10-28",
+    "kcal": 95,
+    "perType": {
+     "HO": 1,
+     "Büro": 3,
+     "WE": 1,
+     "Frei": 1
+    },
+    "protein": 5
+   },
+   "favorites": [
+    {
+     "label": "Joghurt mit Whey und Beeren",
+     "kcal": 580,
+     "protein": 59
+    },
+    {
+     "label": "Whey-Shake",
+     "kcal": 115,
+     "protein": 23
+    },
+    {
+     "label": "Skyr mit Beeren",
+     "kcal": 210,
+     "protein": 28
+    },
+    {
+     "label": "Kantine",
+     "kcal": 700,
+     "protein": 45
+    },
+    {
+     "label": "Skyr",
+     "kcal": 160,
+     "protein": 27
+    }
+   ],
+   "stepGoals": [
+    {
+     "from": "2026-10-26",
+     "steps": 13000
+    },
+    {
+     "from": "2026-11-09",
+     "steps": 15500
+    },
+    {
+     "from": "2026-11-16",
+     "steps": 18000,
+     "min": 13000
+    }
+   ]
+  },
+  "profile/days/2026-10-25": {
+   "date": "2026-10-25",
+   "dayType": "WE",
+   "flatSteps": 10000,
+   "inclineSteps": null,
+   "meals": [
+    {
+     "id": "s1",
+     "kcal": 625,
+     "label": "Mangoshake: 2 große Mangos, ca. 300 ml Mandel-Hafer-Drink",
+     "protein": 6
+    },
+    {
+     "id": "s2",
+     "kcal": 420,
+     "label": "Yummyeats Crazy Carbonara Instantnudeln",
+     "protein": 13
+    },
+    {
+     "id": "s3",
+     "kcal": 700,
+     "label": "Gefülltes Laugencroissant mit Ei, Schinken und Eiersalat (groß)",
+     "protein": 30
+    }
+   ],
+   "note": "Schritte nicht gemeldet, 10.000 flach angenommen",
+   "updatedAt": "2026-10-27T23:00:00.000Z"
+  },
   "profile/days/2026-10-26": {
    "date": "2026-10-26",
    "dayType": "Frei",
@@ -40,6 +178,705 @@
     }
    ],
    "updatedAt": "2026-10-27T23:00:00.000Z"
+  },
+  "profile/days/2026-10-27": {
+   "date": "2026-10-27",
+   "dayType": "HO",
+   "flatSteps": 2000,
+   "inclineSteps": 13000,
+   "meals": [
+    {
+     "id": "t1",
+     "kcal": 250,
+     "label": "2 KFC Chicken Strips (ohne Soße)",
+     "protein": 20
+    },
+    {
+     "id": "t2",
+     "kcal": 530,
+     "label": "1/3 Hähnchen-Curry (Topf: 500 g Hähnchen, 600 g Gemüse, 300 ml Aroy-D, 40 g Paste, 20 g Öl)",
+     "protein": 44
+    },
+    {
+     "id": "t3",
+     "kcal": 305,
+     "label": "1/3 Reis (ca. 87 g roh)",
+     "protein": 6
+    },
+    {
+     "id": "t4",
+     "kcal": 130,
+     "label": "1 Fladenbrot (ca. 50 g)",
+     "protein": 4
+    },
+    {
+     "id": "t5",
+     "kcal": 380,
+     "label": "Shake: 100 g Whey mit Wasser",
+     "protein": 78
+    }
+   ],
+   "weight": 92.9,
+   "updatedAt": "2026-10-28T10:42:36.000Z"
+  },
+  "profile/days/2026-10-28": {
+   "date": "2026-10-28",
+   "dayType": "HO",
+   "event": true,
+   "flatSteps": 3000,
+   "inclineSteps": 10000,
+   "meals": [
+    {
+     "auto": true,
+     "id": "coffee",
+     "kcal": 95,
+     "label": "Cappuccino",
+     "protein": 5
+    },
+    {
+     "id": "curry28",
+     "kcal": 530,
+     "label": "1/3 Hähnchen-Curry vom Vortag (Topf: 500 g Hähnchen, 600 g Gemüse, 300 ml Aroy-D, 40 g Paste, 20 g Öl), ohne Reis",
+     "protein": 44
+    },
+    {
+     "id": "1vq084l0",
+     "kcal": 435,
+     "label": "1/3 Reis vom Vortag (ca. 87 g roh) + 1 Fladenbrot (50 g)",
+     "parts": [
+      {
+       "grams": 87,
+       "kcal": 305,
+       "name": "Reis, 1/3 vom Topf (ca. 87 g roh)",
+       "protein": 6
+      },
+      {
+       "grams": 50,
+       "kcal": 130,
+       "name": "Fladenbrot",
+       "protein": 4
+      }
+     ],
+     "protein": 10
+    },
+    {
+     "id": "glkcdwf8",
+     "kcal": 75,
+     "label": "1 Schwedenbombe (18 g)",
+     "parts": [
+      {
+       "grams": 18,
+       "kcal": 75,
+       "name": "Schwedenbombe (Schaumkuss mit Waffel und Schokolade)",
+       "protein": 1
+      }
+     ],
+     "protein": 1
+    },
+    {
+     "id": "6c3qarts",
+     "kcal": 350,
+     "label": "½ Glas Sekt, Baguette mit Thunfischaufstrich, ½ Brötchen mit Kürbiskern-Joghurt-Aufstrich, Haferkeks",
+     "parts": [
+      {
+       "grams": 50,
+       "kcal": 40,
+       "name": "Sekt, halbes Glas (50 ml)",
+       "protein": 0
+      },
+      {
+       "grams": 30,
+       "kcal": 75,
+       "name": "Baguette, 1 Scheibe",
+       "protein": 3
+      },
+      {
+       "grams": 25,
+       "kcal": 60,
+       "name": "Thunfischaufstrich",
+       "protein": 4
+      },
+      {
+       "grams": 30,
+       "kcal": 75,
+       "name": "Kleines Brot, halb",
+       "protein": 3
+      },
+      {
+       "grams": 20,
+       "kcal": 45,
+       "name": "Kürbiskern-Joghurt-Aufstrich",
+       "protein": 2
+      },
+      {
+       "grams": 12,
+       "kcal": 55,
+       "name": "Haferkeks, klein",
+       "protein": 1
+      }
+     ],
+     "protein": 12
+    },
+    {
+     "id": "01y9gzkw",
+     "kcal": 210,
+     "label": "Salami, ca. 50 g",
+     "parts": [
+      {
+       "grams": 50,
+       "kcal": 210,
+       "name": "Salami",
+       "protein": 12
+      }
+     ],
+     "photo": "data:image/jpeg;base64,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",
+     "protein": 12,
+     "seen": "Auf dem Foto sind eine Schüssel selbstgemachte Süßkartoffel-Chips (ca. 70 g), ein Teller mit etwa 12 Scheiben Salami (ca. 50 g) und einer Scheibe dunklem Roggen-/Sauerteigbrot (ca. 60 g) sowie zwei große Krüge helles Bier (ca. 0,5 l je Krug) zu sehen. Das Bier der Person im Vordergrund ist mit Schaum etwa 0,5 l, der Krug im Hintergrund ist ebenfalls ca. 0,5 l und wird hier als zweites Getränk nicht mitgezählt."
+    },
+    {
+     "id": "z4sth6pu",
+     "kcal": 150,
+     "label": "Roggenbrot, 1 Scheibe (ca. 60 g)",
+     "parts": [
+      {
+       "grams": 60,
+       "kcal": 150,
+       "name": "Roggen-Sauerteigbrot",
+       "protein": 5
+      }
+     ],
+     "protein": 5
+    },
+    {
+     "id": "xwa44xjs",
+     "kcal": 250,
+     "label": "Süßkartoffel-Chips, ca. 70 g",
+     "parts": [
+      {
+       "grams": 70,
+       "kcal": 250,
+       "name": "Süßkartoffel-Chips (gebacken/frittiert)",
+       "protein": 2
+      }
+     ],
+     "protein": 2
+    },
+    {
+     "id": "kgov2624",
+     "kcal": 215,
+     "label": "Helles Bier, 0,5 l",
+     "parts": [
+      {
+       "grams": 500,
+       "kcal": 215,
+       "name": "Helles Bier",
+       "protein": 2
+      }
+     ],
+     "protein": 2
+    }
+   ],
+   "updatedAt": "2026-10-28T19:03:29.287Z"
+  },
+  "profile/plans/2026-10-26": {
+   "days": [
+    {
+     "date": "2026-10-28",
+     "meals": [
+      {
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "name": "Joghurt mit Whey und Beeren",
+       "protein": 59,
+       "slot": "Frühstück",
+       "cook": false
+      },
+      {
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "name": "Whey-Shake",
+       "protein": 23,
+       "slot": "Nachmittag",
+       "cook": false
+      },
+      {
+       "detail": "140 g Vollkornnudeln, 140 g Thunfisch (Wasser), 250 g Passata, 10 g Olivenöl, 30 g Parmesan",
+       "kcal": 935,
+       "name": "Thunfisch-Pasta",
+       "protein": 67,
+       "slot": "Abend",
+       "recipe": {
+        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+        "minutes": 15,
+        "ingredients": [
+         {
+          "amount": "140 g",
+          "item": "Vollkornnudeln (Trockengewicht)"
+         },
+         {
+          "amount": "140 g",
+          "item": "Thunfisch im eigenen Saft (Abtropfgewicht)"
+         },
+         {
+          "amount": "250 g",
+          "item": "Passata"
+         },
+         {
+          "amount": "10 g",
+          "item": "Olivenöl"
+         },
+         {
+          "amount": "30 g",
+          "item": "Parmesan, frisch gerieben"
+         },
+         {
+          "amount": "1 Prise",
+          "item": "Salz, Pfeffer, Oregano oder Chiliflocken (nach Geschmack)"
+         }
+        ],
+        "steps": [
+         "Nudeln in reichlich Salzwasser nach Packungsangabe bissfest kochen (ca. 9–10 Minuten), dann abgießen. Dabei 1 Tasse Nudelwasser aufheben.",
+         "Währenddessen das Olivenöl in einer großen Pfanne bei mittlerer Hitze erwärmen. Passata zugeben, mit Salz, Pfeffer und Oregano würzen und 5 Minuten leicht köcheln lassen.",
+         "Thunfisch abtropfen lassen, mit der Gabel zerzupfen und in die Soße geben. Nur 1–2 Minuten miterwärmen.",
+         "Nudeln in die Pfanne geben und alles gut vermengen. Bei Bedarf einen Schuss Nudelwasser zugeben, bis die Soße schön cremig ist.",
+         "Auf einem Teller anrichten und mit dem Parmesan bestreuen."
+        ],
+        "tip": "Für zwei Personen alle Mengen verdoppeln und einen größeren Topf bzw. eine große Pfanne verwenden. Die Zeit bleibt praktisch gleich."
+       },
+       "cook": true
+      },
+      {
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "name": "Skyr mit Beeren",
+       "protein": 28,
+       "slot": "Nachtisch",
+       "cook": false
+      }
+     ],
+     "type": "HO"
+    },
+    {
+     "date": "2026-10-29",
+     "meals": [
+      {
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "name": "Joghurt mit Whey und Beeren",
+       "protein": 59,
+       "slot": "Frühstück",
+       "cook": false
+      },
+      {
+       "detail": "Proteinreiches Gericht wählen, geschätzt",
+       "kcal": 800,
+       "name": "Kantine",
+       "protein": 45,
+       "slot": "Mittag",
+       "cook": false
+      },
+      {
+       "detail": "250 g Skyr",
+       "kcal": 160,
+       "name": "Skyr",
+       "protein": 27,
+       "slot": "Nachmittag",
+       "cook": false
+      },
+      {
+       "detail": "2 Eier, 150 g Eiklar, 50 g Feta, 150 g Paprika, 5 g Öl",
+       "kcal": 450,
+       "name": "Omelett mit Paprika und Feta",
+       "protein": 39,
+       "slot": "Abend",
+       "cook": true,
+       "recipe": {
+        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+        "minutes": 12,
+        "ingredients": [
+         {
+          "amount": "2",
+          "item": "Eier"
+         },
+         {
+          "amount": "150 g",
+          "item": "Eiklar"
+         },
+         {
+          "amount": "150 g",
+          "item": "Paprika, in Streifen"
+         },
+         {
+          "amount": "50 g",
+          "item": "Feta, zerbröselt"
+         },
+         {
+          "amount": "5 g",
+          "item": "Öl"
+         },
+         {
+          "amount": "",
+          "item": "Salz, Pfeffer, Paprikapulver, frische Kräuter"
+         }
+        ],
+        "steps": [
+         "Paprika im Öl in einer beschichteten Pfanne 3–4 Minuten anbraten.",
+         "Eier und Eiklar mit Salz, Pfeffer und Paprikapulver verquirlen und über die Paprika gießen.",
+         "Bei mittlerer Hitze mit Deckel 4–5 Minuten stocken lassen.",
+         "Feta darüberstreuen, kurz weiter garen, zusammenklappen und mit Kräutern servieren."
+        ],
+        "tip": "Mit Deckel stockt das Omelett ohne Wenden und bleibt saftig."
+       }
+      }
+     ],
+     "type": "Büro"
+    },
+    {
+     "date": "2026-10-30",
+     "meals": [
+      {
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "name": "Joghurt mit Whey und Beeren",
+       "protein": 59,
+       "slot": "Frühstück",
+       "cook": false
+      },
+      {
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "name": "Whey-Shake",
+       "protein": 23,
+       "slot": "Nachmittag",
+       "cook": false
+      },
+      {
+       "detail": "200 g Lachs, 350 g Kartoffeln, 300 g Brokkoli, 5 g Öl, Dip aus 150 g Magerjoghurt",
+       "kcal": 890,
+       "name": "Lachs mit Ofenkartoffeln und Brokkoli",
+       "protein": 62,
+       "slot": "Abend",
+       "cook": true,
+       "recipe": {
+        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+        "minutes": 35,
+        "ingredients": [
+         {
+          "amount": "200 g",
+          "item": "Lachsfilet"
+         },
+         {
+          "amount": "350 g",
+          "item": "Kartoffeln, gewürfelt"
+         },
+         {
+          "amount": "300 g",
+          "item": "Brokkoli, in Röschen"
+         },
+         {
+          "amount": "5 g",
+          "item": "Öl"
+         },
+         {
+          "amount": "150 g",
+          "item": "Magerjoghurt"
+         },
+         {
+          "amount": "",
+          "item": "Knoblauch, Zitrone, Dill, Salz, Pfeffer, Paprikapulver"
+         }
+        ],
+        "steps": [
+         "Ofen auf 220 °C vorheizen. Kartoffeln mit Öl, Salz und Paprikapulver aufs Blech, 15 Minuten backen.",
+         "Brokkoli und Lachs dazulegen, Lachs salzen und mit Zitrone beträufeln, weitere 12–15 Minuten backen.",
+         "Joghurt mit wenig Knoblauch, Dill, Zitrone, Salz und Pfeffer zum Dip verrühren.",
+         "Alles zusammen anrichten."
+        ],
+        "tip": "Kartoffeln klein würfeln (2 cm), dann sind sie gleichzeitig mit dem Lachs fertig."
+       }
+      },
+      {
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "name": "Skyr mit Beeren",
+       "protein": 28,
+       "slot": "Nachtisch",
+       "cook": false
+      }
+     ],
+     "type": "HO"
+    },
+    {
+     "date": "2026-10-31",
+     "meals": [
+      {
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "name": "Joghurt mit Whey und Beeren",
+       "protein": 59,
+       "slot": "Frühstück",
+       "cook": false
+      },
+      {
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "name": "Whey-Shake",
+       "protein": 23,
+       "slot": "Nachmittag",
+       "cook": false
+      },
+      {
+       "detail": "2 Vollkornwraps (120 g), 250 g Pute, 100 g Kidneybohnen, 80 g Mais, 150 g Paprika, 100 g Tomate, 5 g Öl, Joghurt-Dip",
+       "kcal": 965,
+       "name": "Puten-Wraps",
+       "protein": 85,
+       "slot": "Abend",
+       "cook": true,
+       "recipe": {
+        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+        "minutes": 20,
+        "ingredients": [
+         {
+          "amount": "2 (120 g)",
+          "item": "Vollkornwraps"
+         },
+         {
+          "amount": "250 g",
+          "item": "Putenbrust, in Streifen"
+         },
+         {
+          "amount": "100 g",
+          "item": "Kidneybohnen (abgetropft)"
+         },
+         {
+          "amount": "80 g",
+          "item": "Mais (abgetropft)"
+         },
+         {
+          "amount": "150 g",
+          "item": "Paprika, in Streifen"
+         },
+         {
+          "amount": "100 g",
+          "item": "Tomate, gewürfelt"
+         },
+         {
+          "amount": "5 g",
+          "item": "Öl"
+         },
+         {
+          "amount": "100 g",
+          "item": "Magerjoghurt für den Dip"
+         },
+         {
+          "amount": "",
+          "item": "Paprikapulver, Kreuzkümmel, Knoblauch, Limette, Salz"
+         }
+        ],
+        "steps": [
+         "Pute im Öl scharf anbraten, mit Paprikapulver, Kreuzkümmel und Salz würzen.",
+         "Paprika 3 Minuten mitbraten, dann Bohnen und Mais kurz erwärmen.",
+         "Joghurt mit Knoblauch, Limette und Salz verrühren.",
+         "Wraps kurz in der trockenen Pfanne erwärmen, mit Füllung, Tomate und Dip belegen und einrollen."
+        ],
+        "tip": "Für die Freundin lässt sich die Füllung gut am Tisch selbst zusammenstellen."
+       }
+      },
+      {
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "name": "Skyr mit Beeren",
+       "protein": 28,
+       "slot": "Nachtisch",
+       "cook": false
+      }
+     ],
+     "type": "WE"
+    },
+    {
+     "date": "2026-11-01",
+     "meals": [
+      {
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "name": "Joghurt mit Whey und Beeren",
+       "protein": 59,
+       "slot": "Frühstück",
+       "cook": false
+      },
+      {
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "name": "Whey-Shake",
+       "protein": 23,
+       "slot": "Nachmittag",
+       "cook": false
+      },
+      {
+       "detail": "220 g Hähnchen, 300 g Hokkaido, 200 g Paprika, 200 g Zucchini, 100 g Kichererbsen, 10 g Öl, 40 g Feta",
+       "kcal": 845,
+       "name": "Ofengemüse mit Hähnchen",
+       "protein": 75,
+       "slot": "Abend",
+       "cook": true,
+       "recipe": {
+        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+        "minutes": 35,
+        "ingredients": [
+         {
+          "amount": "220 g",
+          "item": "Hähnchenbrust, gewürfelt"
+         },
+         {
+          "amount": "300 g",
+          "item": "Hokkaido, gewürfelt (mit Schale)"
+         },
+         {
+          "amount": "200 g",
+          "item": "Paprika"
+         },
+         {
+          "amount": "200 g",
+          "item": "Zucchini"
+         },
+         {
+          "amount": "100 g",
+          "item": "Kichererbsen (abgetropft)"
+         },
+         {
+          "amount": "10 g",
+          "item": "Öl"
+         },
+         {
+          "amount": "40 g",
+          "item": "Feta"
+         },
+         {
+          "amount": "",
+          "item": "Paprikapulver, Thymian, Knoblauch, Salz, Pfeffer"
+         }
+        ],
+        "steps": [
+         "Ofen auf 220 °C vorheizen. Hokkaido mit der Hälfte des Öls und Gewürzen 10 Minuten vorbacken.",
+         "Paprika, Zucchini, Kichererbsen und Hähnchen mit restlichem Öl und Gewürzen mischen und dazugeben.",
+         "Weitere 18–20 Minuten backen, bis das Hähnchen durch ist.",
+         "Feta darüberbröseln und servieren."
+        ],
+        "tip": "Ein Klecks Joghurt mit Knoblauch passt dazu und kostet nur wenig extra."
+       }
+      },
+      {
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "name": "Skyr mit Beeren",
+       "protein": 28,
+       "slot": "Nachtisch",
+       "cook": false
+      }
+     ],
+     "type": "WE"
+    }
+   ],
+   "note": "Woche 1: 2.000 kcal und 180 g Eiweiß pro Tag. Mo und Di sind vorbei, siehe Log. Gewichte roh.",
+   "swaps": [
+    {
+     "detail": "Topf: 500 g Hähnchen, 600 g Gemüse, 300 ml Aroy-D, 40 g Currypaste, 20 g Öl, 260 g Reis",
+     "kcal": 835,
+     "name": "Hähnchen-Curry (1/3 Topf + 1/3 Reis)",
+     "protein": 50,
+     "cook": true,
+     "recipe": {
+      "servings": "1 Portion (für 2 Personen Mengen verdoppeln); Topf ergibt 3 Portionen",
+      "minutes": 30,
+      "ingredients": [
+       {
+        "amount": "500 g",
+        "item": "Hähnchenbrust, gewürfelt (ganzer Topf)"
+       },
+       {
+        "amount": "600 g",
+        "item": "Gemüse, z. B. Paprika, Zucchini, Brokkoli, Karotte (ganzer Topf)"
+       },
+       {
+        "amount": "300 ml",
+        "item": "Kokosmilch Aroy-D (ganzer Topf)"
+       },
+       {
+        "amount": "40 g",
+        "item": "rote Currypaste (ganzer Topf)"
+       },
+       {
+        "amount": "20 g",
+        "item": "Öl (ganzer Topf)"
+       },
+       {
+        "amount": "260 g",
+        "item": "Reis roh (ganzer Topf)"
+       },
+       {
+        "amount": "",
+        "item": "Sojasauce, Limette"
+       }
+      ],
+      "steps": [
+       "Reis nach Packung kochen.",
+       "Currypaste im Öl 1 Minute anrösten, Hähnchen dazu und rundum anbraten.",
+       "Gemüse dazugeben, 3 Minuten braten, mit Kokosmilch und etwas Wasser ablöschen.",
+       "8–10 Minuten köcheln, mit Sojasauce und Limette abschmecken. Pro Portion 1/3 Curry und 1/3 Reis."
+      ],
+      "tip": "Reste halten sich 3 Tage im Kühlschrank, ideal zum Vorbereiten an Abendprogramm-Tagen."
+     }
+    },
+    {
+     "detail": "200 g Putenhack, 150 g Kidneybohnen, 200 g gehackte Tomaten, 100 g Paprika, 60 g Reis, 5 g Öl",
+     "kcal": 770,
+     "name": "Chili sin Carne mit Putenhack",
+     "protein": 59,
+     "cook": true,
+     "recipe": {
+      "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+      "minutes": 25,
+      "ingredients": [
+       {
+        "amount": "200 g",
+        "item": "Putenhack"
+       },
+       {
+        "amount": "150 g",
+        "item": "Kidneybohnen (abgetropft)"
+       },
+       {
+        "amount": "200 g",
+        "item": "gehackte Tomaten"
+       },
+       {
+        "amount": "100 g",
+        "item": "Paprika, gewürfelt"
+       },
+       {
+        "amount": "60 g",
+        "item": "Reis roh"
+       },
+       {
+        "amount": "5 g",
+        "item": "Öl"
+       },
+       {
+        "amount": "",
+        "item": "Knoblauch, Chili, Kreuzkümmel, Paprikapulver, Salz"
+       }
+      ],
+      "steps": [
+       "Reis nach Packung kochen.",
+       "Putenhack im Öl krümelig braten, Paprika und Knoblauch kurz mitbraten.",
+       "Tomaten, Bohnen und Gewürze dazu, 12–15 Minuten köcheln.",
+       "Abschmecken und mit dem Reis servieren."
+      ],
+      "tip": "Schmeckt aufgewärmt am nächsten Tag noch besser."
+     }
+    }
+   ],
+   "updatedAt": "2026-10-28T09:24:32.343Z"
   },
   "profile/plans/2026-11-02": {
    "note": "Woche 2 (02.–08.11.): 2.000 kcal und 180 g Eiweiß, im Wochenschnitt. Kaffee ist in den Tagessummen hier nicht enthalten, er wird im Tagesprotokoll automatisch eingetragen. Mi ist Event-Tag. Gewichte roh.",
@@ -569,785 +1406,6 @@
    ],
    "updatedAt": "2026-10-28T09:05:40.373Z",
    "lastWish": "Nach Chris' Wochenhinweisen erstellt"
-  },
-  "profile/days/2026-10-27": {
-   "date": "2026-10-27",
-   "dayType": "HO",
-   "flatSteps": 2000,
-   "inclineSteps": 13000,
-   "meals": [
-    {
-     "id": "t1",
-     "kcal": 250,
-     "label": "2 KFC Chicken Strips (ohne Soße)",
-     "protein": 20
-    },
-    {
-     "id": "t2",
-     "kcal": 530,
-     "label": "1/3 Hähnchen-Curry (Topf: 500 g Hähnchen, 600 g Gemüse, 300 ml Aroy-D, 40 g Paste, 20 g Öl)",
-     "protein": 44
-    },
-    {
-     "id": "t3",
-     "kcal": 305,
-     "label": "1/3 Reis (ca. 87 g roh)",
-     "protein": 6
-    },
-    {
-     "id": "t4",
-     "kcal": 130,
-     "label": "1 Fladenbrot (ca. 50 g)",
-     "protein": 4
-    },
-    {
-     "id": "t5",
-     "kcal": 380,
-     "label": "Shake: 100 g Whey mit Wasser",
-     "protein": 78
-    }
-   ],
-   "weight": 92.9,
-   "updatedAt": "2026-10-28T10:42:36.000Z"
-  },
-  "profile/days/2026-10-28": {
-   "date": "2026-10-28",
-   "dayType": "HO",
-   "meals": [
-    {
-     "auto": true,
-     "id": "coffee",
-     "kcal": 95,
-     "label": "Cappuccino",
-     "protein": 5
-    },
-    {
-     "id": "curry28",
-     "label": "1/3 Hähnchen-Curry vom Vortag (Topf: 500 g Hähnchen, 600 g Gemüse, 300 ml Aroy-D, 40 g Paste, 20 g Öl), ohne Reis",
-     "kcal": 530,
-     "protein": 44
-    },
-    {
-     "id": "1vq084l0",
-     "label": "1/3 Reis vom Vortag (ca. 87 g roh) + 1 Fladenbrot (50 g)",
-     "kcal": 435,
-     "protein": 10,
-     "parts": [
-      {
-       "name": "Reis, 1/3 vom Topf (ca. 87 g roh)",
-       "grams": 87,
-       "kcal": 305,
-       "protein": 6
-      },
-      {
-       "name": "Fladenbrot",
-       "grams": 50,
-       "kcal": 130,
-       "protein": 4
-      }
-     ]
-    },
-    {
-     "id": "glkcdwf8",
-     "label": "1 Schwedenbombe (18 g)",
-     "kcal": 75,
-     "protein": 1,
-     "parts": [
-      {
-       "name": "Schwedenbombe (Schaumkuss mit Waffel und Schokolade)",
-       "grams": 18,
-       "kcal": 75,
-       "protein": 1
-      }
-     ]
-    },
-    {
-     "id": "6c3qarts",
-     "label": "½ Glas Sekt, Baguette mit Thunfischaufstrich, ½ Brötchen mit Kürbiskern-Joghurt-Aufstrich, Haferkeks",
-     "kcal": 350,
-     "protein": 12,
-     "parts": [
-      {
-       "name": "Sekt, halbes Glas (50 ml)",
-       "grams": 50,
-       "kcal": 40,
-       "protein": 0
-      },
-      {
-       "name": "Baguette, 1 Scheibe",
-       "grams": 30,
-       "kcal": 75,
-       "protein": 3
-      },
-      {
-       "name": "Thunfischaufstrich",
-       "grams": 25,
-       "kcal": 60,
-       "protein": 4
-      },
-      {
-       "name": "Kleines Brot, halb",
-       "grams": 30,
-       "kcal": 75,
-       "protein": 3
-      },
-      {
-       "name": "Kürbiskern-Joghurt-Aufstrich",
-       "grams": 20,
-       "kcal": 45,
-       "protein": 2
-      },
-      {
-       "name": "Haferkeks, klein",
-       "grams": 12,
-       "kcal": 55,
-       "protein": 1
-      }
-     ]
-    }
-   ],
-   "updatedAt": "2026-10-28T17:57:15.432Z",
-   "event": true,
-   "inclineSteps": 10000,
-   "flatSteps": 3000
-  },
-  "profile/days/2026-10-25": {
-   "date": "2026-10-25",
-   "dayType": "WE",
-   "flatSteps": 10000,
-   "inclineSteps": null,
-   "meals": [
-    {
-     "id": "s1",
-     "kcal": 625,
-     "label": "Mangoshake: 2 große Mangos, ca. 300 ml Mandel-Hafer-Drink",
-     "protein": 6
-    },
-    {
-     "id": "s2",
-     "kcal": 420,
-     "label": "Yummyeats Crazy Carbonara Instantnudeln",
-     "protein": 13
-    },
-    {
-     "id": "s3",
-     "kcal": 700,
-     "label": "Gefülltes Laugencroissant mit Ei, Schinken und Eiersalat (groß)",
-     "protein": 30
-    }
-   ],
-   "note": "Schritte nicht gemeldet, 10.000 flach angenommen",
-   "updatedAt": "2026-10-27T23:00:00.000Z"
-  },
-  "profile/plans/2026-10-26": {
-   "days": [
-    {
-     "date": "2026-10-28",
-     "meals": [
-      {
-       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
-       "kcal": 580,
-       "name": "Joghurt mit Whey und Beeren",
-       "protein": 59,
-       "slot": "Frühstück",
-       "cook": false
-      },
-      {
-       "detail": "30 g Whey mit Wasser",
-       "kcal": 115,
-       "name": "Whey-Shake",
-       "protein": 23,
-       "slot": "Nachmittag",
-       "cook": false
-      },
-      {
-       "detail": "140 g Vollkornnudeln, 140 g Thunfisch (Wasser), 250 g Passata, 10 g Olivenöl, 30 g Parmesan",
-       "kcal": 935,
-       "name": "Thunfisch-Pasta",
-       "protein": 67,
-       "slot": "Abend",
-       "recipe": {
-        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
-        "minutes": 15,
-        "ingredients": [
-         {
-          "amount": "140 g",
-          "item": "Vollkornnudeln (Trockengewicht)"
-         },
-         {
-          "amount": "140 g",
-          "item": "Thunfisch im eigenen Saft (Abtropfgewicht)"
-         },
-         {
-          "amount": "250 g",
-          "item": "Passata"
-         },
-         {
-          "amount": "10 g",
-          "item": "Olivenöl"
-         },
-         {
-          "amount": "30 g",
-          "item": "Parmesan, frisch gerieben"
-         },
-         {
-          "amount": "1 Prise",
-          "item": "Salz, Pfeffer, Oregano oder Chiliflocken (nach Geschmack)"
-         }
-        ],
-        "steps": [
-         "Nudeln in reichlich Salzwasser nach Packungsangabe bissfest kochen (ca. 9–10 Minuten), dann abgießen. Dabei 1 Tasse Nudelwasser aufheben.",
-         "Währenddessen das Olivenöl in einer großen Pfanne bei mittlerer Hitze erwärmen. Passata zugeben, mit Salz, Pfeffer und Oregano würzen und 5 Minuten leicht köcheln lassen.",
-         "Thunfisch abtropfen lassen, mit der Gabel zerzupfen und in die Soße geben. Nur 1–2 Minuten miterwärmen.",
-         "Nudeln in die Pfanne geben und alles gut vermengen. Bei Bedarf einen Schuss Nudelwasser zugeben, bis die Soße schön cremig ist.",
-         "Auf einem Teller anrichten und mit dem Parmesan bestreuen."
-        ],
-        "tip": "Für zwei Personen alle Mengen verdoppeln und einen größeren Topf bzw. eine große Pfanne verwenden. Die Zeit bleibt praktisch gleich."
-       },
-       "cook": true
-      },
-      {
-       "detail": "250 g Skyr, 100 g Beeren",
-       "kcal": 210,
-       "name": "Skyr mit Beeren",
-       "protein": 28,
-       "slot": "Nachtisch",
-       "cook": false
-      }
-     ],
-     "type": "HO"
-    },
-    {
-     "date": "2026-10-29",
-     "meals": [
-      {
-       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
-       "kcal": 580,
-       "name": "Joghurt mit Whey und Beeren",
-       "protein": 59,
-       "slot": "Frühstück",
-       "cook": false
-      },
-      {
-       "detail": "Proteinreiches Gericht wählen, geschätzt",
-       "kcal": 800,
-       "name": "Kantine",
-       "protein": 45,
-       "slot": "Mittag",
-       "cook": false
-      },
-      {
-       "detail": "250 g Skyr",
-       "kcal": 160,
-       "name": "Skyr",
-       "protein": 27,
-       "slot": "Nachmittag",
-       "cook": false
-      },
-      {
-       "detail": "2 Eier, 150 g Eiklar, 50 g Feta, 150 g Paprika, 5 g Öl",
-       "kcal": 450,
-       "name": "Omelett mit Paprika und Feta",
-       "protein": 39,
-       "slot": "Abend",
-       "cook": true,
-       "recipe": {
-        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
-        "minutes": 12,
-        "ingredients": [
-         {
-          "amount": "2",
-          "item": "Eier"
-         },
-         {
-          "amount": "150 g",
-          "item": "Eiklar"
-         },
-         {
-          "amount": "150 g",
-          "item": "Paprika, in Streifen"
-         },
-         {
-          "amount": "50 g",
-          "item": "Feta, zerbröselt"
-         },
-         {
-          "amount": "5 g",
-          "item": "Öl"
-         },
-         {
-          "amount": "",
-          "item": "Salz, Pfeffer, Paprikapulver, frische Kräuter"
-         }
-        ],
-        "steps": [
-         "Paprika im Öl in einer beschichteten Pfanne 3–4 Minuten anbraten.",
-         "Eier und Eiklar mit Salz, Pfeffer und Paprikapulver verquirlen und über die Paprika gießen.",
-         "Bei mittlerer Hitze mit Deckel 4–5 Minuten stocken lassen.",
-         "Feta darüberstreuen, kurz weiter garen, zusammenklappen und mit Kräutern servieren."
-        ],
-        "tip": "Mit Deckel stockt das Omelett ohne Wenden und bleibt saftig."
-       }
-      }
-     ],
-     "type": "Büro"
-    },
-    {
-     "date": "2026-10-30",
-     "meals": [
-      {
-       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
-       "kcal": 580,
-       "name": "Joghurt mit Whey und Beeren",
-       "protein": 59,
-       "slot": "Frühstück",
-       "cook": false
-      },
-      {
-       "detail": "30 g Whey mit Wasser",
-       "kcal": 115,
-       "name": "Whey-Shake",
-       "protein": 23,
-       "slot": "Nachmittag",
-       "cook": false
-      },
-      {
-       "detail": "200 g Lachs, 350 g Kartoffeln, 300 g Brokkoli, 5 g Öl, Dip aus 150 g Magerjoghurt",
-       "kcal": 890,
-       "name": "Lachs mit Ofenkartoffeln und Brokkoli",
-       "protein": 62,
-       "slot": "Abend",
-       "cook": true,
-       "recipe": {
-        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
-        "minutes": 35,
-        "ingredients": [
-         {
-          "amount": "200 g",
-          "item": "Lachsfilet"
-         },
-         {
-          "amount": "350 g",
-          "item": "Kartoffeln, gewürfelt"
-         },
-         {
-          "amount": "300 g",
-          "item": "Brokkoli, in Röschen"
-         },
-         {
-          "amount": "5 g",
-          "item": "Öl"
-         },
-         {
-          "amount": "150 g",
-          "item": "Magerjoghurt"
-         },
-         {
-          "amount": "",
-          "item": "Knoblauch, Zitrone, Dill, Salz, Pfeffer, Paprikapulver"
-         }
-        ],
-        "steps": [
-         "Ofen auf 220 °C vorheizen. Kartoffeln mit Öl, Salz und Paprikapulver aufs Blech, 15 Minuten backen.",
-         "Brokkoli und Lachs dazulegen, Lachs salzen und mit Zitrone beträufeln, weitere 12–15 Minuten backen.",
-         "Joghurt mit wenig Knoblauch, Dill, Zitrone, Salz und Pfeffer zum Dip verrühren.",
-         "Alles zusammen anrichten."
-        ],
-        "tip": "Kartoffeln klein würfeln (2 cm), dann sind sie gleichzeitig mit dem Lachs fertig."
-       }
-      },
-      {
-       "detail": "250 g Skyr, 100 g Beeren",
-       "kcal": 210,
-       "name": "Skyr mit Beeren",
-       "protein": 28,
-       "slot": "Nachtisch",
-       "cook": false
-      }
-     ],
-     "type": "HO"
-    },
-    {
-     "date": "2026-10-31",
-     "meals": [
-      {
-       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
-       "kcal": 580,
-       "name": "Joghurt mit Whey und Beeren",
-       "protein": 59,
-       "slot": "Frühstück",
-       "cook": false
-      },
-      {
-       "detail": "30 g Whey mit Wasser",
-       "kcal": 115,
-       "name": "Whey-Shake",
-       "protein": 23,
-       "slot": "Nachmittag",
-       "cook": false
-      },
-      {
-       "detail": "2 Vollkornwraps (120 g), 250 g Pute, 100 g Kidneybohnen, 80 g Mais, 150 g Paprika, 100 g Tomate, 5 g Öl, Joghurt-Dip",
-       "kcal": 965,
-       "name": "Puten-Wraps",
-       "protein": 85,
-       "slot": "Abend",
-       "cook": true,
-       "recipe": {
-        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
-        "minutes": 20,
-        "ingredients": [
-         {
-          "amount": "2 (120 g)",
-          "item": "Vollkornwraps"
-         },
-         {
-          "amount": "250 g",
-          "item": "Putenbrust, in Streifen"
-         },
-         {
-          "amount": "100 g",
-          "item": "Kidneybohnen (abgetropft)"
-         },
-         {
-          "amount": "80 g",
-          "item": "Mais (abgetropft)"
-         },
-         {
-          "amount": "150 g",
-          "item": "Paprika, in Streifen"
-         },
-         {
-          "amount": "100 g",
-          "item": "Tomate, gewürfelt"
-         },
-         {
-          "amount": "5 g",
-          "item": "Öl"
-         },
-         {
-          "amount": "100 g",
-          "item": "Magerjoghurt für den Dip"
-         },
-         {
-          "amount": "",
-          "item": "Paprikapulver, Kreuzkümmel, Knoblauch, Limette, Salz"
-         }
-        ],
-        "steps": [
-         "Pute im Öl scharf anbraten, mit Paprikapulver, Kreuzkümmel und Salz würzen.",
-         "Paprika 3 Minuten mitbraten, dann Bohnen und Mais kurz erwärmen.",
-         "Joghurt mit Knoblauch, Limette und Salz verrühren.",
-         "Wraps kurz in der trockenen Pfanne erwärmen, mit Füllung, Tomate und Dip belegen und einrollen."
-        ],
-        "tip": "Für die Freundin lässt sich die Füllung gut am Tisch selbst zusammenstellen."
-       }
-      },
-      {
-       "detail": "250 g Skyr, 100 g Beeren",
-       "kcal": 210,
-       "name": "Skyr mit Beeren",
-       "protein": 28,
-       "slot": "Nachtisch",
-       "cook": false
-      }
-     ],
-     "type": "WE"
-    },
-    {
-     "date": "2026-11-01",
-     "meals": [
-      {
-       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
-       "kcal": 580,
-       "name": "Joghurt mit Whey und Beeren",
-       "protein": 59,
-       "slot": "Frühstück",
-       "cook": false
-      },
-      {
-       "detail": "30 g Whey mit Wasser",
-       "kcal": 115,
-       "name": "Whey-Shake",
-       "protein": 23,
-       "slot": "Nachmittag",
-       "cook": false
-      },
-      {
-       "detail": "220 g Hähnchen, 300 g Hokkaido, 200 g Paprika, 200 g Zucchini, 100 g Kichererbsen, 10 g Öl, 40 g Feta",
-       "kcal": 845,
-       "name": "Ofengemüse mit Hähnchen",
-       "protein": 75,
-       "slot": "Abend",
-       "cook": true,
-       "recipe": {
-        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
-        "minutes": 35,
-        "ingredients": [
-         {
-          "amount": "220 g",
-          "item": "Hähnchenbrust, gewürfelt"
-         },
-         {
-          "amount": "300 g",
-          "item": "Hokkaido, gewürfelt (mit Schale)"
-         },
-         {
-          "amount": "200 g",
-          "item": "Paprika"
-         },
-         {
-          "amount": "200 g",
-          "item": "Zucchini"
-         },
-         {
-          "amount": "100 g",
-          "item": "Kichererbsen (abgetropft)"
-         },
-         {
-          "amount": "10 g",
-          "item": "Öl"
-         },
-         {
-          "amount": "40 g",
-          "item": "Feta"
-         },
-         {
-          "amount": "",
-          "item": "Paprikapulver, Thymian, Knoblauch, Salz, Pfeffer"
-         }
-        ],
-        "steps": [
-         "Ofen auf 220 °C vorheizen. Hokkaido mit der Hälfte des Öls und Gewürzen 10 Minuten vorbacken.",
-         "Paprika, Zucchini, Kichererbsen und Hähnchen mit restlichem Öl und Gewürzen mischen und dazugeben.",
-         "Weitere 18–20 Minuten backen, bis das Hähnchen durch ist.",
-         "Feta darüberbröseln und servieren."
-        ],
-        "tip": "Ein Klecks Joghurt mit Knoblauch passt dazu und kostet nur wenig extra."
-       }
-      },
-      {
-       "detail": "250 g Skyr, 100 g Beeren",
-       "kcal": 210,
-       "name": "Skyr mit Beeren",
-       "protein": 28,
-       "slot": "Nachtisch",
-       "cook": false
-      }
-     ],
-     "type": "WE"
-    }
-   ],
-   "note": "Woche 1: 2.000 kcal und 180 g Eiweiß pro Tag. Mo und Di sind vorbei, siehe Log. Gewichte roh.",
-   "swaps": [
-    {
-     "detail": "Topf: 500 g Hähnchen, 600 g Gemüse, 300 ml Aroy-D, 40 g Currypaste, 20 g Öl, 260 g Reis",
-     "kcal": 835,
-     "name": "Hähnchen-Curry (1/3 Topf + 1/3 Reis)",
-     "protein": 50,
-     "cook": true,
-     "recipe": {
-      "servings": "1 Portion (für 2 Personen Mengen verdoppeln); Topf ergibt 3 Portionen",
-      "minutes": 30,
-      "ingredients": [
-       {
-        "amount": "500 g",
-        "item": "Hähnchenbrust, gewürfelt (ganzer Topf)"
-       },
-       {
-        "amount": "600 g",
-        "item": "Gemüse, z. B. Paprika, Zucchini, Brokkoli, Karotte (ganzer Topf)"
-       },
-       {
-        "amount": "300 ml",
-        "item": "Kokosmilch Aroy-D (ganzer Topf)"
-       },
-       {
-        "amount": "40 g",
-        "item": "rote Currypaste (ganzer Topf)"
-       },
-       {
-        "amount": "20 g",
-        "item": "Öl (ganzer Topf)"
-       },
-       {
-        "amount": "260 g",
-        "item": "Reis roh (ganzer Topf)"
-       },
-       {
-        "amount": "",
-        "item": "Sojasauce, Limette"
-       }
-      ],
-      "steps": [
-       "Reis nach Packung kochen.",
-       "Currypaste im Öl 1 Minute anrösten, Hähnchen dazu und rundum anbraten.",
-       "Gemüse dazugeben, 3 Minuten braten, mit Kokosmilch und etwas Wasser ablöschen.",
-       "8–10 Minuten köcheln, mit Sojasauce und Limette abschmecken. Pro Portion 1/3 Curry und 1/3 Reis."
-      ],
-      "tip": "Reste halten sich 3 Tage im Kühlschrank, ideal zum Vorbereiten an Abendprogramm-Tagen."
-     }
-    },
-    {
-     "detail": "200 g Putenhack, 150 g Kidneybohnen, 200 g gehackte Tomaten, 100 g Paprika, 60 g Reis, 5 g Öl",
-     "kcal": 770,
-     "name": "Chili sin Carne mit Putenhack",
-     "protein": 59,
-     "cook": true,
-     "recipe": {
-      "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
-      "minutes": 25,
-      "ingredients": [
-       {
-        "amount": "200 g",
-        "item": "Putenhack"
-       },
-       {
-        "amount": "150 g",
-        "item": "Kidneybohnen (abgetropft)"
-       },
-       {
-        "amount": "200 g",
-        "item": "gehackte Tomaten"
-       },
-       {
-        "amount": "100 g",
-        "item": "Paprika, gewürfelt"
-       },
-       {
-        "amount": "60 g",
-        "item": "Reis roh"
-       },
-       {
-        "amount": "5 g",
-        "item": "Öl"
-       },
-       {
-        "amount": "",
-        "item": "Knoblauch, Chili, Kreuzkümmel, Paprikapulver, Salz"
-       }
-      ],
-      "steps": [
-       "Reis nach Packung kochen.",
-       "Putenhack im Öl krümelig braten, Paprika und Knoblauch kurz mitbraten.",
-       "Tomaten, Bohnen und Gewürze dazu, 12–15 Minuten köcheln.",
-       "Abschmecken und mit dem Reis servieren."
-      ],
-      "tip": "Schmeckt aufgewärmt am nächsten Tag noch besser."
-     }
-    }
-   ],
-   "updatedAt": "2026-10-28T09:24:32.343Z"
-  },
-  "profile": {
-   "age": 35,
-   "baseKcal": 2300,
-   "estimateHints": "Kokosmilch ist immer normale Aroy-D (ca. 180 kcal pro 100 ml), nie light.\nNo-Gos: Gurken, Champignons (andere Pilze ok), rohe Zwiebeln, Rind, Blattsalat (anderer Salat ok).\nAbendessen schnell und für zwei (mit Freundin). Home Office und Wochenende: Frühstück 250 g griech. Joghurt 10 % + 60 g Whey + 100 g Beeren, kein Mittag, nachmittags Shake 30 g Whey, großes Abendessen, Nachtisch 250 g Skyr + 100 g Beeren. Bürotag: Frühstück wie oben, Kantine mittags (~800 kcal), 250 g Skyr, kleines Abendessen (ab Woche 2 oft Juit, ≥35 g Eiweiß).\nDienstags und jeden zweiten Mittwoch Abendprogramm ohne Essen: an HO-Tagen Abendessen tagsüber vorbereiten, nach Bürotagen etwas Schnelles.\nGetränke: Wasser und zuckerfreier Sirup. Alkohol nur bei angekündigten Anlässen.\nKaffee: Cappuccino ca. 95 kcal und 5 g Eiweiß, an HO-Tagen und am Wochenende 1, an Bürotagen 3; wird automatisch eingetragen.",
-   "eventKcal": 3000,
-   "flatFactor": 0.037,
-   "goalDate": "2027-03-30",
-   "goalWeight": 79.5,
-   "handrail": true,
-   "heightCm": 186,
-   "inclineFactor": 0.072,
-   "inclinePct": 9,
-   "kcalPerKg": 7000,
-   "kcalTarget": 2000,
-   "milestones": [
-    {
-     "date": "2026-10-27",
-     "kg": 92.9
-    },
-    {
-     "date": "2026-12-01",
-     "kg": 89.6
-    },
-    {
-     "date": "2026-12-22",
-     "kg": 87.5
-    },
-    {
-     "date": "2027-01-05",
-     "kg": 87.5
-    },
-    {
-     "date": "2027-02-02",
-     "kg": 84.8
-    },
-    {
-     "date": "2027-03-02",
-     "kg": 82.1
-    },
-    {
-     "date": "2027-03-30",
-     "kg": 79.5
-    }
-   ],
-   "name": "Chris",
-   "proteinTarget": 180,
-   "sex": "m",
-   "speedKmh": 3.5,
-   "startDate": "2026-10-26",
-   "startWeight": 92.9,
-   "startWeightDate": "2026-10-27",
-   "syncTriggerId": "trig_011D9TaBqUzpfjfUEAQxnHoN",
-   "updatedAt": "2026-10-28T09:43:53.000Z",
-   "planNotes": {
-    "2026-11-02": "Mo HO, Di und Mi Büro, Do und Fr HO. Di Abendprogramm ab 19 Uhr (Gespräch mit Freund). Mi Junkerverkostung in der Grazer Stadthalle. Fr Abendprogramm ab 19 Uhr. Sa Einladung bei uns, wahrscheinlich Grillen."
-   },
-   "coffee": {
-    "since": "2026-10-28",
-    "kcal": 95,
-    "perType": {
-     "HO": 1,
-     "Büro": 3,
-     "WE": 1,
-     "Frei": 1
-    },
-    "protein": 5
-   },
-   "favorites": [
-    {
-     "label": "Joghurt mit Whey und Beeren",
-     "kcal": 580,
-     "protein": 59
-    },
-    {
-     "label": "Whey-Shake",
-     "kcal": 115,
-     "protein": 23
-    },
-    {
-     "label": "Skyr mit Beeren",
-     "kcal": 210,
-     "protein": 28
-    },
-    {
-     "label": "Kantine",
-     "kcal": 700,
-     "protein": 45
-    },
-    {
-     "label": "Skyr",
-     "kcal": 160,
-     "protein": 27
-    }
-   ],
-   "stepGoals": [
-    {
-     "from": "2026-10-26",
-     "steps": 13000
-    },
-    {
-     "from": "2026-11-09",
-     "steps": 15500
-    },
-    {
-     "from": "2026-11-16",
-     "steps": 18000,
-     "min": 13000
-    }
-   ]
   }
  }
 }
