@@ -1,1 +1,650 @@
-{"app":"weightplan","updatedAt":"2026-10-28T06:50:36.270Z","docs":{"profile/days/2026-10-26":{"date":"2026-10-26","dayType":"Frei","flatSteps":1000,"inclineSteps":13000,"meals":[{"id":"m1","kcal":475,"label":"250 g griechischer Joghurt + 2 Scoops Whey (ca. 60 g)","protein":63},{"id":"m2","kcal":110,"label":"1 Banane","protein":1},{"id":"m3","kcal":715,"label":"Mango Sticky Rice (ca. 150 g Klebreis, 1 Mango, 80 ml Kokossoße)","protein":7},{"id":"m4","kcal":1100,"label":"KFC Kentucky Gold Wrapper","protein":41},{"id":"m5","kcal":365,"label":"2 KFC Chicken Strips mit Knoblauchsoße","protein":20}],"updatedAt":"2026-10-27T23:00:00.000Z"},"profile/days/2026-10-27":{"date":"2026-10-27","dayType":"HO","flatSteps":2000,"inclineSteps":13000,"meals":[{"id":"t1","kcal":250,"label":"2 KFC Chicken Strips (ohne Soße)","protein":20},{"id":"t2","kcal":530,"label":"1/3 Hähnchen-Curry (Topf: 500 g Hähnchen, 600 g Gemüse, 300 ml Aroy-D, 40 g Paste, 20 g Öl)","protein":44},{"id":"t3","kcal":305,"label":"1/3 Reis (ca. 87 g roh)","protein":6},{"id":"t4","kcal":210,"label":"1 Fladenbrot (80 g)","protein":7},{"id":"t5","kcal":380,"label":"Shake: 100 g Whey mit Wasser","protein":78}],"weight":92.9,"updatedAt":"2026-10-27T23:00:00.000Z"},"profile/days/2026-10-25":{"date":"2026-10-25","dayType":"WE","flatSteps":10000,"inclineSteps":null,"meals":[{"id":"s1","kcal":625,"label":"Mangoshake: 2 große Mangos, ca. 300 ml Mandel-Hafer-Drink","protein":6},{"id":"s2","kcal":420,"label":"Yummyeats Crazy Carbonara Instantnudeln","protein":13},{"id":"s3","kcal":700,"label":"Gefülltes Laugencroissant mit Ei, Schinken und Eiersalat (groß)","protein":30}],"note":"Schritte nicht gemeldet, 10.000 flach angenommen","updatedAt":"2026-10-27T23:00:00.000Z"},"profile/plans/2026-10-26":{"days":[{"date":"2026-10-28","meals":[{"detail":"250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren","kcal":580,"name":"Joghurt mit Whey und Beeren","protein":59,"slot":"Frühstück"},{"detail":"30 g Whey mit Wasser","kcal":115,"name":"Whey-Shake","protein":23,"slot":"Nachmittag"},{"detail":"140 g Vollkornnudeln, 140 g Thunfisch (Wasser), 250 g Passata, 10 g Olivenöl, 30 g Parmesan","kcal":935,"name":"Thunfisch-Pasta","protein":67,"slot":"Abend","recipe":{"servings":"1 Portion (für 2 Personen Mengen verdoppeln)","minutes":15,"ingredients":[{"amount":"140 g","item":"Vollkornnudeln (Trockengewicht)"},{"amount":"140 g","item":"Thunfisch im eigenen Saft (Abtropfgewicht)"},{"amount":"250 g","item":"Passata"},{"amount":"10 g","item":"Olivenöl"},{"amount":"30 g","item":"Parmesan, frisch gerieben"},{"amount":"1 Prise","item":"Salz, Pfeffer, Oregano oder Chiliflocken (nach Geschmack)"}],"steps":["Nudeln in reichlich Salzwasser nach Packungsangabe bissfest kochen (ca. 9–10 Minuten), dann abgießen. Dabei 1 Tasse Nudelwasser aufheben.","Währenddessen das Olivenöl in einer großen Pfanne bei mittlerer Hitze erwärmen. Passata zugeben, mit Salz, Pfeffer und Oregano würzen und 5 Minuten leicht köcheln lassen.","Thunfisch abtropfen lassen, mit der Gabel zerzupfen und in die Soße geben. Nur 1–2 Minuten miterwärmen.","Nudeln in die Pfanne geben und alles gut vermengen. Bei Bedarf einen Schuss Nudelwasser zugeben, bis die Soße schön cremig ist.","Auf einem Teller anrichten und mit dem Parmesan bestreuen."],"tip":"Für zwei Personen alle Mengen verdoppeln und einen größeren Topf bzw. eine große Pfanne verwenden. Die Zeit bleibt praktisch gleich."}},{"detail":"250 g Skyr, 100 g Beeren","kcal":210,"name":"Skyr mit Beeren","protein":28,"slot":"Nachtisch"}],"type":"HO"},{"date":"2026-10-29","meals":[{"detail":"250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren","kcal":580,"name":"Joghurt mit Whey und Beeren","protein":59,"slot":"Frühstück"},{"detail":"Proteinreiches Gericht wählen, geschätzt","kcal":800,"name":"Kantine","protein":45,"slot":"Mittag"},{"detail":"250 g Skyr","kcal":160,"name":"Skyr","protein":27,"slot":"Nachmittag"},{"detail":"2 Eier, 150 g Eiklar, 50 g Feta, 150 g Paprika, 5 g Öl","kcal":450,"name":"Omelett mit Paprika und Feta","protein":39,"slot":"Abend"}],"type":"Büro"},{"date":"2026-10-30","meals":[{"detail":"250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren","kcal":580,"name":"Joghurt mit Whey und Beeren","protein":59,"slot":"Frühstück"},{"detail":"30 g Whey mit Wasser","kcal":115,"name":"Whey-Shake","protein":23,"slot":"Nachmittag"},{"detail":"200 g Lachs, 350 g Kartoffeln, 300 g Brokkoli, 5 g Öl, Dip aus 150 g Magerjoghurt","kcal":890,"name":"Lachs mit Ofenkartoffeln und Brokkoli","protein":62,"slot":"Abend"},{"detail":"250 g Skyr, 100 g Beeren","kcal":210,"name":"Skyr mit Beeren","protein":28,"slot":"Nachtisch"}],"type":"HO"},{"date":"2026-10-31","meals":[{"detail":"250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren","kcal":580,"name":"Joghurt mit Whey und Beeren","protein":59,"slot":"Frühstück"},{"detail":"30 g Whey mit Wasser","kcal":115,"name":"Whey-Shake","protein":23,"slot":"Nachmittag"},{"detail":"2 Vollkornwraps (120 g), 250 g Pute, 100 g Kidneybohnen, 80 g Mais, 150 g Paprika, 100 g Tomate, 5 g Öl, Joghurt-Dip","kcal":965,"name":"Puten-Wraps","protein":85,"slot":"Abend"},{"detail":"250 g Skyr, 100 g Beeren","kcal":210,"name":"Skyr mit Beeren","protein":28,"slot":"Nachtisch"}],"type":"WE"},{"date":"2026-11-01","meals":[{"detail":"250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren","kcal":580,"name":"Joghurt mit Whey und Beeren","protein":59,"slot":"Frühstück"},{"detail":"30 g Whey mit Wasser","kcal":115,"name":"Whey-Shake","protein":23,"slot":"Nachmittag"},{"detail":"220 g Hähnchen, 300 g Hokkaido, 200 g Paprika, 200 g Zucchini, 100 g Kichererbsen, 10 g Öl, 40 g Feta","kcal":845,"name":"Ofengemüse mit Hähnchen","protein":75,"slot":"Abend"},{"detail":"250 g Skyr, 100 g Beeren","kcal":210,"name":"Skyr mit Beeren","protein":28,"slot":"Nachtisch"}],"type":"WE"}],"note":"Woche 1: 2.000 kcal und 180 g Eiweiß pro Tag. Mo und Di sind vorbei, siehe Log. Gewichte roh.","swaps":[{"detail":"Topf: 500 g Hähnchen, 600 g Gemüse, 300 ml Aroy-D, 40 g Currypaste, 20 g Öl, 260 g Reis","kcal":835,"name":"Hähnchen-Curry (1/3 Topf + 1/3 Reis)","protein":50},{"detail":"200 g Putenhack, 150 g Kidneybohnen, 200 g gehackte Tomaten, 100 g Paprika, 60 g Reis, 5 g Öl","kcal":770,"name":"Chili sin Carne mit Putenhack","protein":59}],"updatedAt":"2026-10-28T06:50:33.293Z"},"profile":{"age":35,"baseKcal":2300,"estimateHints":"Kokosmilch ist immer normale Aroy-D (ca. 180 kcal pro 100 ml), nie light.\nNo-Gos: Gurken, Champignons (andere Pilze ok), rohe Zwiebeln, Rind, Blattsalat (anderer Salat ok).\nAbendessen schnell und für zwei (mit Freundin). Home Office und Wochenende: Frühstück 250 g griech. Joghurt 10 % + 60 g Whey + 100 g Beeren, kein Mittag, nachmittags Shake 30 g Whey, großes Abendessen, Nachtisch 250 g Skyr + 100 g Beeren. Bürotag: Frühstück wie oben, Kantine mittags (~800 kcal), 250 g Skyr, kleines Abendessen (ab Woche 2 oft Juit, ≥35 g Eiweiß).\nDienstags und jeden zweiten Mittwoch Abendprogramm ohne Essen: an HO-Tagen Abendessen tagsüber vorbereiten, nach Bürotagen etwas Schnelles.\nGetränke: Wasser und zuckerfreier Sirup. Alkohol nur bei angekündigten Anlässen.","eventKcal":3000,"flatFactor":0.037,"goalDate":"2027-03-30","goalWeight":79.5,"handrail":true,"heightCm":186,"inclineFactor":0.072,"inclinePct":9,"kcalPerKg":7000,"kcalTarget":2000,"milestones":[{"date":"2026-10-27","kg":92.9},{"date":"2026-12-01","kg":89.6},{"date":"2026-12-22","kg":87.5},{"date":"2027-01-05","kg":87.5},{"date":"2027-02-02","kg":84.8},{"date":"2027-03-02","kg":82.1},{"date":"2027-03-30","kg":79.5}],"name":"Chris","proteinTarget":180,"sex":"m","speedKmh":3.5,"startDate":"2026-10-26","startWeight":92.9,"startWeightDate":"2026-10-27","syncTriggerId":"trig_011D9TaBqUzpfjfUEAQxnHoN","updatedAt":"2026-10-27T23:35:00.000Z"}}}
+{
+ "app": "weightplan",
+ "updatedAt": "2026-10-28T08:23:34.956Z",
+ "docs": {
+  "profile/days/2026-10-26": {
+   "date": "2026-10-26",
+   "dayType": "Frei",
+   "flatSteps": 1000,
+   "inclineSteps": 13000,
+   "meals": [
+    {
+     "id": "m1",
+     "kcal": 475,
+     "label": "250 g griechischer Joghurt + 2 Scoops Whey (ca. 60 g)",
+     "protein": 63
+    },
+    {
+     "id": "m2",
+     "kcal": 110,
+     "label": "1 Banane",
+     "protein": 1
+    },
+    {
+     "id": "m3",
+     "kcal": 715,
+     "label": "Mango Sticky Rice (ca. 150 g Klebreis, 1 Mango, 80 ml Kokossoße)",
+     "protein": 7
+    },
+    {
+     "id": "m4",
+     "kcal": 1100,
+     "label": "KFC Kentucky Gold Wrapper",
+     "protein": 41
+    },
+    {
+     "id": "m5",
+     "kcal": 365,
+     "label": "2 KFC Chicken Strips mit Knoblauchsoße",
+     "protein": 20
+    }
+   ],
+   "updatedAt": "2026-10-27T23:00:00.000Z"
+  },
+  "profile/days/2026-10-27": {
+   "date": "2026-10-27",
+   "dayType": "HO",
+   "flatSteps": 2000,
+   "inclineSteps": 13000,
+   "meals": [
+    {
+     "id": "t1",
+     "kcal": 250,
+     "label": "2 KFC Chicken Strips (ohne Soße)",
+     "protein": 20
+    },
+    {
+     "id": "t2",
+     "kcal": 530,
+     "label": "1/3 Hähnchen-Curry (Topf: 500 g Hähnchen, 600 g Gemüse, 300 ml Aroy-D, 40 g Paste, 20 g Öl)",
+     "protein": 44
+    },
+    {
+     "id": "t3",
+     "kcal": 305,
+     "label": "1/3 Reis (ca. 87 g roh)",
+     "protein": 6
+    },
+    {
+     "id": "t4",
+     "kcal": 210,
+     "label": "1 Fladenbrot (80 g)",
+     "protein": 7
+    },
+    {
+     "id": "t5",
+     "kcal": 380,
+     "label": "Shake: 100 g Whey mit Wasser",
+     "protein": 78
+    }
+   ],
+   "weight": 92.9,
+   "updatedAt": "2026-10-27T23:00:00.000Z"
+  },
+  "profile/days/2026-10-25": {
+   "date": "2026-10-25",
+   "dayType": "WE",
+   "flatSteps": 10000,
+   "inclineSteps": null,
+   "meals": [
+    {
+     "id": "s1",
+     "kcal": 625,
+     "label": "Mangoshake: 2 große Mangos, ca. 300 ml Mandel-Hafer-Drink",
+     "protein": 6
+    },
+    {
+     "id": "s2",
+     "kcal": 420,
+     "label": "Yummyeats Crazy Carbonara Instantnudeln",
+     "protein": 13
+    },
+    {
+     "id": "s3",
+     "kcal": 700,
+     "label": "Gefülltes Laugencroissant mit Ei, Schinken und Eiersalat (groß)",
+     "protein": 30
+    }
+   ],
+   "note": "Schritte nicht gemeldet, 10.000 flach angenommen",
+   "updatedAt": "2026-10-27T23:00:00.000Z"
+  },
+  "profile/plans/2026-10-26": {
+   "days": [
+    {
+     "date": "2026-10-28",
+     "meals": [
+      {
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "name": "Joghurt mit Whey und Beeren",
+       "protein": 59,
+       "slot": "Frühstück"
+      },
+      {
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "name": "Whey-Shake",
+       "protein": 23,
+       "slot": "Nachmittag"
+      },
+      {
+       "detail": "140 g Vollkornnudeln, 140 g Thunfisch (Wasser), 250 g Passata, 10 g Olivenöl, 30 g Parmesan",
+       "kcal": 935,
+       "name": "Thunfisch-Pasta",
+       "protein": 67,
+       "slot": "Abend",
+       "recipe": {
+        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+        "minutes": 15,
+        "ingredients": [
+         {
+          "amount": "140 g",
+          "item": "Vollkornnudeln (Trockengewicht)"
+         },
+         {
+          "amount": "140 g",
+          "item": "Thunfisch im eigenen Saft (Abtropfgewicht)"
+         },
+         {
+          "amount": "250 g",
+          "item": "Passata"
+         },
+         {
+          "amount": "10 g",
+          "item": "Olivenöl"
+         },
+         {
+          "amount": "30 g",
+          "item": "Parmesan, frisch gerieben"
+         },
+         {
+          "amount": "1 Prise",
+          "item": "Salz, Pfeffer, Oregano oder Chiliflocken (nach Geschmack)"
+         }
+        ],
+        "steps": [
+         "Nudeln in reichlich Salzwasser nach Packungsangabe bissfest kochen (ca. 9–10 Minuten), dann abgießen. Dabei 1 Tasse Nudelwasser aufheben.",
+         "Währenddessen das Olivenöl in einer großen Pfanne bei mittlerer Hitze erwärmen. Passata zugeben, mit Salz, Pfeffer und Oregano würzen und 5 Minuten leicht köcheln lassen.",
+         "Thunfisch abtropfen lassen, mit der Gabel zerzupfen und in die Soße geben. Nur 1–2 Minuten miterwärmen.",
+         "Nudeln in die Pfanne geben und alles gut vermengen. Bei Bedarf einen Schuss Nudelwasser zugeben, bis die Soße schön cremig ist.",
+         "Auf einem Teller anrichten und mit dem Parmesan bestreuen."
+        ],
+        "tip": "Für zwei Personen alle Mengen verdoppeln und einen größeren Topf bzw. eine große Pfanne verwenden. Die Zeit bleibt praktisch gleich."
+       }
+      },
+      {
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "name": "Skyr mit Beeren",
+       "protein": 28,
+       "slot": "Nachtisch"
+      }
+     ],
+     "type": "HO"
+    },
+    {
+     "date": "2026-10-29",
+     "meals": [
+      {
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "name": "Joghurt mit Whey und Beeren",
+       "protein": 59,
+       "slot": "Frühstück"
+      },
+      {
+       "detail": "Proteinreiches Gericht wählen, geschätzt",
+       "kcal": 800,
+       "name": "Kantine",
+       "protein": 45,
+       "slot": "Mittag"
+      },
+      {
+       "detail": "250 g Skyr",
+       "kcal": 160,
+       "name": "Skyr",
+       "protein": 27,
+       "slot": "Nachmittag"
+      },
+      {
+       "detail": "2 Eier, 150 g Eiklar, 50 g Feta, 150 g Paprika, 5 g Öl",
+       "kcal": 450,
+       "name": "Omelett mit Paprika und Feta",
+       "protein": 39,
+       "slot": "Abend"
+      }
+     ],
+     "type": "Büro"
+    },
+    {
+     "date": "2026-10-30",
+     "meals": [
+      {
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "name": "Joghurt mit Whey und Beeren",
+       "protein": 59,
+       "slot": "Frühstück"
+      },
+      {
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "name": "Whey-Shake",
+       "protein": 23,
+       "slot": "Nachmittag"
+      },
+      {
+       "detail": "200 g Lachs, 350 g Kartoffeln, 300 g Brokkoli, 5 g Öl, Dip aus 150 g Magerjoghurt",
+       "kcal": 890,
+       "name": "Lachs mit Ofenkartoffeln und Brokkoli",
+       "protein": 62,
+       "slot": "Abend"
+      },
+      {
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "name": "Skyr mit Beeren",
+       "protein": 28,
+       "slot": "Nachtisch"
+      }
+     ],
+     "type": "HO"
+    },
+    {
+     "date": "2026-10-31",
+     "meals": [
+      {
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "name": "Joghurt mit Whey und Beeren",
+       "protein": 59,
+       "slot": "Frühstück"
+      },
+      {
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "name": "Whey-Shake",
+       "protein": 23,
+       "slot": "Nachmittag"
+      },
+      {
+       "detail": "2 Vollkornwraps (120 g), 250 g Pute, 100 g Kidneybohnen, 80 g Mais, 150 g Paprika, 100 g Tomate, 5 g Öl, Joghurt-Dip",
+       "kcal": 965,
+       "name": "Puten-Wraps",
+       "protein": 85,
+       "slot": "Abend"
+      },
+      {
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "name": "Skyr mit Beeren",
+       "protein": 28,
+       "slot": "Nachtisch"
+      }
+     ],
+     "type": "WE"
+    },
+    {
+     "date": "2026-11-01",
+     "meals": [
+      {
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "name": "Joghurt mit Whey und Beeren",
+       "protein": 59,
+       "slot": "Frühstück"
+      },
+      {
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "name": "Whey-Shake",
+       "protein": 23,
+       "slot": "Nachmittag"
+      },
+      {
+       "detail": "220 g Hähnchen, 300 g Hokkaido, 200 g Paprika, 200 g Zucchini, 100 g Kichererbsen, 10 g Öl, 40 g Feta",
+       "kcal": 845,
+       "name": "Ofengemüse mit Hähnchen",
+       "protein": 75,
+       "slot": "Abend"
+      },
+      {
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "name": "Skyr mit Beeren",
+       "protein": 28,
+       "slot": "Nachtisch"
+      }
+     ],
+     "type": "WE"
+    }
+   ],
+   "note": "Woche 1: 2.000 kcal und 180 g Eiweiß pro Tag. Mo und Di sind vorbei, siehe Log. Gewichte roh.",
+   "swaps": [
+    {
+     "detail": "Topf: 500 g Hähnchen, 600 g Gemüse, 300 ml Aroy-D, 40 g Currypaste, 20 g Öl, 260 g Reis",
+     "kcal": 835,
+     "name": "Hähnchen-Curry (1/3 Topf + 1/3 Reis)",
+     "protein": 50
+    },
+    {
+     "detail": "200 g Putenhack, 150 g Kidneybohnen, 200 g gehackte Tomaten, 100 g Paprika, 60 g Reis, 5 g Öl",
+     "kcal": 770,
+     "name": "Chili sin Carne mit Putenhack",
+     "protein": 59
+    }
+   ],
+   "updatedAt": "2026-10-28T06:50:33.293Z"
+  },
+  "profile": {
+   "age": 35,
+   "baseKcal": 2300,
+   "estimateHints": "Kokosmilch ist immer normale Aroy-D (ca. 180 kcal pro 100 ml), nie light.\nNo-Gos: Gurken, Champignons (andere Pilze ok), rohe Zwiebeln, Rind, Blattsalat (anderer Salat ok).\nAbendessen schnell und für zwei (mit Freundin). Home Office und Wochenende: Frühstück 250 g griech. Joghurt 10 % + 60 g Whey + 100 g Beeren, kein Mittag, nachmittags Shake 30 g Whey, großes Abendessen, Nachtisch 250 g Skyr + 100 g Beeren. Bürotag: Frühstück wie oben, Kantine mittags (~800 kcal), 250 g Skyr, kleines Abendessen (ab Woche 2 oft Juit, ≥35 g Eiweiß).\nDienstags und jeden zweiten Mittwoch Abendprogramm ohne Essen: an HO-Tagen Abendessen tagsüber vorbereiten, nach Bürotagen etwas Schnelles.\nGetränke: Wasser und zuckerfreier Sirup. Alkohol nur bei angekündigten Anlässen.",
+   "eventKcal": 3000,
+   "flatFactor": 0.037,
+   "goalDate": "2027-03-30",
+   "goalWeight": 79.5,
+   "handrail": true,
+   "heightCm": 186,
+   "inclineFactor": 0.072,
+   "inclinePct": 9,
+   "kcalPerKg": 7000,
+   "kcalTarget": 2000,
+   "milestones": [
+    {
+     "date": "2026-10-27",
+     "kg": 92.9
+    },
+    {
+     "date": "2026-12-01",
+     "kg": 89.6
+    },
+    {
+     "date": "2026-12-22",
+     "kg": 87.5
+    },
+    {
+     "date": "2027-01-05",
+     "kg": 87.5
+    },
+    {
+     "date": "2027-02-02",
+     "kg": 84.8
+    },
+    {
+     "date": "2027-03-02",
+     "kg": 82.1
+    },
+    {
+     "date": "2027-03-30",
+     "kg": 79.5
+    }
+   ],
+   "name": "Chris",
+   "proteinTarget": 180,
+   "sex": "m",
+   "speedKmh": 3.5,
+   "startDate": "2026-10-26",
+   "startWeight": 92.9,
+   "startWeightDate": "2026-10-27",
+   "syncTriggerId": "trig_011D9TaBqUzpfjfUEAQxnHoN",
+   "updatedAt": "2026-10-27T23:35:00.000Z"
+  },
+  "profile/plans/2026-11-02": {
+   "note": "Woche 2 (02.–08.11.): 2.000 kcal und 180 g Eiweiß. Annahme: Büro Di und Do, sonst Home Office. Bitte über „Hinweise für diese Woche“ oder im Chat korrigieren. Mi Weinverkostung (Event-Tag), Di und Fr Abendprogramm. Gewichte roh.",
+   "days": [
+    {
+     "date": "2026-11-02",
+     "type": "HO",
+     "meals": [
+      {
+       "slot": "Frühstück",
+       "name": "Joghurt mit Whey und Beeren",
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "protein": 59
+      },
+      {
+       "slot": "Nachmittag",
+       "name": "Whey-Shake",
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "protein": 23
+      },
+      {
+       "slot": "Abend",
+       "name": "Hähnchen-Gemüse-Reispfanne mit Sweet Chili",
+       "detail": "250 g Hähnchenbrust, 80 g Basmatireis, 250 g Paprika und Zucchini, 15 g Öl, 30 g Sweet-Chili-Soße, 20 g Sojasoße",
+       "kcal": 840,
+       "protein": 68
+      },
+      {
+       "slot": "Nachtisch",
+       "name": "Skyr mit Beeren",
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "protein": 28
+      }
+     ]
+    },
+    {
+     "date": "2026-11-03",
+     "type": "Büro",
+     "info": "Abendprogramm: nach dem Büro etwas Schnelles, ideal Juit",
+     "meals": [
+      {
+       "slot": "Frühstück",
+       "name": "Joghurt mit Whey und Beeren",
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "protein": 59
+      },
+      {
+       "slot": "Mittag",
+       "name": "Kantine",
+       "detail": "Proteinreiches Gericht wählen, geschätzt",
+       "kcal": 800,
+       "protein": 45
+      },
+      {
+       "slot": "Nachmittag",
+       "name": "Skyr",
+       "detail": "250 g Skyr",
+       "kcal": 160,
+       "protein": 27
+      },
+      {
+       "slot": "Abend",
+       "name": "Juit-Gericht",
+       "detail": "Gericht nach Wahl mit mindestens 35 g Eiweiß, Wert geschätzt; gib mir dein bestelltes Gericht durch",
+       "kcal": 500,
+       "protein": 40
+      }
+     ]
+    },
+    {
+     "date": "2026-11-04",
+     "type": "HO",
+     "info": "Event-Tag: Weinverkostung mit Essen, Alkohol angekündigt",
+     "meals": [
+      {
+       "slot": "Frühstück",
+       "name": "Joghurt mit Whey und Beeren",
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "protein": 59
+      },
+      {
+       "slot": "Nachmittag",
+       "name": "Whey-Shake",
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "protein": 23
+      },
+      {
+       "slot": "Abend",
+       "name": "Weinverkostung mit Essen",
+       "detail": "Geschätzt: Essen und ca. 4 Gläser Wein",
+       "kcal": 2100,
+       "protein": 50
+      }
+     ]
+    },
+    {
+     "date": "2026-11-05",
+     "type": "Büro",
+     "meals": [
+      {
+       "slot": "Frühstück",
+       "name": "Joghurt mit Whey und Beeren",
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "protein": 59
+      },
+      {
+       "slot": "Mittag",
+       "name": "Kantine",
+       "detail": "Proteinreiches Gericht wählen, geschätzt",
+       "kcal": 800,
+       "protein": 45
+      },
+      {
+       "slot": "Nachmittag",
+       "name": "Skyr",
+       "detail": "250 g Skyr",
+       "kcal": 160,
+       "protein": 27
+      },
+      {
+       "slot": "Abend",
+       "name": "Juit-Gericht",
+       "detail": "Gericht nach Wahl mit mindestens 35 g Eiweiß, Wert geschätzt; gib mir dein bestelltes Gericht durch",
+       "kcal": 500,
+       "protein": 40
+      }
+     ]
+    },
+    {
+     "date": "2026-11-06",
+     "type": "HO",
+     "info": "Abendprogramm (verschoben vom 04.11.): Chili tagsüber kochen, abends aufwärmen",
+     "meals": [
+      {
+       "slot": "Frühstück",
+       "name": "Joghurt mit Whey und Beeren",
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "protein": 59
+      },
+      {
+       "slot": "Nachmittag",
+       "name": "Whey-Shake",
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "protein": 23
+      },
+      {
+       "slot": "Abend",
+       "name": "Chili mit Putenhack und Reis",
+       "detail": "200 g Putenhack, 150 g Kidneybohnen (abgetropft), 200 g gehackte Tomaten, 100 g Paprika, 60 g Reis, 5 g Öl, 30 g Gouda",
+       "kcal": 875,
+       "protein": 66
+      },
+      {
+       "slot": "Nachtisch",
+       "name": "Skyr mit Beeren",
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "protein": 28
+      }
+     ]
+    },
+    {
+     "date": "2026-11-07",
+     "type": "WE",
+     "meals": [
+      {
+       "slot": "Frühstück",
+       "name": "Joghurt mit Whey und Beeren",
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "protein": 59
+      },
+      {
+       "slot": "Nachmittag",
+       "name": "Whey-Shake",
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "protein": 23
+      },
+      {
+       "slot": "Abend",
+       "name": "Ofenlachs mit Kartoffeln, Brokkoli und Kräuterquark",
+       "detail": "200 g Lachs, 300 g Kartoffeln, 250 g Brokkoli, 10 g Öl, 100 g Magerquark mit Kräutern",
+       "kcal": 870,
+       "protein": 65
+      },
+      {
+       "slot": "Nachtisch",
+       "name": "Skyr mit Beeren",
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "protein": 28
+      }
+     ]
+    },
+    {
+     "date": "2026-11-08",
+     "type": "WE",
+     "meals": [
+      {
+       "slot": "Frühstück",
+       "name": "Joghurt mit Whey und Beeren",
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "protein": 59
+      },
+      {
+       "slot": "Nachmittag",
+       "name": "Whey-Shake",
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "protein": 23
+      },
+      {
+       "slot": "Abend",
+       "name": "Hähnchen-Curry mit Reis (1/3 Topf)",
+       "detail": "Topf: 600 g Hähnchenbrust, 600 g Gemüse (Paprika, Brokkoli, Karotte), 300 ml Aroy-D Kokosmilch, 40 g Currypaste, 10 g Öl, 240 g Reis; davon 1/3",
+       "kcal": 790,
+       "protein": 56
+      },
+      {
+       "slot": "Nachtisch",
+       "name": "Skyr mit Beeren (groß)",
+       "detail": "350 g Skyr, 100 g Beeren",
+       "kcal": 275,
+       "protein": 39
+      }
+     ]
+    }
+   ],
+   "swaps": [
+    {
+     "name": "Thunfisch-Pasta",
+     "detail": "140 g Vollkornnudeln, 140 g Thunfisch (Wasser), 250 g Passata, 10 g Öl, 30 g Parmesan",
+     "kcal": 935,
+     "protein": 67
+    },
+    {
+     "name": "Putengeschnetzeltes mit Paprika und Reis",
+     "detail": "250 g Putenbrust, 200 g Paprika, 100 g Kochsahne 15 %, 70 g Reis, 10 g Öl",
+     "kcal": 820,
+     "protein": 66
+    }
+   ],
+   "updatedAt": "2026-10-28T08:23:34.956Z",
+   "lastWish": "Von Claude erstellt (eine Woche im Voraus)"
+  }
+ }
+}
