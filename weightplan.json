@@ -1,6 +1,6 @@
 {
  "app": "weightplan",
- "updatedAt": "2026-10-28T08:23:34.956Z",
+ "updatedAt": "2026-10-28T08:27:15.594Z",
  "docs": {
   "profile/days/2026-10-26": {
    "date": "2026-10-26",
@@ -340,7 +340,7 @@
   "profile": {
    "age": 35,
    "baseKcal": 2300,
-   "estimateHints": "Kokosmilch ist immer normale Aroy-D (ca. 180 kcal pro 100 ml), nie light.\nNo-Gos: Gurken, Champignons (andere Pilze ok), rohe Zwiebeln, Rind, Blattsalat (anderer Salat ok).\nAbendessen schnell und für zwei (mit Freundin). Home Office und Wochenende: Frühstück 250 g griech. Joghurt 10 % + 60 g Whey + 100 g Beeren, kein Mittag, nachmittags Shake 30 g Whey, großes Abendessen, Nachtisch 250 g Skyr + 100 g Beeren. Bürotag: Frühstück wie oben, Kantine mittags (~800 kcal), 250 g Skyr, kleines Abendessen (ab Woche 2 oft Juit, ≥35 g Eiweiß).\nDienstags und jeden zweiten Mittwoch Abendprogramm ohne Essen: an HO-Tagen Abendessen tagsüber vorbereiten, nach Bürotagen etwas Schnelles.\nGetränke: Wasser und zuckerfreier Sirup. Alkohol nur bei angekündigten Anlässen.",
+   "estimateHints": "Kokosmilch ist immer normale Aroy-D (ca. 180 kcal pro 100 ml), nie light.\nNo-Gos: Gurken, Champignons (andere Pilze ok), rohe Zwiebeln, Rind, Blattsalat (anderer Salat ok).\nAbendessen schnell und für zwei (mit Freundin). Home Office und Wochenende: Frühstück 250 g griech. Joghurt 10 % + 60 g Whey + 100 g Beeren, kein Mittag, nachmittags Shake 30 g Whey, großes Abendessen, Nachtisch 250 g Skyr + 100 g Beeren. Bürotag: Frühstück wie oben, Kantine mittags (~800 kcal), 250 g Skyr, kleines Abendessen (ab Woche 2 oft Juit, ≥35 g Eiweiß).\nDienstags und jeden zweiten Mittwoch Abendprogramm ohne Essen: an HO-Tagen Abendessen tagsüber vorbereiten, nach Bürotagen etwas Schnelles.\nGetränke: Wasser und zuckerfreier Sirup. Alkohol nur bei angekündigten Anlässen.\nKaffee: Cappuccino ca. 95 kcal, an HO-Tagen und am Wochenende 1, an Bürotagen 3; wird automatisch eingetragen.",
    "eventKcal": 3000,
    "flatFactor": 0.037,
    "goalDate": "2027-03-30",
@@ -389,14 +389,28 @@
    "startWeight": 92.9,
    "startWeightDate": "2026-10-27",
    "syncTriggerId": "trig_011D9TaBqUzpfjfUEAQxnHoN",
-   "updatedAt": "2026-10-27T23:35:00.000Z"
+   "updatedAt": "2026-10-28T08:27:15.594Z",
+   "planNotes": {
+    "2026-11-02": "Mo HO, Di und Mi Büro, Do und Fr HO. Di Abendprogramm ab 19 Uhr (Gespräch mit Freund). Mi Junkerverkostung in der Grazer Stadthalle. Fr Abendprogramm ab 19 Uhr. Sa Einladung bei uns, wahrscheinlich Grillen."
+   },
+   "coffee": {
+    "since": "2026-10-28",
+    "kcal": 95,
+    "perType": {
+     "HO": 1,
+     "Büro": 3,
+     "WE": 1,
+     "Frei": 1
+    }
+   }
   },
   "profile/plans/2026-11-02": {
-   "note": "Woche 2 (02.–08.11.): 2.000 kcal und 180 g Eiweiß. Annahme: Büro Di und Do, sonst Home Office. Bitte über „Hinweise für diese Woche“ oder im Chat korrigieren. Mi Weinverkostung (Event-Tag), Di und Fr Abendprogramm. Gewichte roh.",
+   "note": "Woche 2 (02.–08.11.): 2.000 kcal und 180 g Eiweiß, im Wochenschnitt. Kaffee ist in den Tagessummen hier nicht enthalten, er wird im Tagesprotokoll automatisch eingetragen. Mi ist Event-Tag. Gewichte roh.",
    "days": [
     {
      "date": "2026-11-02",
      "type": "HO",
+     "info": "Kaffee: 1 Cappuccino (95 kcal) wird automatisch eingetragen",
      "meals": [
       {
        "slot": "Frühstück",
@@ -431,7 +445,7 @@
     {
      "date": "2026-11-03",
      "type": "Büro",
-     "info": "Abendprogramm: nach dem Büro etwas Schnelles, ideal Juit",
+     "info": "Abendprogramm ab 19 Uhr (Gespräch mit Freund): vorher schnell essen. Kaffee: 3 Cappuccino (285 kcal) werden automatisch eingetragen",
      "meals": [
       {
        "slot": "Frühstück",
@@ -443,8 +457,8 @@
       {
        "slot": "Mittag",
        "name": "Kantine",
-       "detail": "Proteinreiches Gericht wählen, geschätzt",
-       "kcal": 800,
+       "detail": "Proteinreiches Gericht wählen, eher leicht, geschätzt",
+       "kcal": 700,
        "protein": 45
       },
       {
@@ -457,16 +471,44 @@
       {
        "slot": "Abend",
        "name": "Juit-Gericht",
-       "detail": "Gericht nach Wahl mit mindestens 35 g Eiweiß, Wert geschätzt; gib mir dein bestelltes Gericht durch",
-       "kcal": 500,
+       "detail": "Vor 19 Uhr essen. Gericht nach Wahl mit mindestens 35 g Eiweiß, Wert geschätzt; sag mir, was du bestellt hast",
+       "kcal": 450,
        "protein": 40
       }
      ]
     },
     {
      "date": "2026-11-04",
+     "type": "Büro",
+     "info": "Event-Tag: Junkerverkostung in der Grazer Stadthalle (Alkohol angekündigt). Mittags in der Kantine eher leicht. Kaffee: 3 Cappuccino (285 kcal) werden automatisch eingetragen",
+     "meals": [
+      {
+       "slot": "Frühstück",
+       "name": "Joghurt mit Whey und Beeren",
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "protein": 59
+      },
+      {
+       "slot": "Mittag",
+       "name": "Kantine",
+       "detail": "Proteinreiches Gericht wählen, eher leicht, geschätzt",
+       "kcal": 700,
+       "protein": 45
+      },
+      {
+       "slot": "Abend",
+       "name": "Junkerverkostung",
+       "detail": "Geschätzt: ca. 6 Kostproben Junker (je 1/16 l) und Imbiss vor Ort",
+       "kcal": 1700,
+       "protein": 40
+      }
+     ]
+    },
+    {
+     "date": "2026-11-05",
      "type": "HO",
-     "info": "Event-Tag: Weinverkostung mit Essen, Alkohol angekündigt",
+     "info": "Kaffee: 1 Cappuccino (95 kcal) wird automatisch eingetragen",
      "meals": [
       {
        "slot": "Frühstück",
@@ -484,51 +526,24 @@
       },
       {
        "slot": "Abend",
-       "name": "Weinverkostung mit Essen",
-       "detail": "Geschätzt: Essen und ca. 4 Gläser Wein",
-       "kcal": 2100,
-       "protein": 50
-      }
-     ]
-    },
-    {
-     "date": "2026-11-05",
-     "type": "Büro",
-     "meals": [
-      {
-       "slot": "Frühstück",
-       "name": "Joghurt mit Whey und Beeren",
-       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
-       "kcal": 580,
-       "protein": 59
+       "name": "Thunfisch-Pasta",
+       "detail": "140 g Vollkornnudeln, 140 g Thunfisch (Wasser), 250 g Passata, 10 g Olivenöl, 30 g Parmesan",
+       "kcal": 935,
+       "protein": 67
       },
       {
-       "slot": "Mittag",
-       "name": "Kantine",
-       "detail": "Proteinreiches Gericht wählen, geschätzt",
-       "kcal": 800,
-       "protein": 45
-      },
-      {
-       "slot": "Nachmittag",
-       "name": "Skyr",
-       "detail": "250 g Skyr",
-       "kcal": 160,
-       "protein": 27
-      },
-      {
-       "slot": "Abend",
-       "name": "Juit-Gericht",
-       "detail": "Gericht nach Wahl mit mindestens 35 g Eiweiß, Wert geschätzt; gib mir dein bestelltes Gericht durch",
-       "kcal": 500,
-       "protein": 40
+       "slot": "Nachtisch",
+       "name": "Skyr mit Beeren",
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "protein": 28
       }
      ]
     },
     {
      "date": "2026-11-06",
      "type": "HO",
-     "info": "Abendprogramm (verschoben vom 04.11.): Chili tagsüber kochen, abends aufwärmen",
+     "info": "Abendprogramm ab 19 Uhr: Chili tagsüber kochen, gegen 18 Uhr essen. Kaffee: 1 Cappuccino (95 kcal) wird automatisch eingetragen",
      "meals": [
       {
        "slot": "Frühstück",
@@ -563,6 +578,7 @@
     {
      "date": "2026-11-07",
      "type": "WE",
+     "info": "Gäste: Freundin von deiner Freundin, es wird gegrillt. Tipp: Geflügelspieße und Grillgemüse zuerst, Wurst und Saucen sparsam. Kaffee: 1 Cappuccino (95 kcal) wird automatisch eingetragen",
      "meals": [
       {
        "slot": "Frühstück",
@@ -580,23 +596,17 @@
       },
       {
        "slot": "Abend",
-       "name": "Ofenlachs mit Kartoffeln, Brokkoli und Kräuterquark",
-       "detail": "200 g Lachs, 300 g Kartoffeln, 250 g Brokkoli, 10 g Öl, 100 g Magerquark mit Kräutern",
-       "kcal": 870,
-       "protein": 65
-      },
-      {
-       "slot": "Nachtisch",
-       "name": "Skyr mit Beeren",
-       "detail": "250 g Skyr, 100 g Beeren",
-       "kcal": 210,
-       "protein": 28
+       "name": "Grillabend",
+       "detail": "Geschätzt: 250 g Hähnchen- oder Putenspieße, 1 Grillwurst (100 g), 200 g Grillgemüse mit 10 g Öl, 1 Folienkartoffel (200 g) mit 100 g Kräuterquark (Magerquark), etwas Grillsauce",
+       "kcal": 1250,
+       "protein": 80
       }
      ]
     },
     {
      "date": "2026-11-08",
      "type": "WE",
+     "info": "Kaffee: 1 Cappuccino (95 kcal) wird automatisch eingetragen",
      "meals": [
       {
        "slot": "Frühstück",
@@ -631,10 +641,10 @@
    ],
    "swaps": [
     {
-     "name": "Thunfisch-Pasta",
-     "detail": "140 g Vollkornnudeln, 140 g Thunfisch (Wasser), 250 g Passata, 10 g Öl, 30 g Parmesan",
-     "kcal": 935,
-     "protein": 67
+     "name": "Ofenlachs mit Kartoffeln, Brokkoli und Kräuterquark",
+     "detail": "200 g Lachs, 300 g Kartoffeln, 250 g Brokkoli, 10 g Öl, 100 g Magerquark mit Kräutern",
+     "kcal": 870,
+     "protein": 65
     },
     {
      "name": "Putengeschnetzeltes mit Paprika und Reis",
@@ -643,8 +653,8 @@
      "protein": 66
     }
    ],
-   "updatedAt": "2026-10-28T08:23:34.956Z",
-   "lastWish": "Von Claude erstellt (eine Woche im Voraus)"
+   "updatedAt": "2026-10-28T08:27:15.594Z",
+   "lastWish": "Nach Chris' Wochenhinweisen erstellt"
   }
  }
 }
