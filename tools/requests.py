@@ -5,7 +5,8 @@ python3 tools/requests.py list <ordner>
 python3 tools/requests.py apply <antworten.json>
     Schreibt die Antworten in weightplan.json (mit updatedAt). Format:
     {"estimates": {"<tag>|<meal-id>": {"label","kcal","protein","seen","parts":[{name,grams,kcal,protein}]}},
-     "recipes": {"<plan-montag>|d<tag>:<i> oder s:<i>": {"servings","minutes","ingredients":[{amount,item}],"steps":[],"tip"}}}
+     "recipes": {"<plan-montag>|d<tag>:<i> oder s:<i>": {"servings","minutes","ingredients":[{amount,item}],"steps":[],"tip"}},
+     "plans": {"<plan-montag>": {"note","days":[...],"swaps":[...]}}}  (Planänderung nach "wish"; Rezepte gleichnamiger Gerichte bleiben erhalten)
 Danach tools/bridge.py laufen lassen, damit die claude.ai-Version die Antworten auch bekommt.
 """
 import base64, json, os, sys
@@ -19,7 +20,7 @@ now = lambda: datetime.now(timezone.utc).isoformat(timespec="milliseconds").repl
 def list_requests(out):
     docs = json.load(open(FILE))["docs"]
     os.makedirs(out, exist_ok=True)
-    res = {"estimates": [], "recipes": []}
+    res = {"estimates": [], "recipes": [], "plans": []}
     for k, d in docs.items():
         if k.startswith("profile/days/"):
             for m in d.get("meals", []):
@@ -33,6 +34,9 @@ def list_requests(out):
                     res["estimates"].append(item)
         if k.startswith("profile/plans/"):
             mon = k.rsplit("/", 1)[1]
+            if d.get("planChange"):
+                cur = {kk: d.get(kk) for kk in ("note", "days", "swaps") if d.get(kk) is not None}
+                res["plans"].append({"ref": mon, "wish": d["planChange"], "current": cur})
             for di, day in enumerate(d.get("days", [])):
                 for mi, m in enumerate(day.get("meals", [])):
                     if (m.get("recipeRequested") and not m.get("recipe")) or m.get("recipeChange"):
@@ -65,6 +69,15 @@ def apply(path):
         else:
             di, mi = pos[1:].split(":"); m = p["days"][int(di)]["meals"][int(mi)]
         m["recipe"] = r; m.pop("recipeRequested", None); m.pop("recipeChange", None); p["updatedAt"] = t
+    for mon, np in ans.get("plans", {}).items():
+        p = docs.get("profile/plans/" + mon) or {}
+        known = {m.get("name"): m["recipe"] for m in [x for d in p.get("days", []) for x in d.get("meals", [])] + p.get("swaps", []) if m.get("recipe")}
+        for m in [x for d in np.get("days", []) for x in d.get("meals", [])] + np.get("swaps", []):
+            if not m.get("recipe") and m.get("name") in known: m["recipe"] = known[m["name"]]
+        wish = p.get("planChange")
+        p = {**{k: v for k, v in p.items() if k not in ("days", "swaps", "note", "planChange")}, **np, "updatedAt": t}
+        if wish: p["lastWish"] = wish[:300]
+        docs["profile/plans/" + mon] = p
     f["updatedAt"] = t
     json.dump(f, open(FILE, "w"), ensure_ascii=False, indent=1)
     print("ok")
