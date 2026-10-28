@@ -1,4 +1,4 @@
-"""Offene Anfragen aus der App (Schätzung und Rezepte), die Claude beim Abgleich beantwortet.
+"""Offene Anfragen aus der App (Schätzung, neue Rezepte und Rezeptänderungen: bei "change" das Rezept "current" nach dem Wunsch anpassen), die Claude beim Abgleich beantwortet.
 
 python3 tools/requests.py list <ordner>
     Druckt alle offenen Anfragen als JSON und legt Fotos als <ordner>/<ref>.jpg ab.
@@ -35,11 +35,11 @@ def list_requests(out):
             mon = k.rsplit("/", 1)[1]
             for di, day in enumerate(d.get("days", [])):
                 for mi, m in enumerate(day.get("meals", [])):
-                    if m.get("recipeRequested") and not m.get("recipe"):
-                        res["recipes"].append({"ref": f"{mon}|d{di}:{mi}", "name": m.get("name"), "detail": m.get("detail"), "kcal": m.get("kcal"), "protein": m.get("protein")})
+                    if (m.get("recipeRequested") and not m.get("recipe")) or m.get("recipeChange"):
+                        res["recipes"].append({"ref": f"{mon}|d{di}:{mi}", "name": m.get("name"), "detail": m.get("detail"), "kcal": m.get("kcal"), "protein": m.get("protein"), "change": m.get("recipeChange"), "current": m.get("recipe") if m.get("recipeChange") else None})
             for si, m in enumerate(d.get("swaps", [])):
-                if m.get("recipeRequested") and not m.get("recipe"):
-                    res["recipes"].append({"ref": f"{mon}|s:{si}", "name": m.get("name"), "detail": m.get("detail"), "kcal": m.get("kcal"), "protein": m.get("protein")})
+                if (m.get("recipeRequested") and not m.get("recipe")) or m.get("recipeChange"):
+                    res["recipes"].append({"ref": f"{mon}|s:{si}", "name": m.get("name"), "detail": m.get("detail"), "kcal": m.get("kcal"), "protein": m.get("protein"), "change": m.get("recipeChange"), "current": m.get("recipe") if m.get("recipeChange") else None})
     print(json.dumps(res, ensure_ascii=False, indent=1))
 
 
@@ -64,7 +64,7 @@ def apply(path):
             m = p["swaps"][int(pos[2:])]
         else:
             di, mi = pos[1:].split(":"); m = p["days"][int(di)]["meals"][int(mi)]
-        m["recipe"] = r; m.pop("recipeRequested", None); p["updatedAt"] = t
+        m["recipe"] = r; m.pop("recipeRequested", None); m.pop("recipeChange", None); p["updatedAt"] = t
     f["updatedAt"] = t
     json.dump(f, open(FILE, "w"), ensure_ascii=False, indent=1)
     print("ok")

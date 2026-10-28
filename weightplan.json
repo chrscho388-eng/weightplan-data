@@ -1,6 +1,6 @@
 {
  "app": "weightplan",
- "updatedAt": "2026-10-28T09:01:46.961Z",
+ "updatedAt": "2026-10-28T09:05:40.373Z",
  "docs": {
   "profile/days/2026-10-26": {
    "date": "2026-10-26",
@@ -71,7 +71,53 @@
        "detail": "250 g Hähnchenbrust, 80 g Basmatireis, 250 g Paprika und Zucchini, 15 g Öl, 30 g Sweet-Chili-Soße, 20 g Sojasoße",
        "kcal": 840,
        "protein": 68,
-       "cook": true
+       "cook": true,
+       "recipe": {
+        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+        "minutes": 25,
+        "ingredients": [
+         {
+          "amount": "80 g",
+          "item": "Basmatireis (roh)"
+         },
+         {
+          "amount": "250 g",
+          "item": "Hähnchenbrust, in Streifen"
+         },
+         {
+          "amount": "150 g",
+          "item": "Paprika, in Streifen"
+         },
+         {
+          "amount": "100 g",
+          "item": "Zucchini, in Halbmonden"
+         },
+         {
+          "amount": "15 g",
+          "item": "Öl"
+         },
+         {
+          "amount": "30 g",
+          "item": "Sweet-Chili-Soße"
+         },
+         {
+          "amount": "20 g",
+          "item": "Sojasoße"
+         },
+         {
+          "amount": "1 Prise",
+          "item": "Knoblauch, Pfeffer, optional Chiliflocken"
+         }
+        ],
+        "steps": [
+         "Reis nach Packungsangabe kochen.",
+         "Öl in einer großen Pfanne stark erhitzen, Hähnchen 4–5 Minuten rundum anbraten und herausnehmen.",
+         "Paprika und Zucchini in derselben Pfanne 4 Minuten bissfest braten, Knoblauch kurz mitbraten.",
+         "Hähnchen zurück in die Pfanne geben, Sojasoße und Sweet-Chili-Soße einrühren und 1 Minute glasieren.",
+         "Mit dem Reis anrichten."
+        ],
+        "tip": "Reis lässt sich am Vortag mitkochen, dann ist das Gericht in 15 Minuten fertig."
+       }
       },
       {
        "slot": "Nachtisch",
@@ -180,7 +226,45 @@
        "detail": "140 g Vollkornnudeln, 140 g Thunfisch (Wasser), 250 g Passata, 10 g Olivenöl, 30 g Parmesan",
        "kcal": 935,
        "protein": 67,
-       "cook": true
+       "cook": true,
+       "recipe": {
+        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+        "minutes": 15,
+        "ingredients": [
+         {
+          "amount": "140 g",
+          "item": "Vollkornnudeln (roh)"
+         },
+         {
+          "amount": "140 g",
+          "item": "Thunfisch in Wasser (abgetropft)"
+         },
+         {
+          "amount": "250 g",
+          "item": "Passata"
+         },
+         {
+          "amount": "10 g",
+          "item": "Olivenöl"
+         },
+         {
+          "amount": "30 g",
+          "item": "Parmesan, gerieben"
+         },
+         {
+          "amount": "1 Prise",
+          "item": "Knoblauch, Oregano, Salz, Pfeffer, Chiliflocken"
+         }
+        ],
+        "steps": [
+         "Nudeln in Salzwasser bissfest kochen, eine Tasse Nudelwasser aufheben.",
+         "Öl erhitzen, Knoblauch kurz anschwitzen, Passata dazu, würzen und 5 Minuten köcheln.",
+         "Thunfisch zerzupfen und 1–2 Minuten in der Soße erwärmen.",
+         "Nudeln untermischen, bei Bedarf etwas Nudelwasser dazu.",
+         "Mit Parmesan bestreuen."
+        ],
+        "tip": "Eine Handvoll Kirschtomaten oder Spinat passt gut dazu und kostet kaum Kalorien."
+       }
       },
       {
        "slot": "Nachtisch",
@@ -219,7 +303,53 @@
        "detail": "200 g Putenhack, 150 g Kidneybohnen (abgetropft), 200 g gehackte Tomaten, 100 g Paprika, 60 g Reis, 5 g Öl, 30 g Gouda",
        "kcal": 875,
        "protein": 66,
-       "cook": true
+       "cook": true,
+       "recipe": {
+        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+        "minutes": 30,
+        "ingredients": [
+         {
+          "amount": "60 g",
+          "item": "Reis (roh)"
+         },
+         {
+          "amount": "200 g",
+          "item": "Putenhack"
+         },
+         {
+          "amount": "5 g",
+          "item": "Öl"
+         },
+         {
+          "amount": "100 g",
+          "item": "Paprika, gewürfelt"
+         },
+         {
+          "amount": "200 g",
+          "item": "gehackte Tomaten (Dose)"
+         },
+         {
+          "amount": "150 g",
+          "item": "Kidneybohnen (abgetropft)"
+         },
+         {
+          "amount": "30 g",
+          "item": "Gouda, gerieben"
+         },
+         {
+          "amount": "nach Geschmack",
+          "item": "Kreuzkümmel, Paprikapulver, Chili, Knoblauch, Salz"
+         }
+        ],
+        "steps": [
+         "Reis nach Packungsangabe kochen.",
+         "Öl erhitzen, Putenhack krümelig braten und mit den Gewürzen würzen.",
+         "Paprika 3 Minuten mitbraten, dann Tomaten und Bohnen dazugeben.",
+         "10 Minuten offen köcheln lassen, bis es sämig ist, abschmecken.",
+         "Mit Reis servieren und mit Gouda bestreuen."
+        ],
+        "tip": "Am Freitag tagsüber kochen und abends nur aufwärmen. Schmeckt aufgewärmt sogar besser."
+       }
       },
       {
        "slot": "Nachtisch",
@@ -289,7 +419,50 @@
        "detail": "Topf: 600 g Hähnchenbrust, 600 g Gemüse (Paprika, Brokkoli, Karotte), 300 ml Aroy-D Kokosmilch, 40 g Currypaste, 10 g Öl, 240 g Reis; davon 1/3",
        "kcal": 790,
        "protein": 56,
-       "cook": true
+       "cook": true,
+       "recipe": {
+        "servings": "1/3 des Topfs (für 2 Personen: 2/3 verteilen, Rest am nächsten Tag)",
+        "minutes": 35,
+        "ingredients": [
+         {
+          "amount": "240 g",
+          "item": "Reis (roh, für den ganzen Topf)"
+         },
+         {
+          "amount": "600 g",
+          "item": "Hähnchenbrust, gewürfelt"
+         },
+         {
+          "amount": "10 g",
+          "item": "Öl"
+         },
+         {
+          "amount": "40 g",
+          "item": "rote Currypaste"
+         },
+         {
+          "amount": "600 g",
+          "item": "Gemüse: Paprika, Brokkoli, Karotte"
+         },
+         {
+          "amount": "300 ml",
+          "item": "Aroy-D Kokosmilch"
+         },
+         {
+          "amount": "nach Geschmack",
+          "item": "Fischsoße oder Salz, Limettensaft"
+         }
+        ],
+        "steps": [
+         "Reis nach Packungsangabe kochen.",
+         "Öl erhitzen, Currypaste 1 Minute anrösten.",
+         "Hähnchen dazu und 4 Minuten anbraten.",
+         "Karotte und Paprika zugeben, Kokosmilch angießen, 8 Minuten köcheln.",
+         "Brokkoli dazu und weitere 4 Minuten garen, mit Fischsoße und Limette abschmecken.",
+         "1/3 von Curry und Reis für dich portionieren."
+        ],
+        "tip": "Immer normale Aroy-D Kokosmilch, wie gewohnt. Für die Portion genau ein Drittel abwiegen."
+       }
       },
       {
        "slot": "Nachtisch",
@@ -308,17 +481,93 @@
      "detail": "200 g Lachs, 300 g Kartoffeln, 250 g Brokkoli, 10 g Öl, 100 g Magerquark mit Kräutern",
      "kcal": 870,
      "protein": 65,
-     "cook": true
+     "cook": true,
+     "recipe": {
+      "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+      "minutes": 35,
+      "ingredients": [
+       {
+        "amount": "300 g",
+        "item": "Kartoffeln, in Spalten"
+       },
+       {
+        "amount": "10 g",
+        "item": "Öl"
+       },
+       {
+        "amount": "200 g",
+        "item": "Lachsfilet"
+       },
+       {
+        "amount": "250 g",
+        "item": "Brokkoli, in Röschen"
+       },
+       {
+        "amount": "100 g",
+        "item": "Magerquark"
+       },
+       {
+        "amount": "nach Geschmack",
+        "item": "Kräuter (Schnittlauch, Dill), Zitrone, Salz, Pfeffer"
+       }
+      ],
+      "steps": [
+       "Ofen auf 200 °C Umluft vorheizen.",
+       "Kartoffeln mit dem Öl und Salz mischen und 15 Minuten backen.",
+       "Lachs und Brokkoli dazulegen, würzen und weitere 12–15 Minuten backen.",
+       "Quark mit Kräutern, Zitrone, Salz und Pfeffer verrühren.",
+       "Alles zusammen anrichten."
+      ],
+      "tip": "Alles auf einem Blech, wenig Abwasch."
+     }
     },
     {
      "name": "Putengeschnetzeltes mit Paprika und Reis",
      "detail": "250 g Putenbrust, 200 g Paprika, 100 g Kochsahne 15 %, 70 g Reis, 10 g Öl",
      "kcal": 820,
      "protein": 66,
-     "cook": true
+     "cook": true,
+     "recipe": {
+      "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+      "minutes": 20,
+      "ingredients": [
+       {
+        "amount": "70 g",
+        "item": "Reis (roh)"
+       },
+       {
+        "amount": "250 g",
+        "item": "Putenbrust, in Streifen"
+       },
+       {
+        "amount": "10 g",
+        "item": "Öl"
+       },
+       {
+        "amount": "200 g",
+        "item": "Paprika, in Streifen"
+       },
+       {
+        "amount": "100 g",
+        "item": "Kochsahne 15 %"
+       },
+       {
+        "amount": "nach Geschmack",
+        "item": "Paprikapulver edelsüß, Brühe-Pulver, Pfeffer"
+       }
+      ],
+      "steps": [
+       "Reis nach Packungsangabe kochen.",
+       "Öl erhitzen, Putenstreifen 4 Minuten scharf anbraten und herausnehmen.",
+       "Paprika 4 Minuten braten, mit Paprikapulver bestäuben.",
+       "Kochsahne und einen Schuss Wasser angießen, Brühepulver dazu, 2 Minuten köcheln.",
+       "Pute zurückgeben, kurz erwärmen und mit Reis servieren."
+      ],
+      "tip": "Statt Reis passen auch 200 g Kartoffeln bei gleichen Kalorien."
+     }
     }
    ],
-   "updatedAt": "2026-10-28T09:01:46.961Z",
+   "updatedAt": "2026-10-28T09:05:40.373Z",
    "lastWish": "Nach Chris' Wochenhinweisen erstellt"
   },
   "profile/days/2026-10-27": {
