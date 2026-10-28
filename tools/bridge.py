@@ -52,6 +52,9 @@ def main(root):
     if file_changed:
         remote = {"app": "weightplan", "updatedAt": datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z"), "docs": merged}
         json.dump(remote, open(FILE, "w"), ensure_ascii=False, indent=1)
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import settings_md
+    if settings_md.write(): file_changed = True
     print(json.dumps({"file_changed": file_changed, "artifact_writes": writes}, ensure_ascii=False, indent=1))
 
 
