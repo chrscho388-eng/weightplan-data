@@ -1,6 +1,6 @@
 {
  "app": "weightplan",
- "updatedAt": "2026-10-28T09:24:32.343Z",
+ "updatedAt": "2026-10-28T09:43:53.000Z",
  "docs": {
   "profile/days/2026-10-26": {
    "date": "2026-10-26",
@@ -1204,7 +1204,7 @@
    "startWeight": 92.9,
    "startWeightDate": "2026-10-27",
    "syncTriggerId": "trig_011D9TaBqUzpfjfUEAQxnHoN",
-   "updatedAt": "2026-10-28T08:56:55.008Z",
+   "updatedAt": "2026-10-28T09:43:53.000Z",
    "planNotes": {
     "2026-11-02": "Mo HO, Di und Mi Büro, Do und Fr HO. Di Abendprogramm ab 19 Uhr (Gespräch mit Freund). Mi Junkerverkostung in der Grazer Stadthalle. Fr Abendprogramm ab 19 Uhr. Sa Einladung bei uns, wahrscheinlich Grillen."
    },
@@ -1218,7 +1218,49 @@
      "Frei": 1
     },
     "protein": 5
-   }
+   },
+   "favorites": [
+    {
+     "label": "Joghurt mit Whey und Beeren",
+     "kcal": 580,
+     "protein": 59
+    },
+    {
+     "label": "Whey-Shake",
+     "kcal": 115,
+     "protein": 23
+    },
+    {
+     "label": "Skyr mit Beeren",
+     "kcal": 210,
+     "protein": 28
+    },
+    {
+     "label": "Kantine",
+     "kcal": 700,
+     "protein": 45
+    },
+    {
+     "label": "Skyr",
+     "kcal": 160,
+     "protein": 27
+    }
+   ],
+   "stepGoals": [
+    {
+     "from": "2026-10-26",
+     "steps": 13000
+    },
+    {
+     "from": "2026-11-09",
+     "steps": 15500
+    },
+    {
+     "from": "2026-11-16",
+     "steps": 18000,
+     "min": 13000
+    }
+   ]
   }
  }
 }
