@@ -15,7 +15,8 @@ Wird bei jedem Abgleich automatisch aus `weightplan.json` erzeugt. Ändern in de
   - 2027-03-30: 79,5 kg
 
 ## Dauerhafte Wünsche für alle Pläne
-- (keine)
+- Im Büro esse ich nie Frühstück
+- Trenne nicht auf zwischen Nachmittags und Abendessen, füge diese zusammen
 
 ## Hinweise für Schätzung und Plan (Profil)
 - Kokosmilch ist immer normale Aroy-D (ca. 180 kcal pro 100 ml), nie light.
