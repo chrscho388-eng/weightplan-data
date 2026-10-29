@@ -45,6 +45,7 @@ Wird bei jedem Abgleich automatisch aus `weightplan.json` erzeugt. Ändern in de
 - Skyr mit Beeren: 210 kcal, 28 g Eiweiß
 - Kantine: 700 kcal, 45 g Eiweiß
 - Skyr: 160 kcal, 27 g Eiweiß
+- Eiweißshake (100 g Whey): 380 kcal, 77 g Eiweiß
 
 ## Hinweise pro Woche
 - Woche ab 2026-11-02: Mo HO, Di und Mi Büro, Do und Fr HO. Di Abendprogramm ab 19 Uhr (Gespräch mit Freund). Mi Junkerverkostung in der Grazer Stadthalle. Fr Abendprogramm ab 19 Uhr. Sa Einladung bei uns, wahrscheinlich Grillen.
