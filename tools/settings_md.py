@@ -28,6 +28,8 @@ def render(p, plans):
     if c:
         per = ", ".join(f"{k} {v}" for k, v in (c.get("perType") or {}).items())
         L += ["", "## Kaffee", f"- Cappuccino {c.get('kcal')} kcal / {c.get('protein')} g Eiweiß, automatisch eingetragen ab {c.get('since')} ({per})"]
+        for typ, b in (c.get("byType") or {}).items():
+            L.append(f"- {typ}: {b.get('label', 'Cappuccino')} mit {num(b.get('kcal', 0), 1)} kcal / {num(b.get('protein', 0), 1)} g Eiweiß pro Tasse")
     if p.get("stepGoals"):
         L += ["", "## Schrittziele"]
         for g in p["stepGoals"]:

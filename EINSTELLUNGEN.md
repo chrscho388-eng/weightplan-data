@@ -31,6 +31,7 @@ Wird bei jedem Abgleich automatisch aus `weightplan.json` erzeugt. Ändern in de
 
 ## Kaffee
 - Cappuccino 95 kcal / 5 g Eiweiß, automatisch eingetragen ab 2026-10-28 (HO 1, Büro 3, WE 1, Frei 1)
+- Büro: Cappuccino (Firma) mit 47,5 kcal / 2,5 g Eiweiß pro Tasse
 
 ## Schrittziele
 - ab 2026-10-26: 13.000 Schritte
