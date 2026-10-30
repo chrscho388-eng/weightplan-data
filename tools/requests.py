@@ -1,7 +1,7 @@
 """Offene Anfragen aus der App (Schätzung, neue Rezepte und Rezeptänderungen: bei "change" das Rezept "current" nach dem Wunsch anpassen), die Claude beim Abgleich beantwortet.
 
 python3 tools/requests.py list <ordner>
-    Druckt alle offenen Anfragen als JSON und legt Fotos als <ordner>/<ref>.jpg ab.
+    Druckt alle offenen Anfragen als JSON und legt Fotos als <ordner>/<ref>.jpg ab (weitere als <ref>_2.jpg …, Liste in photo_files).
 python3 tools/requests.py apply <antworten.json>
     Schreibt die Antworten in weightplan.json (mit updatedAt). Format:
     {"estimates": {"<tag>|<meal-id>": {"label","kcal","protein","seen","parts":[{name,grams,kcal,protein}]}},
@@ -28,10 +28,13 @@ def list_requests(out):
                 if m.get("pending"):
                     ref = k.rsplit("/", 1)[1] + "|" + m["id"]
                     item = {"ref": ref, "text": m.get("request") or m.get("label", "")}
-                    if m.get("photo", "").startswith("data:image"):
-                        p = os.path.join(out, ref.replace("|", "_") + ".jpg")
-                        open(p, "wb").write(base64.b64decode(m["photo"].split(",", 1)[1]))
-                        item["photo_file"] = p
+                    # mehrere Fotos (z. B. Gericht und Nährwerttabelle): photos[], sonst photo
+                    pics = [x for x in (m.get("photos") or [m.get("photo", "")]) if str(x).startswith("data:image")]
+                    for i, pic in enumerate(pics):
+                        p = os.path.join(out, ref.replace("|", "_") + (f"_{i + 1}" if i else "") + ".jpg")
+                        open(p, "wb").write(base64.b64decode(pic.split(",", 1)[1]))
+                        item.setdefault("photo_files", []).append(p)
+                    if pics: item["photo_file"] = item["photo_files"][0]
                     res["estimates"].append(item)
         if k.startswith("profile/plans/"):
             mon = k.rsplit("/", 1)[1]
@@ -64,7 +67,7 @@ def apply(path):
                 m.update(label=e["label"], kcal=round(e["kcal"]), protein=round(e["protein"]))
                 if e.get("seen"): m["seen"] = e["seen"]
                 if e.get("parts"): m["parts"] = e["parts"]
-                m.pop("pending", None); m.pop("request", None)
+                m.pop("pending", None); m.pop("request", None); m.pop("photos", None)  # erstes Foto bleibt als photo
                 d["updatedAt"] = t
     for ref, r in ans.get("recipes", {}).items():
         mon, pos = ref.split("|")
