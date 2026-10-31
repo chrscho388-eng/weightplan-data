@@ -10,7 +10,9 @@ python3 tools/requests.py apply <antworten.json>
      bei "menu_file" das Kantinen-Menü im Bild für die Bürotage auswerten, Kantinen-Gewohnheiten in profile.canteenHabits)
 Danach tools/bridge.py laufen lassen, damit die claude.ai-Version die Antworten auch bekommt.
 """
-import base64, json, os, sys
+import base64, json, os, shutil, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import photos
 from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -29,10 +31,12 @@ def list_requests(out):
                     ref = k.rsplit("/", 1)[1] + "|" + m["id"]
                     item = {"ref": ref, "text": m.get("request") or m.get("label", "")}
                     # mehrere Fotos (z. B. Gericht und Nährwerttabelle): photos[], sonst photo
-                    pics = [x for x in (m.get("photos") or [m.get("photo", "")]) if str(x).startswith("data:image")]
+                    # inline (data:) oder Verweis auf photos/<id>.jpg
+                    pics = [x for x in (m.get("photos") or [m.get("photo", "")]) if str(x).startswith("data:image") or photos.file_for(x)]
                     for i, pic in enumerate(pics):
                         p = os.path.join(out, ref.replace("|", "_") + (f"_{i + 1}" if i else "") + ".jpg")
-                        open(p, "wb").write(base64.b64decode(pic.split(",", 1)[1]))
+                        if pic.startswith("data:image"): open(p, "wb").write(base64.b64decode(pic.split(",", 1)[1]))
+                        else: shutil.copy(photos.file_for(pic), p)
                         item.setdefault("photo_files", []).append(p)
                     if pics: item["photo_file"] = item["photo_files"][0]
                     res["estimates"].append(item)
@@ -41,9 +45,11 @@ def list_requests(out):
             if d.get("planChange"):
                 cur = {kk: d.get(kk) for kk in ("note", "days", "swaps") if d.get(kk) is not None}
                 item = {"ref": mon, "wish": d["planChange"], "current": cur}
-                if d.get("canteenMenu", "").startswith("data:image"):  # Kantinen-Menü der Woche als Bild
+                cm = d.get("canteenMenu", "")
+                if cm.startswith("data:image") or photos.file_for(cm):  # Kantinen-Menü der Woche als Bild
                     p = os.path.join(out, mon + "_kantine.jpg")
-                    open(p, "wb").write(base64.b64decode(d["canteenMenu"].split(",", 1)[1]))
+                    if cm.startswith("data:image"): open(p, "wb").write(base64.b64decode(cm.split(",", 1)[1]))
+                    else: shutil.copy(photos.file_for(cm), p)
                     item["menu_file"] = p
                 res["plans"].append(item)
             for di, day in enumerate(d.get("days", [])):
