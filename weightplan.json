@@ -1,6 +1,6 @@
 {
  "app": "weightplan",
- "updatedAt": "2026-10-31T14:31:36.776Z",
+ "updatedAt": "2026-10-31T14:38:24.000Z",
  "docs": {
   "profile/days/2026-10-26": {
    "date": "2026-10-26",
@@ -1351,7 +1351,7 @@
    "inclineFactor": 0.072,
    "kcalTarget": 2000,
    "eventKcal": 3000,
-   "proteinTarget": 180,
+   "proteinTarget": 150,
    "startDate": "2026-10-26",
    "startWeightDate": "2026-10-27",
    "startWeight": 92.9,
@@ -1390,7 +1390,7 @@
    ],
    "estimateHints": "Kokosmilch ist immer normale Aroy-D (ca. 180 kcal pro 100 ml), nie light.\nNo-Gos: Gurken, Champignons (andere Pilze ok), rohe Zwiebeln, Rind, Blattsalat (anderer Salat ok).\nAbendessen schnell und für zwei (mit Freundin). Home Office und Wochenende: Frühstück 250 g griech. Joghurt 10 % + 60 g Whey + 100 g Beeren, kein Mittag, nachmittags Shake 30 g Whey, großes Abendessen, Nachtisch 250 g Skyr + 100 g Beeren. Bürotag: Frühstück wie oben, Kantine mittags (~800 kcal), 250 g Skyr, kleines Abendessen (ab Woche 2 oft Juit, ≥35 g Eiweiß).\nDienstags und jeden zweiten Mittwoch Abendprogramm ohne Essen: an HO-Tagen Abendessen tagsüber vorbereiten, nach Bürotagen etwas Schnelles.\nGetränke: Wasser und zuckerfreier Sirup. Alkohol nur bei angekündigten Anlässen.\nKaffee: Cappuccino ca. 95 kcal und 5 g Eiweiß, an HO-Tagen und am Wochenende 1, an Bürotagen 3; wird automatisch eingetragen.",
    "syncTriggerId": "trig_011D9TaBqUzpfjfUEAQxnHoN",
-   "updatedAt": "2026-10-31T12:03:39.587Z",
+   "updatedAt": "2026-10-31T14:38:24.000Z",
    "planNotes": {
     "2026-11-02": "Mo HO, Di und Mi Büro, Do und Fr HO. Di Abendprogramm ab 19 Uhr (Gespräch mit Freund). Mi Junkerverkostung in der Grazer Stadthalle. Fr Abendprogramm ab 19 Uhr. Sa Einladung bei uns, wahrscheinlich Grillen. einen tag möchte ich summer rolls mit reiswrapper machen"
    },
@@ -1460,7 +1460,8 @@
     }
    ],
    "canteenHabits": "Suppe mit Einlage (z. B. Frittaten, Milchbrötchen), kleine Salatschüssel (meist Kartoffel- oder Käferbohnensalat mit etwas zusätzlichem Kernöl), Dessert: donnerstags meist eine kleine Portion Schmarren o. Ä., an den anderen Tagen eine Creme (z. B. Topfencreme, Panna cotta, Tiramisu) im kleinen 8-cl-Glas.",
-   "planRules": "Im Büro esse ich nie Frühstück\nTrenne nicht auf zwischen Nachmittags und Abendessen, füge diese zusammen"
+   "planRules": "Im Büro esse ich nie Frühstück\nTrenne nicht auf zwischen Nachmittags und Abendessen, füge diese zusammen",
+   "proteinOptimum": 180
   },
   "profile/days/2026-10-31": {
    "date": "2026-10-31",
