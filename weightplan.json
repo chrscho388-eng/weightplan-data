@@ -1,6 +1,6 @@
 {
  "app": "weightplan",
- "updatedAt": "2026-11-01T15:12:35.408Z",
+ "updatedAt": "2026-11-01T15:14:17.653Z",
  "docs": {
   "profile/days/2026-10-26": {
    "date": "2026-10-26",
@@ -1614,23 +1614,37 @@
     },
     {
      "id": "6g6tur7z",
-     "label": "165ml isabella frozzante",
-     "kcal": 0,
+     "label": "Isabella Frizzante (165 ml)",
+     "kcal": 97,
      "protein": 0,
-     "pending": true,
-     "request": "165ml isabella frozzante"
+     "seen": "165 ml Isabella Frizzante, laut Etikett 59 kcal pro 100 ml.",
+     "parts": [
+      {
+       "name": "Isabella Frizzante",
+       "grams": 165,
+       "kcal": 97,
+       "protein": 0
+      }
+     ]
     },
     {
      "id": "vhowj6nn",
-     "label": "165ml isabella frizzante",
-     "kcal": 0,
+     "label": "Isabella Frizzante (165 ml)",
+     "kcal": 97,
      "protein": 0,
-     "pending": true,
-     "request": "165ml isabella frizzante"
+     "seen": "165 ml Isabella Frizzante, laut Etikett 59 kcal pro 100 ml.",
+     "parts": [
+      {
+       "name": "Isabella Frizzante",
+       "grams": 165,
+       "kcal": 97,
+       "protein": 0
+      }
+     ]
     }
    ],
    "dayType": "WE",
-   "updatedAt": "2026-11-01T15:12:32.798Z",
+   "updatedAt": "2026-11-01T15:14:17.653Z",
    "inclineSteps": 9100,
    "removed": [
     "k24y5tnu"
