@@ -1600,21 +1600,21 @@
     {
      "id": "cluffqtm",
      "label": "Isabella Frizzante (165 ml)",
-     "kcal": 125,
+     "kcal": 97,
      "protein": 0,
-     "seen": "165 ml Isabella Frizzante, ca. 7,5 % vol, leicht süß.",
+     "seen": "165 ml Isabella Frizzante, laut Etikett 59 kcal pro 100 ml.",
      "parts": [
       {
        "name": "Isabella Frizzante",
        "grams": 165,
-       "kcal": 125,
+       "kcal": 97,
        "protein": 0
       }
      ]
     }
    ],
    "dayType": "WE",
-   "updatedAt": "2026-11-01T14:50:30.925Z",
+   "updatedAt": "2026-11-01T14:53:47.000Z",
    "inclineSteps": 9100,
    "removed": [
     "k24y5tnu"
