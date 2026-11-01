@@ -42,9 +42,9 @@
    "updatedAt": "2026-10-27T23:00:00.000Z"
   },
   "profile/plans/2026-11-02": {
-   "updatedAt": "2026-11-01T19:52:07.000Z",
-   "lastWish": "Grillabend mit 2.500 kcal schätzen",
-   "note": "Woche 2 (02.–08.11.): 2.000 kcal, Eiweiß mindestens 150 g, ideal 180 g, im Wochenschnitt. Kaffee ist in den Tagessummen nicht enthalten, er wird automatisch eingetragen. Mi ist Event-Tag. Gewichte roh. An Bürotagen kein Frühstück, Nachmittag und Abend als eine Mahlzeit. Vorrat verwertet: Bohnen, Tortillas und alle Tomaten am Mo (Chili mit Schwein), Schmand im Chili (Mo) und im Grill-Dip (Sa), griech. Joghurt im Frühstück (Mo, Do), Erbsen (Fr, So), Mais und Schweinefond (Mo, Fr). Do Summer Rolls. Mo kein Hähnchen.",
+   "updatedAt": "2026-11-01T20:49:45.000Z",
+   "lastWish": "Whey-Shakes nicht ins Abendessen kombinieren",
+   "note": "Woche 2 (02.–08.11.): 2.000 kcal, Eiweiß mindestens 150 g, ideal 180 g, im Wochenschnitt. Kaffee ist in den Tagessummen nicht enthalten, er wird automatisch eingetragen. Mi ist Event-Tag. Gewichte roh. An Bürotagen kein Frühstück, Nachmittag und Abend als eine Mahlzeit. Vorrat verwertet: Bohnen, Tortillas und alle Tomaten am Mo (Chili mit Schwein), Schmand im Chili (Mo) und im Grill-Dip (Sa), griech. Joghurt im Frühstück (Mo, Do), Erbsen (Fr, So), Mais und Schweinefond (Mo, Fr). Do Summer Rolls. Mo kein Hähnchen. Whey-Shakes als eigene Mahlzeit, nicht im Abendessen.",
    "days": [
     {
      "date": "2026-11-02",
@@ -60,11 +60,19 @@
        "cook": false
       },
       {
+       "slot": "Shake",
+       "name": "Whey-Shake",
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "protein": 23,
+       "cook": false
+      },
+      {
        "slot": "Abend",
        "name": "Chili mit Schweinefleisch, Bohnen und frischen Tomaten in Tortillas",
-       "detail": "200 g Schweineschnitzelfleisch (Oberschale), klein gewürfelt, 150 g Bohnen (Rest von letzter Woche), 60 g TK-Mais, 200 g frische Tomaten, 100 g Paprika, 100 ml Schweinefond, 1 Weizentortilla (60 g), 5 g Öl, 40 g Schmand; dazu Whey-Shake (30 g Whey mit Wasser)",
-       "kcal": 985,
-       "protein": 90,
+       "detail": "200 g Schweineschnitzelfleisch (Oberschale), klein gewürfelt, 150 g Bohnen (Rest von letzter Woche), 60 g TK-Mais, 200 g frische Tomaten, 100 g Paprika, 100 ml Schweinefond, 1 Weizentortilla (60 g), 5 g Öl, 40 g Schmand",
+       "kcal": 870,
+       "protein": 67,
        "cook": true,
        "recipe": {
         "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
@@ -144,11 +152,19 @@
        "cook": false
       },
       {
+       "slot": "Shake",
+       "name": "Whey-Shake",
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "protein": 23,
+       "cook": false
+      },
+      {
        "slot": "Abend",
        "name": "Juit-Gericht",
-       "detail": "Vor 19 Uhr essen. Gericht nach Wahl mit mindestens 35 g Eiweiß, Wert geschätzt; sag mir, was du bestellt hast; dazu Skyr (250 g Skyr); dazu Whey-Shake (30 g Whey in Wasser)",
-       "kcal": 725,
-       "protein": 90,
+       "detail": "Vor 19 Uhr essen. Gericht nach Wahl mit mindestens 35 g Eiweiß, Wert geschätzt; sag mir, was du bestellt hast; dazu Skyr (250 g Skyr)",
+       "kcal": 610,
+       "protein": 67,
        "cook": false
       }
      ]
@@ -190,11 +206,19 @@
        "cook": false
       },
       {
+       "slot": "Shake",
+       "name": "Whey-Shake",
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "protein": 23,
+       "cook": false
+      },
+      {
        "slot": "Abend",
        "name": "Summer Rolls mit Garnelen und Erdnuss-Dip",
-       "detail": "6 Reispapierblätter (50 g), 250 g Garnelen (roh), 40 g Reisnudeln, 100 g TK-Edamame (geschält), 60 g Karotte, 80 g Paprika, Kräuter (Minze, Koriander oder Basilikum); Dip: 25 g Erdnussbutter, 15 g Sojasoße, 10 g Sweet-Chili-Soße, Limette; dazu Whey-Shake (30 g Whey mit Wasser)",
-       "kcal": 950,
-       "protein": 91,
+       "detail": "6 Reispapierblätter (50 g), 250 g Garnelen (roh), 40 g Reisnudeln, 100 g TK-Edamame (geschält), 60 g Karotte, 80 g Paprika, Kräuter (Minze, Koriander oder Basilikum); Dip: 25 g Erdnussbutter, 15 g Sojasoße, 10 g Sweet-Chili-Soße, Limette",
+       "kcal": 835,
+       "protein": 68,
        "cook": true,
        "recipe": {
         "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
@@ -280,11 +304,19 @@
        "cook": false
       },
       {
+       "slot": "Shake",
+       "name": "Whey-Shake",
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "protein": 23,
+       "cook": false
+      },
+      {
        "slot": "Abend",
        "name": "Schweinefilet-Reispfanne mit Erbsen, Mais und Sweet Chili",
-       "detail": "250 g Schweinefilet, 60 g Basmatireis (in Schweinefond gekocht), 150 g Paprika, 80 g TK-Erbsen, 60 g TK-Mais, 15 g Öl, 30 g Sweet-Chili-Soße, 20 g Sojasoße; dazu Whey-Shake (30 g Whey mit Wasser)",
-       "kcal": 960,
-       "protein": 91,
+       "detail": "250 g Schweinefilet, 60 g Basmatireis (in Schweinefond gekocht), 150 g Paprika, 80 g TK-Erbsen, 60 g TK-Mais, 15 g Öl, 30 g Sweet-Chili-Soße, 20 g Sojasoße",
+       "kcal": 845,
+       "protein": 68,
        "cook": true,
        "recipe": {
         "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
@@ -367,7 +399,7 @@
       {
        "slot": "Abend",
        "name": "Grillabend",
-       "detail": "Geschätzt mit 2.500 kcal (Chris rechnet damit): Grillfleisch, Wurst, Beilagen, Dips und Getränke mit Gästen. Tipp: Geflügelspieße und Grillgemüse zuerst; dazu Whey-Shake (30 g Whey mit Wasser)",
+       "detail": "Geschätzt mit 2.500 kcal (Chris rechnet damit): Grillfleisch, Wurst, Beilagen, Dips und Getränke mit Gästen. Tipp: Geflügelspieße und Grillgemüse zuerst",
        "kcal": 2500,
        "protein": 130,
        "cook": false
@@ -388,11 +420,19 @@
        "cook": false
       },
       {
+       "slot": "Shake",
+       "name": "Whey-Shake",
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "protein": 23,
+       "cook": false
+      },
+      {
        "slot": "Abend",
        "name": "Hähnchen-Curry mit Erbsen und Reis (1/3 Topf)",
-       "detail": "Topf: 600 g Hähnchenbrust, 400 g Gemüse (Paprika, Karotte), 200 g TK-Erbsen, 300 ml Aroy-D Kokosmilch, 40 g Currypaste, 10 g Öl, 240 g Reis; davon 1/3; dazu Whey-Shake (30 g Whey mit Wasser)",
-       "kcal": 940,
-       "protein": 82,
+       "detail": "Topf: 600 g Hähnchenbrust, 400 g Gemüse (Paprika, Karotte), 200 g TK-Erbsen, 300 ml Aroy-D Kokosmilch, 40 g Currypaste, 10 g Öl, 240 g Reis; davon 1/3",
+       "kcal": 825,
+       "protein": 59,
        "cook": true,
        "recipe": {
         "servings": "1/3 des Topfs (für 2 Personen: 2/3 verteilen, Rest am nächsten Tag)",
@@ -1430,7 +1470,7 @@
    ],
    "estimateHints": "Kokosmilch ist immer normale Aroy-D (ca. 180 kcal pro 100 ml), nie light.\nNo-Gos: Gurken, Champignons (andere Pilze ok), rohe Zwiebeln, Rind, Blattsalat (anderer Salat ok).\nAbendessen schnell und für zwei (mit Freundin). Home Office und Wochenende: Frühstück 250 g griech. Joghurt 10 % + 60 g Whey + 100 g Beeren, kein Mittag, nachmittags Shake 30 g Whey, großes Abendessen, Nachtisch 250 g Skyr + 100 g Beeren. Bürotag: Frühstück wie oben, Kantine mittags (~800 kcal), 250 g Skyr, kleines Abendessen (ab Woche 2 oft Juit, ≥35 g Eiweiß).\nDienstags und jeden zweiten Mittwoch Abendprogramm ohne Essen: an HO-Tagen Abendessen tagsüber vorbereiten, nach Bürotagen etwas Schnelles.\nGetränke: Wasser und zuckerfreier Sirup. Alkohol nur bei angekündigten Anlässen.\nKaffee: Cappuccino ca. 95 kcal und 5 g Eiweiß, an HO-Tagen und am Wochenende 1, an Bürotagen 3; wird automatisch eingetragen.",
    "syncTriggerId": "trig_011D9TaBqUzpfjfUEAQxnHoN",
-   "updatedAt": "2026-11-01T19:41:24.756Z",
+   "updatedAt": "2026-11-01T20:49:45.000Z",
    "planNotes": {
     "2026-11-02": "Mo HO, Di und Mi Büro, Do und Fr HO. Di Abendprogramm ab 19 Uhr (Gespräch mit Freund). Mi Junkerverkostung in der Grazer Stadthalle. Fr Abendprogramm ab 19 Uhr. Sa Einladung bei uns, wahrscheinlich Grillen. einen tag möchte ich summer rolls mit reiswrapper machen\n\nIch habe von letzter Woche noch Bohnen, 2 Tortillas und habe insgesamt viel Mais und Erbsen tiefgefroren, die ich verarbeiten will. außerdem habe ich zu verwendenden schweinefont eingefroren. bitte kein hähnchen am montag, da ich sonntag schon hähnchen hatte. außerdem habe ich zum verwerten: ca. 150g Schmand, 300g 10% frtt griechisches yoghurt. noch viele tomaten (ca. 400g)"
    },
@@ -1500,7 +1540,7 @@
     }
    ],
    "canteenHabits": "Suppe mit Einlage (z. B. Frittaten, Milchbrötchen), kleine Salatschüssel (meist Kartoffel- oder Käferbohnensalat mit etwas zusätzlichem Kernöl), Dessert: donnerstags meist eine kleine Portion Schmarren o. Ä., an den anderen Tagen eine Creme (z. B. Topfencreme, Panna cotta, Tiramisu) im kleinen 8-cl-Glas.",
-   "planRules": "Im Büro esse ich nie Frühstück\nTrenne nicht auf zwischen Nachmittags und Abendessen, füge diese zusammen",
+   "planRules": "Im Büro esse ich nie Frühstück\nTrenne nicht auf zwischen Nachmittags und Abendessen, füge diese zusammen\nWhey-Shakes immer als eigene Mahlzeit, nie ins Abendessen kombinieren",
    "proteinOptimum": 180
   },
   "profile/days/2026-11-01": {
