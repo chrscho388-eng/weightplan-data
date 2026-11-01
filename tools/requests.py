@@ -83,6 +83,9 @@ def apply(path):
             m = p["swaps"][int(pos[2:])]
         else:
             di, mi = pos[1:].split(":"); m = p["days"][int(di)]["meals"][int(mi)]
+        r = dict(r); meal = r.pop("meal", None) or {}  # bei Rezeptänderung: Titel, Zutatenzeile und Werte mitziehen
+        for k in ("name", "detail", "kcal", "protein"):
+            if meal.get(k) not in (None, ""): m[k] = round(meal[k]) if k in ("kcal", "protein") else meal[k]
         m["recipe"] = r; m.pop("recipeRequested", None); m.pop("recipeChange", None); p["updatedAt"] = t
     for mon, np in ans.get("plans", {}).items():
         p = docs.get("profile/plans/" + mon) or {}
