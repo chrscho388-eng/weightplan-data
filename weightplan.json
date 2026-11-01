@@ -42,9 +42,9 @@
    "updatedAt": "2026-10-27T23:00:00.000Z"
   },
   "profile/plans/2026-11-02": {
-   "updatedAt": "2026-11-01T15:13:38.000Z",
-   "lastWish": "Putenchili am Montag zu ähnlich zu den Wraps, Montag Schwein",
-   "note": "Woche 2 (02.–08.11.): 2.000 kcal, Eiweiß mindestens 150 g, ideal 180 g, im Wochenschnitt. Kaffee ist in den Tagessummen nicht enthalten, er wird automatisch eingetragen. Mi ist Event-Tag. Gewichte roh. An Bürotagen kein Frühstück, Nachmittag und Abend als eine Mahlzeit. Vorrat verwertet: Bohnen und Tortillas (Fr, Chili, nicht direkt nach den Wraps vom So), Erbsen (Mo, So), Mais und Schweinefond (Mo, Fr). Do Summer Rolls. Mo Schwein statt Hähnchen.",
+   "updatedAt": "2026-11-01T15:14:05.000Z",
+   "lastWish": "Chili am Montag mit Schwein statt Pute",
+   "note": "Woche 2 (02.–08.11.): 2.000 kcal, Eiweiß mindestens 150 g, ideal 180 g, im Wochenschnitt. Kaffee ist in den Tagessummen nicht enthalten, er wird automatisch eingetragen. Mi ist Event-Tag. Gewichte roh. An Bürotagen kein Frühstück, Nachmittag und Abend als eine Mahlzeit. Vorrat verwertet: Bohnen und Tortillas gleich am Mo (Chili mit Schwein statt Pute), Erbsen (Fr, So), Mais und Schweinefond (Mo, Fr). Do Summer Rolls. Mo kein Hähnchen.",
    "days": [
     {
      "date": "2026-11-02",
@@ -61,64 +61,63 @@
       },
       {
        "slot": "Abend",
-       "name": "Schweinefilet-Reispfanne mit Erbsen, Mais und Sweet Chili",
-       "detail": "250 g Schweinefilet, 60 g Basmatireis (in Schweinefond gekocht), 150 g Paprika, 80 g TK-Erbsen, 60 g TK-Mais, 15 g Öl, 30 g Sweet-Chili-Soße, 20 g Sojasoße; dazu Whey-Shake (30 g Whey mit Wasser)",
-       "kcal": 960,
-       "protein": 91,
+       "name": "Chili mit Schweinefleisch, Bohnen und Mais in Tortillas",
+       "detail": "200 g Schweineschnitzelfleisch (Oberschale), klein gewürfelt, 150 g Bohnen (Rest von letzter Woche), 60 g TK-Mais, 200 g gehackte Tomaten, 100 g Paprika, 100 ml Schweinefond, 1 Weizentortilla (60 g), 5 g Öl, 30 g Gouda; dazu Whey-Shake (30 g Whey mit Wasser)",
+       "kcal": 1010,
+       "protein": 96,
        "cook": true,
        "recipe": {
         "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
-        "minutes": 25,
+        "minutes": 30,
         "ingredients": [
          {
-          "amount": "60 g",
-          "item": "Basmatireis (roh)"
+          "amount": "200 g",
+          "item": "Schweineschnitzelfleisch (Oberschale), in kleine Würfel geschnitten"
          },
          {
-          "amount": "150 ml",
-          "item": "Schweinefond (aus dem Vorrat) zum Reiskochen"
+          "amount": "5 g",
+          "item": "Öl"
          },
          {
-          "amount": "250 g",
-          "item": "Schweinefilet, in dünnen Streifen"
+          "amount": "100 g",
+          "item": "Paprika, gewürfelt"
+         },
+         {
+          "amount": "200 g",
+          "item": "gehackte Tomaten (Dose)"
+         },
+         {
+          "amount": "100 ml",
+          "item": "Schweinefond (Vorrat)"
          },
          {
           "amount": "150 g",
-          "item": "Paprika, in Streifen"
-         },
-         {
-          "amount": "80 g",
-          "item": "TK-Erbsen (Vorrat)"
+          "item": "Bohnen (Rest von letzter Woche, abgetropft)"
          },
          {
           "amount": "60 g",
           "item": "TK-Mais (Vorrat)"
          },
          {
-          "amount": "15 g",
-          "item": "Öl"
+          "amount": "1 Stück (60 g)",
+          "item": "Weizentortilla (Vorrat)"
          },
          {
           "amount": "30 g",
-          "item": "Sweet-Chili-Soße"
+          "item": "Gouda, gerieben"
          },
          {
-          "amount": "20 g",
-          "item": "Sojasoße"
-         },
-         {
-          "amount": "1 Prise",
-          "item": "Knoblauch, Pfeffer, optional Chiliflocken"
+          "amount": "nach Geschmack",
+          "item": "Kreuzkümmel, Paprikapulver, Chili, Knoblauch, Salz"
          }
         ],
         "steps": [
-         "Reis im Schweinefond (statt Wasser) nach Packungsangabe garen.",
-         "Öl in einer großen Pfanne stark erhitzen, Schweinefilet 3 Minuten rundum scharf anbraten und herausnehmen.",
-         "Paprika 3 Minuten braten, Erbsen und Mais gefroren dazugeben und 3 Minuten mitbraten, Knoblauch kurz mit.",
-         "Fleisch zurück in die Pfanne, Sojasoße und Sweet-Chili-Soße einrühren und 1 Minute glasieren.",
-         "Mit dem Reis anrichten."
+         "Öl erhitzen, Schweinewürfel bei hoher Hitze 4–5 Minuten rundum anbraten und mit den Gewürzen würzen.",
+         "Paprika 3 Minuten mitbraten, mit dem Schweinefond ablöschen, Tomaten, Bohnen und Mais dazugeben.",
+         "10–15 Minuten offen köcheln lassen, bis es sämig ist, abschmecken.",
+         "Tortilla kurz in einer trockenen Pfanne erwärmen, Chili hineingeben, mit Gouda bestreuen und einrollen oder offen essen."
         ],
-        "tip": "Kein Hähnchen, wie gewünscht, und bewusst kein Tex-Mex direkt nach den Wraps vom Sonntag. Verwertet Erbsen, Mais und Schweinefond aus dem Vorrat; Salz sparsam, der Fond würzt schon."
+        "tip": "Mit magerem Schwein statt Pute, damit es sich vom Hähnchen-Wraps-Abend am Sonntag abhebt. Verwertet Bohnen, die zwei Tortillas (eine pro Person), Mais und Fond aus dem Vorrat."
        }
       },
       {
@@ -270,7 +269,7 @@
     {
      "date": "2026-11-06",
      "type": "HO",
-     "info": "Abendprogramm ab 19 Uhr: Chili tagsüber kochen, gegen 18 Uhr essen. Kaffee: 1 Cappuccino (95 kcal) wird automatisch eingetragen",
+     "info": "Abendprogramm ab 19 Uhr: Reispfanne geht in 25 Minuten, gegen 18 Uhr essen. Kaffee: 1 Cappuccino (95 kcal) wird automatisch eingetragen",
      "meals": [
       {
        "slot": "Frühstück",
@@ -282,63 +281,64 @@
       },
       {
        "slot": "Abend",
-       "name": "Chili mit Putenhack, Bohnen und Mais in Tortillas",
-       "detail": "200 g Putenhack, 150 g Bohnen (Rest von letzter Woche), 60 g TK-Mais, 200 g gehackte Tomaten, 100 g Paprika, 100 ml Schweinefond, 1 Weizentortilla (60 g), 5 g Öl, 30 g Gouda; dazu Whey-Shake (30 g Whey mit Wasser)",
-       "kcal": 1010,
-       "protein": 92,
+       "name": "Schweinefilet-Reispfanne mit Erbsen, Mais und Sweet Chili",
+       "detail": "250 g Schweinefilet, 60 g Basmatireis (in Schweinefond gekocht), 150 g Paprika, 80 g TK-Erbsen, 60 g TK-Mais, 15 g Öl, 30 g Sweet-Chili-Soße, 20 g Sojasoße; dazu Whey-Shake (30 g Whey mit Wasser)",
+       "kcal": 960,
+       "protein": 91,
        "cook": true,
        "recipe": {
         "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
-        "minutes": 30,
+        "minutes": 25,
         "ingredients": [
          {
-          "amount": "200 g",
-          "item": "Putenhack"
+          "amount": "60 g",
+          "item": "Basmatireis (roh)"
          },
          {
-          "amount": "5 g",
-          "item": "Öl"
+          "amount": "150 ml",
+          "item": "Schweinefond (aus dem Vorrat) zum Reiskochen"
          },
          {
-          "amount": "100 g",
-          "item": "Paprika, gewürfelt"
-         },
-         {
-          "amount": "200 g",
-          "item": "gehackte Tomaten (Dose)"
-         },
-         {
-          "amount": "100 ml",
-          "item": "Schweinefond (Vorrat)"
+          "amount": "250 g",
+          "item": "Schweinefilet, in dünnen Streifen"
          },
          {
           "amount": "150 g",
-          "item": "Bohnen (Rest von letzter Woche, abgetropft)"
+          "item": "Paprika, in Streifen"
+         },
+         {
+          "amount": "80 g",
+          "item": "TK-Erbsen (Vorrat)"
          },
          {
           "amount": "60 g",
           "item": "TK-Mais (Vorrat)"
          },
          {
-          "amount": "1 Stück (60 g)",
-          "item": "Weizentortilla (Vorrat)"
+          "amount": "15 g",
+          "item": "Öl"
          },
          {
           "amount": "30 g",
-          "item": "Gouda, gerieben"
+          "item": "Sweet-Chili-Soße"
          },
          {
-          "amount": "nach Geschmack",
-          "item": "Kreuzkümmel, Paprikapulver, Chili, Knoblauch, Salz"
+          "amount": "20 g",
+          "item": "Sojasoße"
+         },
+         {
+          "amount": "1 Prise",
+          "item": "Knoblauch, Pfeffer, optional Chiliflocken"
          }
         ],
         "steps": [
-         "Öl erhitzen, Putenhack krümelig braten und mit den Gewürzen würzen.",
-         "Paprika 3 Minuten mitbraten, mit dem Schweinefond ablöschen, Tomaten, Bohnen und Mais dazugeben.",
-         "10–15 Minuten offen köcheln lassen, bis es sämig ist, abschmecken.",
-         "Tortilla kurz in einer trockenen Pfanne erwärmen, Chili hineingeben, mit Gouda bestreuen und einrollen oder offen essen."
+         "Reis im Schweinefond (statt Wasser) nach Packungsangabe garen.",
+         "Öl in einer großen Pfanne stark erhitzen, Schweinefilet 3 Minuten rundum scharf anbraten und herausnehmen.",
+         "Paprika 3 Minuten braten, Erbsen und Mais gefroren dazugeben und 3 Minuten mitbraten, Knoblauch kurz mit.",
+         "Fleisch zurück in die Pfanne, Sojasoße und Sweet-Chili-Soße einrühren und 1 Minute glasieren.",
+         "Mit dem Reis anrichten."
         ],
-        "tip": "Verwertet Bohnen, die zwei Tortillas (eine pro Person), Mais und Fond aus dem Vorrat. Tagsüber kochen, gegen 18 Uhr nur aufwärmen. Steht bewusst nicht direkt nach den Hähnchen-Wraps vom Sonntag."
+        "tip": "Geht in 25 Minuten, passt also gut vor dem Abendprogramm. Verwertet Erbsen, Mais und Schweinefond aus dem Vorrat; Salz sparsam, der Fond würzt schon."
        }
       },
       {
