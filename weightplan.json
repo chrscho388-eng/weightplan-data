@@ -42,8 +42,8 @@
    "updatedAt": "2026-10-27T23:00:00.000Z"
   },
   "profile/plans/2026-11-02": {
-   "updatedAt": "2026-11-01T19:42:56.625Z",
-   "lastWish": "nach hinweis",
+   "updatedAt": "2026-11-01T19:52:07.000Z",
+   "lastWish": "Grillabend mit 2.500 kcal schätzen",
    "note": "Woche 2 (02.–08.11.): 2.000 kcal, Eiweiß mindestens 150 g, ideal 180 g, im Wochenschnitt. Kaffee ist in den Tagessummen nicht enthalten, er wird automatisch eingetragen. Mi ist Event-Tag. Gewichte roh. An Bürotagen kein Frühstück, Nachmittag und Abend als eine Mahlzeit. Vorrat verwertet: Bohnen, Tortillas und alle Tomaten am Mo (Chili mit Schwein), Schmand im Chili (Mo) und im Grill-Dip (Sa), griech. Joghurt im Frühstück (Mo, Do), Erbsen (Fr, So), Mais und Schweinefond (Mo, Fr). Do Summer Rolls. Mo kein Hähnchen.",
    "days": [
     {
@@ -354,7 +354,7 @@
     {
      "date": "2026-11-07",
      "type": "WE",
-     "info": "Gäste: Freundin von deiner Freundin, es wird gegrillt. Tipp: Geflügelspieße und Grillgemüse zuerst, Wurst und Saucen sparsam. Kaffee: 1 Cappuccino (95 kcal) wird automatisch eingetragen",
+     "info": "Gäste: Freundin von deiner Freundin, es wird gegrillt, wie ein Event-Tag mit ca. 2.500 kcal am Abend angesetzt. Kaffee: 1 Cappuccino (95 kcal) wird automatisch eingetragen",
      "meals": [
       {
        "slot": "Frühstück",
@@ -367,9 +367,9 @@
       {
        "slot": "Abend",
        "name": "Grillabend",
-       "detail": "Geschätzt: 250 g Hähnchen- oder Putenspieße, 1 Grillwurst (100 g), 200 g Grillgemüse mit 10 g Öl, 1 Folienkartoffel (200 g) mit Kräuter-Dip aus 50 g Magerquark und 35 g Schmand (Rest aus dem Vorrat), etwas Grillsauce; dazu Whey-Shake (30 g Whey mit Wasser)",
-       "kcal": 1415,
-       "protein": 98,
+       "detail": "Geschätzt mit 2.500 kcal (Chris rechnet damit): Grillfleisch, Wurst, Beilagen, Dips und Getränke mit Gästen. Tipp: Geflügelspieße und Grillgemüse zuerst; dazu Whey-Shake (30 g Whey mit Wasser)",
+       "kcal": 2500,
+       "protein": 130,
        "cook": false
       }
      ]
