@@ -948,7 +948,7 @@
    "canteenAt": "2026-10-29T08:01:58.455Z",
    "canteenMenu": "photo:fd930ece05e686d3",
    "lastWish": "ich habe vor den lachs auf dem grill zu machen ... dünne Mayonnaiseschicht | außerdem sind es insgesamt 450g lachs mit haut für zwei personen",
-   "updatedAt": "2026-11-01T13:15:31.396Z",
+   "updatedAt": "2026-11-01T14:08:31.000Z",
    "note": "Woche 1: 2.000 kcal und 180 g Eiweiß pro Tag. Mo und Di sind vorbei, siehe Log. Gewichte roh. Ab 29.10.: an Bürotagen kein Frühstück, Nachmittag und Abend als eine Mahlzeit (deine dauerhaften Wünsche). 31.10.: Lachs auf Samstag, Puten-Wraps auf Sonntag verschoben; Ofengemüse mit Hähnchen als Tauschgericht.",
    "days": [
     {
@@ -1157,10 +1157,10 @@
       },
       {
        "cook": true,
-       "detail": "2 Vollkornwraps (120 g), 250 g Pute, 100 g Kidneybohnen, 80 g Mais, 150 g Paprika, 100 g Tomate, 5 g Öl, Joghurt-Dip; dazu Whey-Shake (30 g Whey mit Wasser)",
-       "kcal": 1080,
-       "name": "Puten-Wraps",
-       "protein": 108,
+       "detail": "2 Tortillas (124 g), 300 g Hähnchenbrust, 80 g Kidneybohnen, 60 g Mais, 150 g Paprika, 100 g Tomate, 5 g Öl, 60 g griech. Joghurt 2 % als Dip; dazu Whey-Shake (30 g Whey mit Wasser)",
+       "kcal": 1090,
+       "name": "Hähnchen-Wraps",
+       "protein": 118,
        "recipe": {
         "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
         "minutes": 20,
