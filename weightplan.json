@@ -1,6 +1,6 @@
 {
  "app": "weightplan",
- "updatedAt": "2026-11-01T19:42:56.625Z",
+ "updatedAt": "2026-11-02T06:43:54.000Z",
  "docs": {
   "profile/days/2026-10-26": {
    "date": "2026-10-26",
@@ -1982,6 +1982,612 @@
    "updatedAt": "2026-10-29T21:05:27.554Z",
    "flatSteps": 8250,
    "inclineSteps": 5150
+  },
+  "profile/plans/2026-11-09": {
+   "note": "Woche 3 (09.–15.11.): 2.000 kcal, Eiweiß mindestens 150 g, ideal 180 g, im Wochenschnitt. Bürotage Di und Do angenommen (keine Hinweise für die Woche) – bitte korrigieren, falls anders. Kein Frühstück im Büro, Shakes als eigene Mahlzeit. Di Abendprogramm. Kaffee ist nicht in den Mahlzeiten, er wird automatisch eingetragen. Ab dieser Woche Schrittziel 15.500. Gerichte bewusst neu: Gyros-Bowl, Kabeljau-Sugo, Gnocchi-Pfanne, Shakshuka, Schweinefilet-Spieße.",
+   "days": [
+    {
+     "date": "2026-11-09",
+     "type": "HO",
+     "info": "Kaffee: 1 Cappuccino (95 kcal) wird automatisch eingetragen",
+     "meals": [
+      {
+       "slot": "Frühstück",
+       "name": "Joghurt mit Whey und Beeren",
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "protein": 59,
+       "cook": false
+      },
+      {
+       "slot": "Shake",
+       "name": "Whey-Shake",
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "protein": 23,
+       "cook": false
+      },
+      {
+       "slot": "Abend",
+       "name": "Puten-Gyros-Bowl mit Bulgur, Tomaten und Knoblauch-Joghurt",
+       "cook": true,
+       "kcal": 890,
+       "protein": 89,
+       "detail": "250 g Putenbrust, 80 g Bulgur (roh), 150 g Paprika, 150 g Tomaten, 10 g Olivenöl, 150 g griech. Joghurt 2 % mit Knoblauch, 30 g Feta",
+       "recipe": {
+        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+        "minutes": 25,
+        "ingredients": [
+         {
+          "amount": "250 g",
+          "item": "Putenbrust, in dünnen Streifen"
+         },
+         {
+          "amount": "80 g",
+          "item": "Bulgur (roh)"
+         },
+         {
+          "amount": "150 g",
+          "item": "Paprika, in Streifen"
+         },
+         {
+          "amount": "150 g",
+          "item": "Tomaten, gewürfelt"
+         },
+         {
+          "amount": "10 g",
+          "item": "Olivenöl"
+         },
+         {
+          "amount": "150 g",
+          "item": "griechischer Joghurt 2 %"
+         },
+         {
+          "amount": "1 Zehe",
+          "item": "Knoblauch, gepresst"
+         },
+         {
+          "amount": "30 g",
+          "item": "Feta, zerbröselt"
+         },
+         {
+          "amount": "nach Geschmack",
+          "item": "Gyros-Gewürz (oder Paprika, Oregano, Kreuzkümmel), Zitrone, Salz"
+         }
+        ],
+        "steps": [
+         "Bulgur mit der doppelten Menge kochendem Salzwasser übergießen und 10 Minuten zugedeckt quellen lassen.",
+         "Pute mit Gyros-Gewürz mischen und im Öl bei hoher Hitze 5–6 Minuten knusprig braten, Paprika die letzten 3 Minuten mitbraten.",
+         "Joghurt mit Knoblauch, Zitrone und Salz verrühren.",
+         "Bulgur, Fleisch, Paprika und Tomaten in Schüsseln anrichten, Dip darauf und mit Feta bestreuen."
+        ],
+        "tip": "Schmeckt wie Gyros, aber ohne Fett aus der Fritteuse. Die Pute vorher 10 Minuten im Gewürz ziehen lassen, dann wird sie würziger."
+       }
+      },
+      {
+       "slot": "Nachtisch",
+       "name": "Skyr mit Beeren",
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "protein": 28,
+       "cook": false
+      }
+     ]
+    },
+    {
+     "date": "2026-11-10",
+     "type": "Büro",
+     "info": "Abendprogramm ab 19 Uhr: vorher schnell essen. Bürotag angenommen. Kaffee: 3 kleine Firmen-Cappuccinos (143 kcal) werden automatisch eingetragen",
+     "meals": [
+      {
+       "slot": "Mittag (Kantine)",
+       "name": "Kantine (Platzhalter)",
+       "detail": "Wird nach Menü-Upload genau geplant. Typisch: Suppe mit Einlage, Hauptgericht mit Fleisch, kleine Salatschüssel mit Kernöl, Creme im 8-cl-Glas",
+       "kcal": 850,
+       "protein": 40,
+       "cook": false
+      },
+      {
+       "slot": "Shake",
+       "name": "Whey-Shake",
+       "detail": "40 g Whey mit Wasser",
+       "kcal": 150,
+       "protein": 31,
+       "cook": false
+      },
+      {
+       "slot": "Abend",
+       "name": "Juit-Gericht und Skyr",
+       "detail": "Vor 19 Uhr essen. Juit-Gericht nach Wahl mit mindestens 45 g Eiweiß (ca. 600 kcal, geschätzt), sag mir, was du bestellt hast; dazu 350 g Skyr",
+       "kcal": 825,
+       "protein": 83,
+       "cook": false
+      }
+     ]
+    },
+    {
+     "date": "2026-11-11",
+     "type": "HO",
+     "info": "Kaffee: 1 Cappuccino (95 kcal) wird automatisch eingetragen",
+     "meals": [
+      {
+       "slot": "Frühstück",
+       "name": "Joghurt mit Whey und Beeren",
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "protein": 59,
+       "cook": false
+      },
+      {
+       "slot": "Shake",
+       "name": "Whey-Shake",
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "protein": 23,
+       "cook": false
+      },
+      {
+       "slot": "Abend",
+       "name": "Kabeljau in Tomaten-Paprika-Sugo mit Kartoffeln",
+       "cook": true,
+       "kcal": 845,
+       "protein": 59,
+       "detail": "250 g Kabeljau, 300 g Kartoffeln, 200 g passierte Tomaten, 150 g Paprika, 100 g Zucchini, 15 g Olivenöl, 30 g schwarze Oliven, 50 g Ciabatta",
+       "recipe": {
+        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+        "minutes": 30,
+        "ingredients": [
+         {
+          "amount": "300 g",
+          "item": "Kartoffeln, in Würfeln"
+         },
+         {
+          "amount": "15 g",
+          "item": "Olivenöl"
+         },
+         {
+          "amount": "150 g",
+          "item": "Paprika, gewürfelt"
+         },
+         {
+          "amount": "100 g",
+          "item": "Zucchini, gewürfelt"
+         },
+         {
+          "amount": "200 g",
+          "item": "passierte Tomaten"
+         },
+         {
+          "amount": "30 g",
+          "item": "schwarze Oliven"
+         },
+         {
+          "amount": "250 g",
+          "item": "Kabeljaufilet (TK aufgetaut oder frisch)"
+         },
+         {
+          "amount": "50 g",
+          "item": "Ciabatta"
+         },
+         {
+          "amount": "nach Geschmack",
+          "item": "Knoblauch, Kapern, Oregano, Zitrone, Salz, Pfeffer"
+         }
+        ],
+        "steps": [
+         "Kartoffeln in Salzwasser 15 Minuten garen.",
+         "Währenddessen Öl in einer breiten Pfanne erhitzen, Paprika und Zucchini 4 Minuten anbraten, Knoblauch kurz mit.",
+         "Passierte Tomaten, Oliven, Kapern und Oregano dazu und 5 Minuten köcheln.",
+         "Kabeljau salzen, in das Sugo legen und zugedeckt 7–8 Minuten bei kleiner Hitze gar ziehen lassen, bis er sich in Flocken teilt.",
+         "Mit Kartoffeln und Ciabatta zum Tunken servieren, Zitrone darüber."
+        ],
+        "tip": "Alles in einer Pfanne, wenig Abwasch. Statt Kabeljau geht auch Seelachs."
+       }
+      },
+      {
+       "slot": "Nachtisch",
+       "name": "Skyr mit Beeren",
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "protein": 28,
+       "cook": false
+      }
+     ]
+    },
+    {
+     "date": "2026-11-12",
+     "type": "Büro",
+     "info": "Bürotag angenommen. Kaffee: 3 kleine Firmen-Cappuccinos (143 kcal) werden automatisch eingetragen",
+     "meals": [
+      {
+       "slot": "Mittag (Kantine)",
+       "name": "Kantine (Platzhalter)",
+       "detail": "Wird nach Menü-Upload genau geplant. Typisch: Suppe mit Einlage, Hauptgericht mit Fleisch, kleine Salatschüssel mit Kernöl, donnerstags kleine Portion Schmarren",
+       "kcal": 900,
+       "protein": 40,
+       "cook": false
+      },
+      {
+       "slot": "Shake",
+       "name": "Whey-Shake",
+       "detail": "40 g Whey mit Wasser",
+       "kcal": 150,
+       "protein": 31,
+       "cook": false
+      },
+      {
+       "slot": "Abend",
+       "name": "Juit-Gericht und Skyr",
+       "detail": "Juit-Gericht nach Wahl mit mindestens 45 g Eiweiß (ca. 600 kcal, geschätzt), sag mir, was du bestellt hast; dazu 350 g Skyr",
+       "kcal": 825,
+       "protein": 83,
+       "cook": false
+      }
+     ]
+    },
+    {
+     "date": "2026-11-13",
+     "type": "HO",
+     "info": "Kaffee: 1 Cappuccino (95 kcal) wird automatisch eingetragen",
+     "meals": [
+      {
+       "slot": "Frühstück",
+       "name": "Joghurt mit Whey und Beeren",
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "protein": 59,
+       "cook": false
+      },
+      {
+       "slot": "Shake",
+       "name": "Whey-Shake",
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "protein": 23,
+       "cook": false
+      },
+      {
+       "slot": "Abend",
+       "name": "Gnocchi-Pfanne mit Hähnchen, Spinat und Kirschtomaten",
+       "cook": true,
+       "kcal": 965,
+       "protein": 72,
+       "detail": "250 g Gnocchi (Kühlregal), 200 g Hähnchenbrust, 100 g TK-Blattspinat, 150 g Kirschtomaten, 10 g Öl, 50 ml Kochsahne 15 %, 30 g Parmesan",
+       "recipe": {
+        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+        "minutes": 20,
+        "ingredients": [
+         {
+          "amount": "200 g",
+          "item": "Hähnchenbrust, in Würfeln"
+         },
+         {
+          "amount": "10 g",
+          "item": "Öl"
+         },
+         {
+          "amount": "250 g",
+          "item": "Gnocchi aus dem Kühlregal"
+         },
+         {
+          "amount": "150 g",
+          "item": "Kirschtomaten, halbiert"
+         },
+         {
+          "amount": "100 g",
+          "item": "TK-Blattspinat, aufgetaut und ausgedrückt"
+         },
+         {
+          "amount": "50 ml",
+          "item": "Kochsahne 15 %"
+         },
+         {
+          "amount": "30 g",
+          "item": "Parmesan, gerieben"
+         },
+         {
+          "amount": "nach Geschmack",
+          "item": "Knoblauch, Muskat, Salz, Pfeffer"
+         }
+        ],
+        "steps": [
+         "Hähnchen im Öl 5 Minuten rundum braten, salzen und herausnehmen.",
+         "Gnocchi ohne Vorkochen in die Pfanne geben und 5–6 Minuten goldbraun braten.",
+         "Tomaten und Spinat dazu, Knoblauch kurz mit, Kochsahne angießen und 2 Minuten einkochen.",
+         "Hähnchen zurück, mit Muskat und Pfeffer abschmecken und mit Parmesan bestreuen."
+        ],
+        "tip": "Gnocchi aus dem Kühlregal direkt in die Pfanne, ohne Kochen – so werden sie außen knusprig."
+       }
+      },
+      {
+       "slot": "Nachtisch",
+       "name": "Skyr mit Beeren",
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "protein": 28,
+       "cook": false
+      }
+     ]
+    },
+    {
+     "date": "2026-11-14",
+     "type": "WE",
+     "info": "Kaffee: 1 Cappuccino (95 kcal) wird automatisch eingetragen",
+     "meals": [
+      {
+       "slot": "Frühstück",
+       "name": "Joghurt mit Whey und Beeren",
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "protein": 59,
+       "cook": false
+      },
+      {
+       "slot": "Shake",
+       "name": "Whey-Shake",
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "protein": 23,
+       "cook": false
+      },
+      {
+       "slot": "Abend",
+       "name": "Shakshuka mit Kichererbsen, Feta und Bauernbrot",
+       "cook": true,
+       "kcal": 920,
+       "protein": 58,
+       "detail": "3 Eier, 100 g Eiklar, 400 g gehackte Tomaten, 150 g Paprika, 120 g Kichererbsen (abgetropft), 40 g Feta, 10 g Olivenöl, 80 g Bauernbrot",
+       "recipe": {
+        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+        "minutes": 25,
+        "ingredients": [
+         {
+          "amount": "10 g",
+          "item": "Olivenöl"
+         },
+         {
+          "amount": "150 g",
+          "item": "Paprika, gewürfelt"
+         },
+         {
+          "amount": "400 g",
+          "item": "gehackte Tomaten (Dose)"
+         },
+         {
+          "amount": "120 g",
+          "item": "Kichererbsen, abgetropft"
+         },
+         {
+          "amount": "3",
+          "item": "Eier"
+         },
+         {
+          "amount": "100 g",
+          "item": "Eiklar"
+         },
+         {
+          "amount": "40 g",
+          "item": "Feta"
+         },
+         {
+          "amount": "80 g",
+          "item": "Bauernbrot"
+         },
+         {
+          "amount": "nach Geschmack",
+          "item": "Knoblauch, Kreuzkümmel, Paprikapulver, Chiliflocken, Petersilie, Salz"
+         }
+        ],
+        "steps": [
+         "Paprika im Öl 4 Minuten anbraten, Knoblauch und Gewürze 1 Minute mitrösten.",
+         "Tomaten und Kichererbsen dazu und 8 Minuten sämig köcheln lassen.",
+         "Eiklar unterrühren, dann mit einem Löffel Mulden machen und die Eier hineinschlagen.",
+         "Zugedeckt bei kleiner Hitze 6–8 Minuten stocken lassen, bis das Eiweiß fest ist.",
+         "Mit Feta und Petersilie bestreuen und mit Brot servieren."
+        ],
+        "tip": "Gemütliches Samstagsessen direkt aus der Pfanne. Wer die Eier flüssig mag, nach 5 Minuten vom Herd nehmen."
+       }
+      },
+      {
+       "slot": "Nachtisch",
+       "name": "Skyr mit Beeren",
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "protein": 28,
+       "cook": false
+      }
+     ]
+    },
+    {
+     "date": "2026-11-15",
+     "type": "WE",
+     "info": "Kaffee: 1 Cappuccino (95 kcal) wird automatisch eingetragen",
+     "meals": [
+      {
+       "slot": "Frühstück",
+       "name": "Joghurt mit Whey und Beeren",
+       "detail": "250 g griech. Joghurt 10 %, 60 g Whey, 100 g Beeren",
+       "kcal": 580,
+       "protein": 59,
+       "cook": false
+      },
+      {
+       "slot": "Shake",
+       "name": "Whey-Shake",
+       "detail": "30 g Whey mit Wasser",
+       "kcal": 115,
+       "protein": 23,
+       "cook": false
+      },
+      {
+       "slot": "Abend",
+       "name": "Schweinefilet-Spieße mit Ofenkürbis und Kräuterquark",
+       "cook": true,
+       "kcal": 915,
+       "protein": 84,
+       "detail": "250 g Schweinefilet, 300 g Hokkaido, 200 g Kartoffeln, 150 g Paprika, 15 g Öl, 150 g Magerquark mit Kräutern",
+       "recipe": {
+        "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+        "minutes": 40,
+        "ingredients": [
+         {
+          "amount": "300 g",
+          "item": "Hokkaido-Kürbis, mit Schale in Spalten"
+         },
+         {
+          "amount": "200 g",
+          "item": "Kartoffeln, in Spalten"
+         },
+         {
+          "amount": "15 g",
+          "item": "Öl"
+         },
+         {
+          "amount": "250 g",
+          "item": "Schweinefilet, in 3 cm Würfeln"
+         },
+         {
+          "amount": "150 g",
+          "item": "Paprika, in Stücken"
+         },
+         {
+          "amount": "150 g",
+          "item": "Magerquark"
+         },
+         {
+          "amount": "nach Geschmack",
+          "item": "Kräuter (Schnittlauch, Petersilie), Knoblauch, Rosmarin, Paprikapulver, Salz, Pfeffer"
+         },
+         {
+          "amount": "2–3",
+          "item": "Holz- oder Metallspieße"
+         }
+        ],
+        "steps": [
+         "Ofen auf 220 °C Ober-/Unterhitze vorheizen. Kürbis und Kartoffeln mit zwei Dritteln vom Öl, Salz und Rosmarin aufs Blech geben und 15 Minuten backen.",
+         "Fleisch und Paprika abwechselnd aufspießen, mit restlichem Öl, Paprikapulver, Salz und Pfeffer einreiben.",
+         "Spieße aufs Blech legen und weitere 15 Minuten backen, einmal wenden.",
+         "Quark mit Kräutern, Knoblauch und etwas Wasser cremig rühren.",
+         "Alles zusammen anrichten."
+        ],
+        "tip": "Alles auf einem Blech. Schweinefilet nicht zu lange backen, innen darf es leicht rosa sein."
+       }
+      },
+      {
+       "slot": "Nachtisch",
+       "name": "Skyr mit Beeren",
+       "detail": "250 g Skyr, 100 g Beeren",
+       "kcal": 210,
+       "protein": 28,
+       "cook": false
+      }
+     ]
+    }
+   ],
+   "swaps": [
+    {
+     "name": "Tofu-Brokkoli-Pfanne mit Erdnuss-Soße und Reis",
+     "detail": "250 g Tofu natur, 250 g Brokkoli, 100 g Karotte, 70 g Reis (roh), 20 g Erdnussbutter, 20 g Sojasoße, 10 g Öl",
+     "kcal": 890,
+     "protein": 49,
+     "cook": true,
+     "recipe": {
+      "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+      "minutes": 25,
+      "ingredients": [
+       {
+        "amount": "70 g",
+        "item": "Reis (roh)"
+       },
+       {
+        "amount": "250 g",
+        "item": "Tofu natur, gewürfelt und trocken getupft"
+       },
+       {
+        "amount": "10 g",
+        "item": "Öl"
+       },
+       {
+        "amount": "250 g",
+        "item": "Brokkoli, in Röschen"
+       },
+       {
+        "amount": "100 g",
+        "item": "Karotte, in Scheiben"
+       },
+       {
+        "amount": "20 g",
+        "item": "Erdnussbutter"
+       },
+       {
+        "amount": "20 g",
+        "item": "Sojasoße"
+       },
+       {
+        "amount": "nach Geschmack",
+        "item": "Limette, Ingwer, Knoblauch, Chili"
+       }
+      ],
+      "steps": [
+       "Reis nach Packungsangabe kochen.",
+       "Tofu im Öl 6–8 Minuten rundum knusprig braten und herausnehmen.",
+       "Brokkoli und Karotte mit einem Schuss Wasser 4 Minuten zugedeckt dünsten.",
+       "Erdnussbutter, Sojasoße, Limette, Ingwer und 3 EL warmes Wasser verrühren, mit Tofu zum Gemüse geben und kurz schwenken.",
+       "Mit Reis servieren."
+      ],
+      "tip": "Etwas weniger Eiweiß als die anderen Gerichte, an dem Tag den Skyr groß nehmen."
+     }
+    },
+    {
+     "name": "Ofen-Feta mit Tomaten, Kichererbsen und Hähnchen",
+     "detail": "200 g Hähnchenbrust, 60 g Feta, 300 g Kirschtomaten, 150 g Kichererbsen (abgetropft), 10 g Olivenöl, 60 g Baguette",
+     "kcal": 860,
+     "protein": 74,
+     "cook": true,
+     "recipe": {
+      "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
+      "minutes": 30,
+      "ingredients": [
+       {
+        "amount": "300 g",
+        "item": "Kirschtomaten"
+       },
+       {
+        "amount": "150 g",
+        "item": "Kichererbsen, abgetropft"
+       },
+       {
+        "amount": "10 g",
+        "item": "Olivenöl"
+       },
+       {
+        "amount": "60 g",
+        "item": "Feta (am Stück)"
+       },
+       {
+        "amount": "200 g",
+        "item": "Hähnchenbrust, in Würfeln"
+       },
+       {
+        "amount": "60 g",
+        "item": "Baguette"
+       },
+       {
+        "amount": "nach Geschmack",
+        "item": "Knoblauch, Oregano, Chiliflocken, Salz, Pfeffer"
+       }
+      ],
+      "steps": [
+       "Ofen auf 200 °C vorheizen.",
+       "Tomaten, Kichererbsen und Hähnchen mit Öl, Knoblauch und Gewürzen in eine Auflaufform geben, Feta in die Mitte legen.",
+       "25 Minuten backen, bis das Hähnchen durch ist und die Tomaten platzen.",
+       "Feta grob zerdrücken, alles vermengen und mit Baguette servieren."
+      ],
+      "tip": "Der Feta wird im Ofen cremig und ist gleich die Soße."
+     }
+    }
+   ],
+   "updatedAt": "2026-11-02T06:43:54.000Z"
   }
  }
 }
