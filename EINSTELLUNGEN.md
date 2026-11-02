@@ -5,7 +5,7 @@ Wird bei jedem Abgleich automatisch aus `weightplan.json` erzeugt. Ändern in de
 ## Ziele
 - Start: 92,9 kg am 2026-10-27
 - Ziel: 79,5 kg spätestens 2027-03-30
-- Pro Tag: 2.000 kcal und 180 g Eiweiß; Event-Tage frei (Rahmen 3.000 kcal)
+- Pro Tag: 2.000 kcal und 150 g Eiweiß; Event-Tage frei (Rahmen 3.000 kcal)
   - 2026-10-27: 92,9 kg
   - 2026-12-01: 89,6 kg
   - 2026-12-22: 87,5 kg
@@ -17,6 +17,7 @@ Wird bei jedem Abgleich automatisch aus `weightplan.json` erzeugt. Ändern in de
 ## Dauerhafte Wünsche für alle Pläne
 - Im Büro esse ich nie Frühstück
 - Trenne nicht auf zwischen Nachmittags und Abendessen, füge diese zusammen
+- Whey-Shakes immer als eigene Mahlzeit, nie ins Abendessen kombinieren
 
 ## Hinweise für Schätzung und Plan (Profil)
 - Kokosmilch ist immer normale Aroy-D (ca. 180 kcal pro 100 ml), nie light.
@@ -28,7 +29,7 @@ Wird bei jedem Abgleich automatisch aus `weightplan.json` erzeugt. Ändern in de
 
 ## Kantine (Bürotage)
 - Suppe mit Einlage (z. B. Frittaten, Milchbrötchen), kleine Salatschüssel (meist Kartoffel- oder Käferbohnensalat mit etwas zusätzlichem Kernöl), Dessert: donnerstags meist eine kleine Portion Schmarren o. Ä., an den anderen Tagen eine Creme (z. B. Topfencreme, Panna cotta, Tiramisu) im kleinen 8-cl-Glas.
-- Menü hochgeladen für: Woche ab 2026-10-26
+- Menü hochgeladen für: Woche ab 2026-10-26, Woche ab 2026-11-02
 
 ## Kaffee
 - Cappuccino 95 kcal / 5 g Eiweiß, automatisch eingetragen ab 2026-10-28 (HO 1, Büro 3, WE 1, Frei 1)
@@ -49,3 +50,5 @@ Wird bei jedem Abgleich automatisch aus `weightplan.json` erzeugt. Ändern in de
 
 ## Hinweise pro Woche
 - Woche ab 2026-11-02: Mo HO, Di und Mi Büro, Do und Fr HO. Di Abendprogramm ab 19 Uhr (Gespräch mit Freund). Mi Junkerverkostung in der Grazer Stadthalle. Fr Abendprogramm ab 19 Uhr. Sa Einladung bei uns, wahrscheinlich Grillen. einen tag möchte ich summer rolls mit reiswrapper machen
+
+Ich habe von letzter Woche noch Bohnen, 2 Tortillas und habe insgesamt viel Mais und Erbsen tiefgefroren, die ich verarbeiten will. außerdem habe ich zu verwendenden schweinefont eingefroren. bitte kein hähnchen am montag, da ich sonntag schon hähnchen hatte. außerdem habe ich zum verwerten: ca. 150g Schmand, 300g 10% frtt griechisches yoghurt. noch viele tomaten (ca. 400g)
