@@ -32,7 +32,7 @@ Wird bei jedem Abgleich automatisch aus `weightplan.json` erzeugt. Ändern in de
 - Menü hochgeladen für: Woche ab 2026-10-26, Woche ab 2026-11-02
 
 ## Kaffee
-- Cappuccino 95 kcal / 5 g Eiweiß, automatisch eingetragen ab 2026-10-28 (HO 1, Büro 3, WE 1, Frei 1)
+- Cappuccino 95 kcal / 5 g Eiweiß, automatisch eingetragen ab 2026-10-28 (Büro 3, Frei 1, HO 1, WE 1)
 - Büro: Cappuccino (Firma) mit 47,5 kcal / 2,5 g Eiweiß pro Tasse
 
 ## Schrittziele
