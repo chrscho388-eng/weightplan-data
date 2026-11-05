@@ -5,7 +5,7 @@ python3 tools/requests.py list <ordner>
 python3 tools/requests.py apply <antworten.json>
     Schreibt die Antworten in weightplan.json (mit updatedAt). Format:
     {"estimates": {"<tag>|<meal-id>": {"label","kcal","protein","seen","parts":[{name,grams,kcal,protein}]}},
-     "recipes": {"<plan-montag>|d<tag>:<i> oder s:<i>": {"servings","minutes","ingredients":[{amount,item}],"steps":[],"tip"}},
+     "recipes": {"<plan-montag>|d<tag>:<i> oder s:<i>": {"servings","minutes","ingredients":[{amount,item,note?,have?}],"steps":[],"tip"}},
      "plans": {"<plan-montag>": {"note","days":[...],"swaps":[...]}}}  (Planänderung nach "wish"; Rezepte gleichnamiger Gerichte bleiben erhalten;
      bei "menu_file" das Kantinen-Menü im Bild für die Bürotage auswerten, Kantinen-Gewohnheiten in profile.canteenHabits)
 Danach tools/bridge.py laufen lassen, damit die claude.ai-Version die Antworten auch bekommt.
