@@ -1,6 +1,6 @@
 {
   "app": "weightplan",
-  "updatedAt": "2026-11-05T15:15:17.209Z",
+  "updatedAt": "2026-11-05T15:21:34.899Z",
   "docs": {
     "profile/days/2026-10-26": {
       "date": "2026-10-26",
@@ -261,14 +261,6 @@
                 "tip": "Alles vorbereiten und am Tisch gemeinsam rollen, das geht schnell und macht Spaß. Statt Garnelen passen auch 220 g gebratene Hähnchenbruststreifen."
               },
               "slot": "Abend"
-            },
-            {
-              "cook": false,
-              "detail": "150 g gegrillte Hähnchenbrust mit Paprika (Schätzung)",
-              "kcal": 200,
-              "name": "Hähnchenbrust-Snack",
-              "protein": 40,
-              "slot": "Snack"
             }
           ],
           "type": "HO"
@@ -338,14 +330,6 @@
                 "tip": "Geht in 25 Minuten, passt also gut vor dem Abendprogramm. Verwertet Erbsen, Mais und Schweinefond aus dem Vorrat; Salz sparsam, der Fond würzt schon."
               },
               "slot": "Abend"
-            },
-            {
-              "cook": false,
-              "detail": "150 g gegrillte Hähnchenbrust mit Paprika (Schätzung)",
-              "kcal": 200,
-              "name": "Hähnchenbrust-Snack",
-              "protein": 40,
-              "slot": "Snack"
             }
           ],
           "type": "HO"
@@ -423,14 +407,6 @@
                 "tip": "Immer normale Aroy-D Kokosmilch, wie gewohnt. Erbsen aus dem Vorrat statt Brokkoli."
               },
               "slot": "Abend"
-            },
-            {
-              "cook": false,
-              "detail": "150 g gegrillte Hähnchenbrust mit Paprika (Schätzung)",
-              "kcal": 200,
-              "name": "Hähnchenbrust-Snack",
-              "protein": 40,
-              "slot": "Snack"
             }
           ],
           "type": "WE"
@@ -530,7 +506,7 @@
           }
         }
       ],
-      "updatedAt": "2026-11-05T15:15:17.209Z"
+      "updatedAt": "2026-11-05T15:21:34.899Z"
     },
     "profile/days/2026-10-27": {
       "date": "2026-10-27",
@@ -829,14 +805,6 @@
                 ],
                 "tip": "Schmeckt wie Gyros, aber ohne Fett aus der Fritteuse. Die Pute vorher 10 Minuten im Gewürz ziehen lassen, dann wird sie würziger."
               }
-            },
-            {
-              "slot": "Snack",
-              "name": "Hähnchenbrust-Snack",
-              "detail": "150 g gegrillte Hähnchenbrust mit Paprika (Schätzung)",
-              "kcal": 200,
-              "protein": 40,
-              "cook": false
             }
           ]
         },
@@ -925,14 +893,6 @@
                 ],
                 "tip": "Alles in einer Pfanne, wenig Abwasch. Statt Kabeljau geht auch Seelachs."
               }
-            },
-            {
-              "slot": "Snack",
-              "name": "Hähnchenbrust-Snack",
-              "detail": "150 g gegrillte Hähnchenbrust mit Paprika (Schätzung)",
-              "kcal": 200,
-              "protein": 40,
-              "cook": false
             }
           ]
         },
@@ -1016,14 +976,6 @@
                 ],
                 "tip": "Gnocchi aus dem Kühlregal direkt in die Pfanne, ohne Kochen – so werden sie außen knusprig."
               }
-            },
-            {
-              "slot": "Snack",
-              "name": "Hähnchenbrust-Snack",
-              "detail": "150 g gegrillte Hähnchenbrust mit Paprika (Schätzung)",
-              "kcal": 200,
-              "protein": 40,
-              "cook": false
             }
           ]
         },
@@ -1089,14 +1041,6 @@
                 ],
                 "tip": "Gemütliches Samstagsessen direkt aus der Pfanne. Wer die Eier flüssig mag, nach 5 Minuten vom Herd nehmen."
               }
-            },
-            {
-              "slot": "Snack",
-              "name": "Hähnchenbrust-Snack",
-              "detail": "150 g gegrillte Hähnchenbrust mit Paprika (Schätzung)",
-              "kcal": 200,
-              "protein": 40,
-              "cook": false
             }
           ]
         },
@@ -1158,14 +1102,6 @@
                 ],
                 "tip": "Alles auf einem Blech. Schweinefilet nicht zu lange backen, innen darf es leicht rosa sein."
               }
-            },
-            {
-              "slot": "Snack",
-              "name": "Hähnchenbrust-Snack",
-              "detail": "150 g gegrillte Hähnchenbrust mit Paprika (Schätzung)",
-              "kcal": 200,
-              "protein": 40,
-              "cook": false
             }
           ]
         }
@@ -1273,7 +1209,7 @@
           }
         }
       ],
-      "updatedAt": "2026-11-05T15:15:17.209Z",
+      "updatedAt": "2026-11-05T15:21:34.899Z",
       "lastWish": "Neuer dauerhafter Wunsch: Trage Wheyshake, Joghurt und Skyr nicht mehr in den Plan ein. (ab heute, vergangene Tage nicht ändern)"
     },
     "profile/days/2026-10-30": {
