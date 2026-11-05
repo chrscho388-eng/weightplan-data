@@ -1,6 +1,6 @@
 {
   "app": "weightplan",
-  "updatedAt": "2026-11-05T15:12:51.682Z",
+  "updatedAt": "2026-11-05T15:15:17.209Z",
   "docs": {
     "profile/days/2026-10-26": {
       "date": "2026-10-26",
@@ -437,7 +437,7 @@
         }
       ],
       "lastWish": "Trage Wheyshake, Joghurt und Skyr nicht mehr in den Plan ein. | Neuer dauerhafter Wunsch: Trage Wheyshake, Joghurt und Skyr nicht mehr in den Plan ein. (ab heute, vergangene Tage nicht ändern)",
-      "note": "Woche 2 (02.–08.11.): 2.000 kcal, Eiweiß mindestens 150 g, ideal 180 g, im Wochenschnitt. Kaffee ist in den Tagessummen nicht enthalten, er wird automatisch eingetragen. Mi ist Event-Tag. Gewichte roh. An Bürotagen kein Frühstück, Nachmittag und Abend als eine Mahlzeit. Vorrat verwertet: Bohnen, Tortillas und alle Tomaten am Mo (Chili mit Schwein), Schmand im Chili (Mo) und im Grill-Dip (Sa), griech. Joghurt im Frühstück (Mo, Do), Erbsen (Fr, So), Mais und Schweinefond (Mo, Fr). Do Summer Rolls. Mo kein Hähnchen. Whey-Shakes als eigene Mahlzeit, nicht im Abendessen. Kantine Di und Mi nach dem Wochenmenü eingeplant.",
+      "note": "Woche 2 (02.–08.11.): 2.000 kcal, Eiweiß mindestens 150 g, ideal 180 g, im Wochenschnitt. Kaffee ist in den Tagessummen nicht enthalten, er wird automatisch eingetragen. Mi ist Event-Tag. Gewichte roh. An Bürotagen kein Frühstück, Nachmittag und Abend als eine Mahlzeit. Vorrat verwertet: Bohnen, Tortillas und alle Tomaten am Mo (Chili mit Schwein), Schmand im Chili (Mo) und im Grill-Dip (Sa), Erbsen (Fr, So), Mais und Schweinefond (Mo, Fr). Do Summer Rolls. Mo kein Hähnchen. Kantine Di und Mi nach dem Wochenmenü eingeplant.",
       "swaps": [
         {
           "cook": true,
@@ -530,7 +530,7 @@
           }
         }
       ],
-      "updatedAt": "2026-11-05T15:12:51.682Z"
+      "updatedAt": "2026-11-05T15:15:17.209Z"
     },
     "profile/days/2026-10-27": {
       "date": "2026-10-27",
@@ -766,7 +766,7 @@
       "updatedAt": "2026-10-28T20:56:59.159Z"
     },
     "profile/plans/2026-11-09": {
-      "note": "Woche 3 (09.–15.11.): 2.000 kcal, Eiweiß mindestens 150 g, ideal 180 g, im Wochenschnitt. Bürotage Di und Do angenommen (keine Hinweise für die Woche) – bitte korrigieren, falls anders. Kein Frühstück im Büro, Shakes als eigene Mahlzeit. Di Abendprogramm. Kaffee ist nicht in den Mahlzeiten, er wird automatisch eingetragen. Ab dieser Woche Schrittziel 15.500. Gerichte bewusst neu: Gyros-Bowl, Kabeljau-Sugo, Gnocchi-Pfanne, Shakshuka, Schweinefilet-Spieße.",
+      "note": "Woche 3 (09.–15.11.): 2.000 kcal, Eiweiß mindestens 150 g, ideal 180 g, im Wochenschnitt. Bürotage Di und Do angenommen (keine Hinweise für die Woche) – bitte korrigieren, falls anders. Kein Frühstück im Büro. Di Abendprogramm. Kaffee ist nicht in den Mahlzeiten, er wird automatisch eingetragen. Ab dieser Woche Schrittziel 15.500. Gerichte bewusst neu: Gyros-Bowl, Kabeljau-Sugo, Gnocchi-Pfanne, Shakshuka, Schweinefilet-Spieße.",
       "days": [
         {
           "date": "2026-11-09",
@@ -779,7 +779,7 @@
               "cook": true,
               "kcal": 890,
               "protein": 89,
-              "detail": "250 g Putenbrust, 80 g Bulgur (roh), 150 g Paprika, 150 g Tomaten, 10 g Olivenöl, 150 g griech. Joghurt 2 % mit Knoblauch, 30 g Feta",
+              "detail": "250 g Putenbrust, 80 g Bulgur (roh), 150 g Paprika, 150 g Tomaten, 10 g Olivenöl, Knoblauch-Zitronen-Dressing, 30 g Feta",
               "recipe": {
                 "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
                 "minutes": 25,
@@ -805,8 +805,8 @@
                     "item": "Olivenöl"
                   },
                   {
-                    "amount": "150 g",
-                    "item": "griechischer Joghurt 2 %"
+                    "amount": "2 EL",
+                    "item": "Zitronensaft"
                   },
                   {
                     "amount": "1 Zehe",
@@ -824,7 +824,7 @@
                 "steps": [
                   "Bulgur mit der doppelten Menge kochendem Salzwasser übergießen und 10 Minuten zugedeckt quellen lassen.",
                   "Pute mit Gyros-Gewürz mischen und im Öl bei hoher Hitze 5–6 Minuten knusprig braten, Paprika die letzten 3 Minuten mitbraten.",
-                  "Joghurt mit Knoblauch, Zitrone und Salz verrühren.",
+                  "Knoblauch, Zitrone, Olivenöl und Salz zu einem Dressing verrühren.",
                   "Bulgur, Fleisch, Paprika und Tomaten in Schüsseln anrichten, Dip darauf und mit Feta bestreuen."
                 ],
                 "tip": "Schmeckt wie Gyros, aber ohne Fett aus der Fritteuse. Die Pute vorher 10 Minuten im Gewürz ziehen lassen, dann wird sie würziger."
@@ -1221,7 +1221,7 @@
               "Erdnussbutter, Sojasoße, Limette, Ingwer und 3 EL warmes Wasser verrühren, mit Tofu zum Gemüse geben und kurz schwenken.",
               "Mit Reis servieren."
             ],
-            "tip": "Etwas weniger Eiweiß als die anderen Gerichte, an dem Tag den Skyr groß nehmen."
+            "tip": "Etwas weniger Eiweiß als die anderen Gerichte, an dem Tag den Snack größer nehmen."
           }
         },
         {
@@ -1273,7 +1273,7 @@
           }
         }
       ],
-      "updatedAt": "2026-11-05T15:12:51.682Z",
+      "updatedAt": "2026-11-05T15:15:17.209Z",
       "lastWish": "Neuer dauerhafter Wunsch: Trage Wheyshake, Joghurt und Skyr nicht mehr in den Plan ein. (ab heute, vergangene Tage nicht ändern)"
     },
     "profile/days/2026-10-30": {
