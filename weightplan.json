@@ -854,16 +854,16 @@
     },
     {
      "id": "gsps4m01",
-     "label": "Sonntag-Event: Klebreis, Moo Ping & Hühnchen-Teriyaki-Spieße, Bratwurst, Mango, Kokossoße, Sekt, Schilcher, Orzo-Salat",
-     "kcal": 3530,
-     "protein": 143,
+     "label": "Sonntag-Event: Klebreis, Moo Ping & Hühnchen-Teriyaki-Spieße, Bratwurst, Mango, Mango-Sticky-Rice-Reis, Sekt, Schilcher, Orzo-Salat",
+     "kcal": 3075,
+     "protein": 139,
      "seen": "Textangabe, keine Fotos. Mengen als Mittelwerte geschätzt.",
      "parts": [
       {
-       "name": "Klebreis roh (250 g)",
+       "name": "Klebreis gekocht (250 g)",
        "grams": 250,
-       "kcal": 900,
-       "protein": 17
+       "kcal": 275,
+       "protein": 6
       },
       {
        "name": "4 Moo Ping + 4 Hühnchen-Teriyaki-Spieße",
@@ -884,10 +884,10 @@
        "protein": 3
       },
       {
-       "name": "Kokossoße (300 g)",
+       "name": "Klebreis gekocht (300 g) in Mango-Sticky-Rice-Kokossoße getränkt",
        "grams": 300,
-       "kcal": 450,
-       "protein": 3
+       "kcal": 620,
+       "protein": 10
       },
       {
        "name": "1 Glas Sekt (ca. 125 ml)",
