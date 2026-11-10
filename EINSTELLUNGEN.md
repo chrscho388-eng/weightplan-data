@@ -18,18 +18,19 @@ Wird bei jedem Abgleich automatisch aus `weightplan.json` erzeugt. Ändern in de
 - Im Büro esse ich nie Frühstück
 - Trenne nicht auf zwischen Nachmittags und Abendessen, füge diese zusammen
 - Whey-Shakes immer als eigene Mahlzeit, nie ins Abendessen kombinieren
+- Trage Wheyshake, Joghurt und Skyr nicht mehr in den Plan ein.
 
 ## Hinweise für Schätzung und Plan (Profil)
 - Kokosmilch ist immer normale Aroy-D (ca. 180 kcal pro 100 ml), nie light.
-- No-Gos: Gurken, Champignons (andere Pilze ok), rohe Zwiebeln, Rind, Blattsalat (anderer Salat ok).
-- Abendessen schnell und für zwei (mit Freundin). Home Office und Wochenende: Frühstück 250 g griech. Joghurt 10 % + 60 g Whey + 100 g Beeren, kein Mittag, nachmittags Shake 30 g Whey, großes Abendessen, Nachtisch 250 g Skyr + 100 g Beeren. Bürotag: Frühstück wie oben, Kantine mittags (~800 kcal), 250 g Skyr, kleines Abendessen (ab Woche 2 oft Juit, ≥35 g Eiweiß).
+- No-Gos: Gurken, Champignons (andere Pilze ok), rohe Zwiebeln, Rind (für Home Office Tage, da Freundin kein Rind isst), Blattsalat (anderer Salat ok). Immer Hühnchen statt Pute.
+- Abendessen schnell und für zwei (mit Freundin). Home Office und Wochenende: kein Mittag, großes Abendessen. Bürotag: ,Kantine mittags (~800 kcal), kleines Abendessen (ab Woche 2 oft Juit, ≥35 g Eiweiß).
 - Dienstags und jeden zweiten Mittwoch Abendprogramm ohne Essen: an HO-Tagen Abendessen tagsüber vorbereiten, nach Bürotagen etwas Schnelles.
 - Getränke: Wasser und zuckerfreier Sirup. Alkohol nur bei angekündigten Anlässen.
 - Kaffee: Cappuccino ca. 95 kcal und 5 g Eiweiß, an HO-Tagen und am Wochenende 1, an Bürotagen 3; wird automatisch eingetragen.
 
 ## Kantine (Bürotage)
 - Suppe mit Einlage (z. B. Frittaten, Milchbrötchen), kleine Salatschüssel (meist Kartoffel- oder Käferbohnensalat mit etwas zusätzlichem Kernöl), Dessert: donnerstags meist eine kleine Portion Schmarren o. Ä., an den anderen Tagen eine Creme (z. B. Topfencreme, Panna cotta, Tiramisu) im kleinen 8-cl-Glas.
-- Menü hochgeladen für: Woche ab 2026-10-26, Woche ab 2026-11-02
+- Menü hochgeladen für: Woche ab 2026-10-26, Woche ab 2026-11-02, Woche ab 2026-11-09
 
 ## Kaffee
 - Cappuccino 95 kcal / 5 g Eiweiß, automatisch eingetragen ab 2026-10-28 (Büro 3, Frei 1, HO 1, WE 1)
