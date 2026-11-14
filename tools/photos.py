@@ -62,7 +62,9 @@ def merge_day(a, b):
             m = {**m, **{k: o[k] for k in ("photo", "photos") if o.get(k)}}
         return m
     meals = [keep_photo(m) for m in nw.get("meals") or []] + [m for m in old.get("meals") or [] if m.get("id") not in have]
-    meals = [m for m in meals if m.get("id") not in gone]
+    # feste Einträge, die die neuere Seite abgeschaltet hat (fixedOff, alt coffeeOff), bleiben weg; sonst endloser Sync
+    off = set(nw.get("fixedOff") or []) | ({"coffee"} if nw.get("coffeeOff") else set())
+    meals = [m for m in meals if m.get("id") not in gone and m.get("id") not in off]
     res = {**nw, "meals": meals}
     if removed: res["removed"] = removed
     else: res.pop("removed", None)
