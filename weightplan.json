@@ -1,6 +1,6 @@
 {
  "app": "weightplan",
- "updatedAt": "2026-11-15T22:38:20.910Z",
+ "updatedAt": "2026-11-15T22:42:03.435Z",
  "docs": {
   "profile/days/2026-10-26": {
    "date": "2026-10-26",
@@ -2042,8 +2042,9 @@
    }
   },
   "profile/plans/2026-11-16": {
-   "updatedAt": "2026-11-15T22:38:20.910Z",
-   "note": "Woche 4 (16.–22.11.): 2.000 kcal, Eiweiß mindestens 150 g, ideal 180 g, im Wochenschnitt. Laut Hinweis: Mo, Di und Fr Home Office. Mi und Do Dienstreise (Kantine mittags, Restaurant abends). Sa Eventtag (Einladung auf Steak). Kein Frühstück im Büro. Di und Mi Abendprogramm ab 19 Uhr. Kaffee ist nicht in den Mahlzeiten, er wird automatisch eingetragen. Ab 16.11. Schrittziel 18.000. Gerichte bewusst neu: Garnelen-Curry, Wirsing-Eintopf, Quesadillas, Putenhack-Ragù, Forelle.",
+   "updatedAt": "2026-11-15T22:42:03.435Z",
+   "lastWish": "wie im hinweis beschrieben",
+   "note": "Woche 4 (16.–22.11.): 2.000 kcal, Eiweiß mindestens 150 g, ideal 180 g, im Wochenschnitt. Laut Hinweis: Mo, Di und Fr Home Office. Mi Dienstreise: nur Restaurant abends. Do Dienstreise: Frühstücksbuffet, Kantine mittags. So Currywurst statt Forelle. Sa Eventtag (Einladung auf Steak). Kein Frühstück im Büro. Di und Mi Abendprogramm ab 19 Uhr. Kaffee ist nicht in den Mahlzeiten, er wird automatisch eingetragen. Ab 16.11. Schrittziel 18.000. Gerichte bewusst neu: Garnelen-Curry, Wirsing-Eintopf, Quesadillas, Putenhack-Ragù, Forelle.",
    "days": [
     {
      "date": "2026-11-16",
@@ -2195,16 +2196,8 @@
     {
      "date": "2026-11-18",
      "type": "Büro",
-     "info": "Dienstreise: Kantine mittags, Restaurant abends. Kaffee: 3 kleine Firmen-Cappuccinos (143 kcal) werden automatisch eingetragen",
+     "info": "Dienstreise: Restaurant abends. Kaffee: 3 kleine Firmen-Cappuccinos (143 kcal) werden automatisch eingetragen",
      "meals": [
-      {
-       "slot": "Mittag (Kantine)",
-       "name": "Kantine (Dienstreise)",
-       "detail": "Kantinenmenü an Dienstreisetagen, nach Menü-Upload genau planen",
-       "kcal": 800,
-       "protein": 40,
-       "cook": false
-      },
       {
        "slot": "Abend",
        "name": "Restaurant (Dienstreise)",
@@ -2218,22 +2211,22 @@
     {
      "date": "2026-11-19",
      "type": "Büro",
-     "info": "Dienstreise: Kantine mittags, Restaurant abends. Kaffee: 3 kleine Firmen-Cappuccinos (143 kcal) werden automatisch eingetragen",
+     "info": "Dienstreise: Frühstücksbuffet, Kantine mittags. Kaffee: 3 kleine Firmen-Cappuccinos (143 kcal) werden automatisch eingetragen",
      "meals": [
+      {
+       "slot": "Frühstück (Buffet)",
+       "name": "Frühstücksbuffet (Dienstreise)",
+       "detail": "Frühstücksbuffet im Hotel, Mittelwert: Brot, Aufschnitt, Ei, Joghurt",
+       "kcal": 650,
+       "protein": 40,
+       "cook": false
+      },
       {
        "slot": "Mittag (Kantine)",
        "name": "Kantine (Dienstreise)",
        "detail": "Kantinenmenü an Dienstreisetagen, nach Menü-Upload genau planen",
        "kcal": 800,
        "protein": 40,
-       "cook": false
-      },
-      {
-       "slot": "Abend",
-       "name": "Restaurant (Dienstreise)",
-       "detail": "Restaurantessen mit Eiweiß-Fokus, z. B. Fisch oder Fleisch mit Gemüse",
-       "kcal": 620,
-       "protein": 55,
        "cook": false
       }
      ]
@@ -2315,62 +2308,48 @@
      "meals": [
       {
        "slot": "Abend",
-       "name": "Forelle mit Mandelbutter, Kartoffeln, Brokkoli und Dill-Joghurt",
+       "name": "Currywurst mit Ofenkartoffeln",
        "cook": true,
-       "kcal": 915,
-       "protein": 82,
-       "detail": "300 g Forellenfilet (roh), 300 g Kartoffeln, 200 g Brokkoli, 10 g Butter, 15 g Mandelblätter, 60 g griechischer Joghurt 10 %, Dill, Zitrone",
+       "detail": "300 g Putenbratwurst, 250 g Kartoffeln, 60 g Ketchup, 5 g Öl, 3 g Currypulver",
+       "kcal": 945,
+       "protein": 47,
        "recipe": {
         "servings": "1 Portion (für 2 Personen Mengen verdoppeln)",
-        "minutes": 30,
+        "minutes": 45,
         "ingredients": [
          {
           "amount": "300 g",
+          "item": "Putenbratwurst"
+         },
+         {
+          "amount": "250 g",
           "item": "Kartoffeln",
-          "note": "geschält, geviertelt"
+          "note": "in Spalten"
          },
          {
-          "amount": "200 g",
-          "item": "Brokkoli",
-          "note": "in Röschen"
-         },
-         {
-          "amount": "300 g",
-          "item": "Forellenfilet",
-          "note": "roh, mit Haut"
-         },
-         {
-          "amount": "10 g",
-          "item": "Butter"
-         },
-         {
-          "amount": "15 g",
-          "item": "Mandelblätter"
+          "amount": "5 g",
+          "item": "Öl"
          },
          {
           "amount": "60 g",
-          "item": "griechischer Joghurt",
-          "note": "10 %"
+          "item": "Ketchup"
          },
          {
-          "amount": "1 EL",
-          "item": "Dill",
-          "note": "gehackt"
+          "amount": "3 g",
+          "item": "Currypulver"
          },
          {
-          "amount": "1",
-          "item": "Zitrone",
-          "note": "Saft und Schnitz"
+          "amount": "nach Geschmack",
+          "item": "Paprikapulver, Salz"
          }
         ],
         "steps": [
-         "Kartoffeln in Salzwasser 15 Minuten kochen, Brokkoli die letzten 5 Minuten mitgaren.",
-         "Joghurt mit Dill, Zitronensaft und Salz verrühren.",
-         "Forelle trocken tupfen, salzen und in der halben Butter auf der Hautseite 3 Minuten, dann 1–2 Minuten auf der anderen Seite braten.",
-         "Mandeln mit der restlichen Butter kurz anrösten und über den Fisch geben.",
-         "Mit Kartoffeln, Brokkoli, Dip und Zitronenschnitz anrichten."
+         "Kartoffelspalten mit Öl und Paprikapulver mischen und im Ofen bei 220 °C 30 Minuten backen.",
+         "Wurst in der Pfanne ohne Öl 8–10 Minuten rundherum braten.",
+         "Ketchup mit Currypulver verrühren, Wurst in Scheiben schneiden und mit der Sauce mischen.",
+         "Mit den Kartoffeln servieren."
         ],
-        "tip": "Die Haut kräftig trocken tupfen, dann wird sie knusprig. Fisch erst wenden, wenn er sich von selbst löst."
+        "tip": "Currypulver erst in der Ketchup-Sauce warm werden lassen, dann bekommt es mehr Aroma."
        }
       }
      ]
@@ -2490,8 +2469,7 @@
       "tip": "Eier bei niedriger Hitze stocken lassen, dann bleiben sie cremig."
      }
     }
-   ],
-   "lastWish": "wie im hinweis beschrieben"
+   ]
   },
   "profile/days/2026-11-04": {
    "date": "2026-11-04",
