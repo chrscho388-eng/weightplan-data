@@ -3614,16 +3614,16 @@
     {
      "id": "e8rousa3",
      "label": "Kürbiskernschnitzel mit Preiselbeeren und Pommes",
-     "kcal": 925,
-     "protein": 41,
+     "kcal": 1255,
+     "protein": 61,
      "photo": "photo:fe9f6f8dbc531de0",
-     "seen": "Foto: paniertes Schnitzel (Kürbiskern-Kruste, Fleisch nicht erkennbar, Mittelwert), Pommes (ca. 200 g), Preiselbeeren, Zitrone. Ganzer Teller angenommen",
+     "seen": "Foto: paniertes Schnitzel (Kürbiskern-Kruste) ca. 300 g laut Chris, Pommes ca. 200 g, Preiselbeeren ca. 30 g, ganzer Teller",
      "parts": [
       {
-       "name": "Kürbiskernschnitzel (ca. 180 g)",
-       "grams": 180,
-       "kcal": 500,
-       "protein": 35
+       "name": "Kürbiskernschnitzel (300 g)",
+       "grams": 300,
+       "kcal": 830,
+       "protein": 55
       },
       {
        "name": "Pommes (ca. 200 g)",
@@ -3641,7 +3641,7 @@
     }
    ],
    "dayType": "WE",
-   "updatedAt": "2026-11-15T14:18:30.447Z",
+   "updatedAt": "2026-11-15T14:29:19.345Z",
    "steps": {
     "0": 10000,
     "9": 18000
