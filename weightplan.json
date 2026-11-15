@@ -1,6 +1,6 @@
 {
  "app": "weightplan",
- "updatedAt": "2026-11-15T22:42:03.435Z",
+ "updatedAt": "2026-11-15T22:43:42.084Z",
  "docs": {
   "profile/days/2026-10-26": {
    "date": "2026-10-26",
@@ -2042,9 +2042,9 @@
    }
   },
   "profile/plans/2026-11-16": {
-   "updatedAt": "2026-11-15T22:42:03.435Z",
+   "updatedAt": "2026-11-15T22:43:42.084Z",
    "lastWish": "wie im hinweis beschrieben",
-   "note": "Woche 4 (16.–22.11.): 2.000 kcal, Eiweiß mindestens 150 g, ideal 180 g, im Wochenschnitt. Laut Hinweis: Mo, Di und Fr Home Office. Mi Dienstreise: nur Restaurant abends. Do Dienstreise: Frühstücksbuffet, Kantine mittags. So Currywurst statt Forelle. Sa Eventtag (Einladung auf Steak). Kein Frühstück im Büro. Di und Mi Abendprogramm ab 19 Uhr. Kaffee ist nicht in den Mahlzeiten, er wird automatisch eingetragen. Ab 16.11. Schrittziel 18.000. Gerichte bewusst neu: Garnelen-Curry, Wirsing-Eintopf, Quesadillas, Putenhack-Ragù, Forelle.",
+   "note": "Woche 4 (16.–22.11.): 2.000 kcal, Eiweiß mindestens 150 g, ideal 180 g, im Wochenschnitt. Laut Hinweis: Mo, Di und Fr Home Office. Mi Dienstreise: Kantine mittags, Restaurant abends. Do Dienstreise: Frühstücksbuffet, Kantine mittags. So Currywurst statt Forelle. Sa Eventtag (Einladung auf Steak). Kein Frühstück im Büro. Di und Mi Abendprogramm ab 19 Uhr. Kaffee ist nicht in den Mahlzeiten, er wird automatisch eingetragen. Ab 16.11. Schrittziel 18.000. Gerichte bewusst neu: Garnelen-Curry, Wirsing-Eintopf, Quesadillas, Putenhack-Ragù, Forelle.",
    "days": [
     {
      "date": "2026-11-16",
@@ -2196,8 +2196,16 @@
     {
      "date": "2026-11-18",
      "type": "Büro",
-     "info": "Dienstreise: Restaurant abends. Kaffee: 3 kleine Firmen-Cappuccinos (143 kcal) werden automatisch eingetragen",
+     "info": "Dienstreise: Kantine mittags, Restaurant abends. Kaffee: 3 kleine Firmen-Cappuccinos (143 kcal) werden automatisch eingetragen",
      "meals": [
+      {
+       "slot": "Mittag (Kantine)",
+       "name": "Kantine (Dienstreise)",
+       "detail": "Kantinenmenü an Dienstreisetagen, nach Menü-Upload genau planen",
+       "kcal": 800,
+       "protein": 40,
+       "cook": false
+      },
       {
        "slot": "Abend",
        "name": "Restaurant (Dienstreise)",
