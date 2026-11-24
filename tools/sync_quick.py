@@ -48,7 +48,7 @@ def main():
     req = run("python3", "tools/requests.py", "list", "/tmp/none")
     try:
         pending = json.loads(req.stdout)
-        n_req = sum(len(pending.get(k, [])) for k in ("estimates", "recipes", "plans"))
+        n_req = sum(len(pending.get(k, [])) for k in ("estimates", "recipes", "plans", "reviews"))
     except (ValueError, AttributeError):
         print("FEHLER: requests.py lieferte keine Liste:", req.stderr.strip()[:200])
         return 1

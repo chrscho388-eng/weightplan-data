@@ -6,7 +6,9 @@ python3 tools/requests.py apply <antworten.json>
     Schreibt die Antworten in weightplan.json (mit updatedAt). Format:
     {"estimates": {"<tag>|<meal-id>": {"label","kcal","protein","seen","parts":[{name,grams,kcal,protein}]}},
      "recipes": {"<plan-montag>|d<tag>:<i> oder s:<i>": {"servings","minutes","ingredients":[{amount,item,note?,have?}],"steps":[],"tip"}},
-     "plans": {"<plan-montag>": {"note","days":[...],"swaps":[...]}}}  (Planänderung nach "wish"; Rezepte gleichnamiger Gerichte bleiben erhalten;
+     "plans": {"<plan-montag>": {"note","days":[...],"swaps":[...]}},
+     "reviews": {"<wochenstart>": {"summary","good":[],"notice":[],"tips":[]}}}  (Wochenanalyse: die 7 Tage ab <wochenstart> aus weightplan.json
+     auswerten wie der Coach in der App: summary 2–3 Sätze, good/notice je 1–3 Punkte mit Zahlen, tips 2–3 konkrete Tipps, Deutsch, „du“)  (Planänderung nach "wish"; Rezepte gleichnamiger Gerichte bleiben erhalten;
      bei "menu_file" das Kantinen-Menü im Bild für die Bürotage auswerten, Kantinen-Gewohnheiten in profile.canteenHabits)
 Danach tools/bridge.py laufen lassen, damit die claude.ai-Version die Antworten auch bekommt.
 """
@@ -23,9 +25,11 @@ now = lambda: datetime.now(timezone.utc).isoformat(timespec="milliseconds").repl
 def list_requests(out):
     docs = json.load(open(FILE))["docs"]
     os.makedirs(out, exist_ok=True)
-    res = {"estimates": [], "recipes": [], "plans": []}
+    res = {"estimates": [], "recipes": [], "plans": [], "reviews": []}
     for k, d in docs.items():
         if k.startswith("profile/days/"):
+            if d.get("reviewRequested"):  # Wochenanalyse für die Woche, die an diesem Tag beginnt
+                res["reviews"].append({"ref": k.rsplit("/", 1)[1], "days": 7})
             for m in d.get("meals", []):
                 if m.get("pending"):
                     ref = k.rsplit("/", 1)[1] + "|" + m["id"]
@@ -87,6 +91,11 @@ def apply(path):
         for k in ("name", "detail", "kcal", "protein"):
             if meal.get(k) not in (None, ""): m[k] = round(meal[k]) if k in ("kcal", "protein") else meal[k]
         m["recipe"] = r; m.pop("recipeRequested", None); m.pop("recipeChange", None); p["updatedAt"] = t
+    for day, rv in ans.get("reviews", {}).items():
+        d = docs.get("profile/days/" + day)
+        if d is None: continue
+        d["review"] = {"summary": rv.get("summary", ""), "good": rv.get("good", []), "notice": rv.get("notice", []), "tips": rv.get("tips", []), "at": t}
+        d.pop("reviewRequested", None); d["updatedAt"] = t
     for mon, np in ans.get("plans", {}).items():
         p = docs.get("profile/plans/" + mon) or {}
         known = {m.get("name"): m["recipe"] for m in [x for d in p.get("days", []) for x in d.get("meals", [])] + p.get("swaps", []) if m.get("recipe")}
