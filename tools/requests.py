@@ -4,7 +4,7 @@ python3 tools/requests.py list <ordner>
     Druckt alle offenen Anfragen als JSON und legt Fotos als <ordner>/<ref>.jpg ab (weitere als <ref>_2.jpg …, Liste in photo_files).
 python3 tools/requests.py apply <antworten.json>
     Schreibt die Antworten in weightplan.json (mit updatedAt). Format:
-    {"estimates": {"<tag>|<meal-id>": {"label","kcal","protein","seen","parts":[{name,grams,kcal,protein}]}},
+    {"estimates": {"<tag>|<meal-id>": {"label","kcal","protein","seen","parts":[{name,grams,kcal,protein}],"nutr":{fat,carbs,sugar,fiber},"fb"}},
      "recipes": {"<plan-montag>|d<tag>:<i> oder s:<i>": {"servings","minutes","ingredients":[{amount,item,note?,have?}],"steps":[],"tip"}},
      "plans": {"<plan-montag>": {"note","days":[...],"swaps":[...]}},
      "reviews": {"<wochenstart>": {"summary","good":[],"notice":[],"tips":[]}}}  (Wochenanalyse: die 7 Tage ab <wochenstart> aus weightplan.json
@@ -77,6 +77,8 @@ def apply(path):
                 m.update(label=e["label"], kcal=round(e["kcal"]), protein=round(e["protein"]))
                 if e.get("seen"): m["seen"] = e["seen"]
                 if e.get("parts"): m["parts"] = e["parts"]
+                if e.get("nutr"): m["nutr"] = {k: round(e["nutr"][k]) for k in ("fat", "carbs", "sugar", "fiber") if e["nutr"].get(k) is not None}
+                if e.get("fb"): m["fb"] = str(e["fb"])[:400]
                 m.pop("pending", None); m.pop("request", None); m.pop("photos", None)  # erstes Foto bleibt als photo
                 d["updatedAt"] = t
     for ref, r in ans.get("recipes", {}).items():
