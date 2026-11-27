@@ -15,7 +15,7 @@ Danach tools/bridge.py laufen lassen, damit die claude.ai-Version die Antworten 
 import base64, json, os, shutil, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import photos
-from datetime import datetime, timezone
+from datetime import datetime, timezone, date, timedelta
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FILE = os.path.join(HERE, "weightplan.json")
@@ -30,6 +30,11 @@ def list_requests(out):
         if k.startswith("profile/days/"):
             if d.get("reviewRequested"):  # Wochenanalyse für die Woche, die an diesem Tag beginnt
                 res["reviews"].append({"ref": k.rsplit("/", 1)[1], "days": 7})
+            if d.get("interimReviewRequested"):  # Zwischen-Review: Tage seit dem letzten Wiegetag bis zum Vortag, Gewicht dieses Tages als Endwert
+                ref = k.rsplit("/", 1)[1]
+                wd = (docs.get("profile") or {}).get("weighDay", 1)
+                rd = date.fromisoformat(ref)
+                res["reviews"].append({"ref": ref, "interim": True, "from": (rd - timedelta(days=(rd.weekday() - wd) % 7)).isoformat(), "weight": d.get("weight")})
             for m in d.get("meals", []):
                 if m.get("pending"):
                     ref = k.rsplit("/", 1)[1] + "|" + m["id"]
@@ -96,8 +101,9 @@ def apply(path):
     for day, rv in ans.get("reviews", {}).items():
         d = docs.get("profile/days/" + day)
         if d is None: continue
-        d["review"] = {"summary": rv.get("summary", ""), "good": rv.get("good", []), "notice": rv.get("notice", []), "tips": rv.get("tips", []), "at": t}
-        d.pop("reviewRequested", None); d["updatedAt"] = t
+        fld = "interimReview" if d.get("interimReviewRequested") or d.get("interim") and not d.get("reviewRequested") else "review"
+        d[fld] = {"summary": rv.get("summary", ""), "good": rv.get("good", []), "notice": rv.get("notice", []), "tips": rv.get("tips", []), "at": t}
+        d.pop(fld + "Requested", None); d["updatedAt"] = t
     for mon, np in ans.get("plans", {}).items():
         p = docs.get("profile/plans/" + mon) or {}
         known = {m.get("name"): m["recipe"] for m in [x for d in p.get("days", []) for x in d.get("meals", [])] + p.get("swaps", []) if m.get("recipe")}
